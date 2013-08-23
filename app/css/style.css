@@ -4,6 +4,7 @@ body {
     -webkit-transition: opacity 1s linear;     
     -moz-transition: opacity 1s linear;
     -o-transition: opacity 1s linear;
+    opacity: 0;
 }
 
 .ease-in{
@@ -58,16 +59,18 @@ li{
     padding-right: 19px;
     padding-top: 30px;
     padding-bottom: 20px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 200;
 }
 
 #site-subtitle{
     font-weight: 400;
-    padding-left: 19px;
-    padding-right: 19px;
+    padding: 19px;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     border-bottom: #fff 5px solid;
     border-top: #fff 5px solid;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #usaid-logo{
@@ -128,33 +131,6 @@ padding-left: 15px;
 img {
     max-width: 100%;
     height: auto;
-}
-
-.isotope-item {
-    z-index: 2;
-    padding: 5px;
-}
-.isotope-hidden.isotope-item {
-    pointer-events: none;
-    z-index: 1;
-}
-.isotope,
-.isotope .isotope-item {
-  /* change duration value to whatever you like */
-
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-}
-.isotope {
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
-    transition-property: height, width;
-}
-.isotope .isotope-item {
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    transition-property: transform, opacity;
 }
 
 
