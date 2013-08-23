@@ -2,26 +2,26 @@
     {
         "order": 0,
         "class": "col-md-12 height1",
-        "id": "motorola-xoom-with-wi-fi", 
+        "id": "team-letter", 
         "imageUrl": "img/items/stacey.png", 
-        "name": "Our Impact", 
+        "name": "Letter from the Team", 
         "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
-        "type" : "1"
+        "type" : "welcome"
     },
 
     {
         "order": 0,
-        "class": "col-md-4 height1",
-        "id": "motorola-xoom-with-wi-fi", 
+        "class": "col-md-12 height1",
+        "id": "timeline", 
         "imageUrl": "img/items/stacey.png", 
-        "name": "Our Impact", 
+        "name": "Timeline", 
         "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
-        "type" : "1"
+        "type" : "evolution"
     }, 
     {
         "order": 1,
         "class": "col-md-4 height1",
-        "id": "motorola-xoom", 
+        "id": "stacey", 
         "imageUrl": "img/items/team.png", 
         "name": "Our Staff Levels by Quarter", 
         "snippet": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb).",
@@ -30,7 +30,7 @@
     {
         "order": 2,
         "class": "col-md-4 height1",
-        "carrier": "AT&amp;T", 
+        "carrier": "AT&T", 
         "id": "motorola-atrix-4g", 
         "imageUrl": "img/items/motorola-atrix-4g.0.jpg", 
         "name": "MOTOROLA ATRIX\u2122 4G", 
