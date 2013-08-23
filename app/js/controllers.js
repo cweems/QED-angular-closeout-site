@@ -4,7 +4,7 @@
 
 function PhoneListCtrl($scope, $http) {
   $http.get('content/items.json').success(function(data) {
-    $scope.phones = data;
+    $scope.items = data;
   });
 
   $scope.orderProp = 'age';

@@ -1,12 +1,18 @@
 [
     {
-        "order": 0,
-        "class": "col-md-12 height1",
-        "id": "team-letter", 
+        "order": 5,
+        "class": "",
+        "general-content" : "<h1>Hello there!</h1>",
+        "cover-visible" : "visible",
+        "clickable" : "clickable",
+        "heading": "team-letter", 
         "imageUrl": "img/items/stacey.png", 
         "name": "Letter from the Team", 
         "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
-        "type" : "welcome"
+        "type" : "welcome",
+        "width" : "col-md-12",
+        "height" : "height1",
+        "modal": "modal"
     },
 
     {

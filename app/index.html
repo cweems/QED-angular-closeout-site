@@ -14,35 +14,32 @@
 </head>
 <body>
 
-      <div class="col-md-3 pull-right">
+  <div class="col-md-3 pull-right">
         <div class="portfolioFilter">
     <div id="site-title">KDMD</div>
     <h2 id="site-subtitle">The Knowledge Driven<br>
-Microenterprise<br>Development<br>
-Project</h2>
+      Microenterprise<br>Development<br>
+      Project</h2>
  
-    <a href="#letterFromTheTeam" ng-click="myFilter = {type: 'welcome'}" class="current">Letter From the Team</a>
-    <br>
-    <a href="#theEvolutionOfKDMD" ng-click="myFilter = {type: 'evolution'}" >Evolution of KDMD</a>
-    <br>
-    <a href="#ourKMApproach" ng-click="myFilter = {type: 2}" >Our KM Approach</a>
-    <br>
-    <a href="#ourUSAIDPartners" ng-click="myFilter = {type: 1}" >Our USAID Partners</a>
-    <br>
-    <a href="#buildingCommunities" ng-click="myFilter = {type: 1}" >Our Reach</a>
-    <br>
-    <a href="#expandingTheKMReach" ng-click="myFilter = {type: 1}" >Building Communities</a>
-    <br>
-    <a href="#ourImpact" ng-click="myFilter = {type: 1}" >Lessons Learned</a>
-    <br>
-    <a href="#ourTeam" ng-click="myFilter = {type: 1}" >Our Impact</a>
-    <br>
-    <a href="#" ng-click="myFilter = {type: 1}" >Contact</a>
+                <a href="#letterFromTheTeam" ng-click="myFilter = {type: 'welcome'}" class="current">Letter From the Team</a>
+                <br>
+                <a href="#theEvolutionOfKDMD" ng-click="myFilter = {type: 'evolution'}" >Evolution of KDMD</a>
+                <br>
+                <a href="#ourKMApproach" ng-click="myFilter = {type: 'approach'}" >Our KM Approach</a>
+                <br>
+                <a href="#ourUSAIDPartners" ng-click="myFilter = {type: 'partners'}" >Our USAID Partners</a>
+                <br>
+                <a href="#buildingCommunities" ng-click="myFilter = {type: 'communities'}" >Building Communities</a>
+                <br>
+                <a href="#expandingTheKMReach" ng-click="myFilter = {type: 'reach'}" >Our Reach</a>
+                <br>
+                <a href="#ourImpact" ng-click="myFilter = {type: 'impact'}" >Our Impact</a>
+                <br>
+                <a href="#" ng-click="myFilter = {type: 'contact'}" >Contact</a>
     
         <div class="input-group">
-
           <span class="input-group-addon">Search:</span>
-          <input type="text" class="form-control" placeholder="e.g. 'funding'" ng-model="query">
+          <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g. 'funding'" ng-model="query">
         </div>
         Sort by:
 
@@ -67,25 +64,21 @@ Project</h2>
       <div class="content col-md-9">
         <!--Body content-->
         
-          <a href="/content/{{phone.id}}" ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" data-toggle="modal" ng-repeat="phone in phones | filter:myFilter | orderBy:orderProp" class="{{phone.class}} item">
-            <div>
-              <div class="highlight">
-              <img class="highlight-image" ng-src="{{phone.imageUrl}}">
-              <div class="cover">
+            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" data-toggle="{{item.modal}}" ng-repeat="item in items | filter:myFilter | filter:query | orderBy:orderProp" class="item {{item.width}} {{item.height}} {{item.clickable}}" style="background-image: url('{{item.imageUrl}}');">
+              <div>{{item.general-content}}</div>
+              <div class="cover {{item.cover-visible}}">
                 <div class="inner-wrapper">
                   <div class="all-caps">
 
-                  <div class="all-caps" class="{{phone.id}}">{{phone.order}}</div>
+                  <div class="all-caps">{{item.heading}}</div>
 
-                  <div class="big-title">{{phone.name}}</div>
-                  <div class="small-title">{{phone.carrier}}</div>
+                  <div class="big-title">{{item.name}}</div>
+                  <div class="small-title">{{item.carrier}}</div>
 
                 </div>
                 </div>
               </div>
-            </div>
           </div>
-          </a>
       </div>
 </div>
 </div>
@@ -97,6 +90,11 @@ Project</h2>
     });
 
 
+</script>
+<script type="text/javascript">
+          $(function() {
+            $('body').addClass('ease-in');
+        }); 
 </script>
 
 </body>
