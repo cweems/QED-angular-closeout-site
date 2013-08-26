@@ -7,7 +7,7 @@ function PhoneListCtrl($scope, $http) {
     $scope.items = data;
   });
 
-  $scope.orderProp = 'age';
+  $scope.orderProp = 'order';
 }
 
 //PhoneListCtrl.$inject = ['$scope', '$http'];
