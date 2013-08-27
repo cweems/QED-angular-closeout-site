@@ -20,7 +20,7 @@
 
 <body>
 
-  <div class="col-md-3 pull-right">
+  <div class="col-md-3 pull-right" ng-click="query = null">
         <div class="portfolioFilter">
     <div id="site-title">KDMD</div>
     <h2 id="site-subtitle">The Knowledge Driven<br>
@@ -44,19 +44,19 @@
                 <br>
                 <a href="#" ng-click="myFilter = {type: 'contact'}" >Contact</a>
   
+          <div class="branding">
+            <p id="imp">Implemented by:</p>
+            <img src="img/qed-white.png">
+          </div>
       </div>
-
-    <div class="branding">
-      <p id="imp">Implemented by:</p>
-      <img src="img/qed-white.png">
-    </div>
 </div>
 <div class="search-toggle" ng-click="myVar='showSearch'">
   <img src="img/searchGlassWhite.png">
+  <div class="input-group" ng-class="myVar">
+    <span class="input-group-addon">Search:</span>
+    <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
+    <span class="glyphicon glyphicon-star"></span>
 </div>
-<div class="input-group" ng-class="myVar">
-  <span class="input-group-addon">Search:</span>
-  <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g.'timeline'" ng-model="query">
 </div>
 
 
