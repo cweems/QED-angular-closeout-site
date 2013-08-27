@@ -354,7 +354,7 @@ width: auto;
 }
 
 .content{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 
@@ -383,7 +383,7 @@ ol3 { width: 370px; }
     -o-transform: scaleY(0) scaleX(0);
     transform: scaleY(0) scaleX(0);
     height: 0px;
-    opacity: 0;
+    opacity: 1;
 }
  
 .animate-enter.animate-enter-active,
@@ -393,6 +393,35 @@ ol3 { width: 370px; }
     -ms-transform: scaleY(1) scaleX(1);
     -o-transform: scaleY(1) scaleX(1);
     transform: scaleY(1) scaleX(1);
-    height: 30px;
+    height: 1000px;
     opacity: 1;
+}
+
+.input-group-addon{
+    color: #468EFA;
+}
+
+.search-toggle{
+    height: 50px;
+    width: 50px;
+    background-color: #468EFA;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 0px 0px 3px 0px;
+}
+
+.input-group{
+    opacity: 0;
+    max-width: 400px;
+    left: 89px;
+    margin-right: 390px;
+    top: 10px;
+    position: fixed;
+}
+
+.showSearch{
+    opacity: 1 !important;
 }

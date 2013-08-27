@@ -26,6 +26,7 @@
     <h2 id="site-subtitle">The Knowledge Driven<br>
       Microenterprise<br>Development<br>
       Project</h2>
+
  
                 <a href="#letterFromTheTeam" ng-click="myFilter = {type: 'welcome'}" class="current">Letter From the Team</a>
                 <br>
@@ -42,11 +43,7 @@
                 <a href="#ourImpact" ng-click="myFilter = {type: 'impact'}" >Our Impact</a>
                 <br>
                 <a href="#" ng-click="myFilter = {type: 'contact'}" >Contact</a>
-    
-        <div class="input-group">
-          <span class="input-group-addon">Search:</span>
-          <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g. 'funding'" ng-model="query">
-        </div>
+  
       </div>
 
     <div class="branding">
@@ -54,6 +51,14 @@
       <img src="img/qed-white.png">
     </div>
 </div>
+<div class="search-toggle" ng-click="myVar='showSearch'">
+  <img src="img/searchGlassWhite.png">
+</div>
+<div class="input-group" ng-class="myVar">
+  <span class="input-group-addon">Search:</span>
+  <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g.'timeline'" ng-model="query">
+</div>
+
 
         <!--Sidebar content-->
 <div class="container container-fluid">
