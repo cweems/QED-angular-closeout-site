@@ -41,12 +41,15 @@
                 <br>
                 <a href="#ourImpact" ng-click="myFilter = {type: 'impact'}" >Our Impact</a>
                 <br>
+                <a href="#ourImpact" ng-click="myFilter = {type: 'team'}" >Our Story, Our Team</a>
+                <br>
                 <a href="#" ng-click="myFilter = {type: 'contact'}" >Contact</a>
   
           <div class="branding">
             <p id="imp">Implemented by:</p>
-            <img src="img/qed-white.png">
+            <img class="logo-image" src="img/qed-white.png">
           </div>
+           <!-- End Sidebar content-->
       </div>
 </div>
 <div class="search-toggle" ng-click="myVar='showSearch'">
@@ -56,18 +59,16 @@
     <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
 </div>
 </div>
+ <!-- End Search Tool-->
 
 
-        <!--Sidebar content-->
 <div class="container container-fluid">
     <div class="row-fluid">
 
-      <a ng-click="myFilter = {type: 'evolution'}">Next Section</a>
-
       <div class="content">
         <!--Body content-->
-            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" data-toggle="{{item.modal}}" ng-repeat="item in items | filter:myFilter | filter:query | orderBy:orderProp" class="{{item.width}} {{item.height}}">
-              <div class="item item-margin {{item.clickable}}" style="background-image: url('{{item.imageUrl}}');">
+            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:myFilter | filter:query | orderBy:orderProp" class="{{item.width}} {{item.height}}">
+              <div class="item item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
                 <div ng-bind-html-unsafe="item.html"></div>
                 <div class="cover {{item.covervisible}}">
                   <div class="inner-wrapper">
@@ -79,9 +80,66 @@
                 </div>
               </div>
             </div>
-      </div>
+      </div><!--END Body content-->
+
 </div>
 </div>
+
+<!--Modals-->
+
+<div class="modal fade" id="stacey-video">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Stacey's Video</h4>
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="315" src="//www.youtube.com/embed/NIVgqzvuX1E" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="staff-chart">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Staff Chart</h4>
+        </div>
+        <div class="modal-body">
+          <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0Ams9BGDIFKZfdGs4RGRiVTJEclRhVThUOXhWa1l5R1E&transpose=1&headers=1&range=A1%3AK2&gid=0&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"series":{"0":{"pointSize":14,"lineWidth":8}},"curveType":"","animation":{"duration":0},"width":500,"lineWidth":2,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"booleanRole":"certainty","title":"Average Full Time Employees Over the Course of the Project","height":350,"legend":"right","tooltip":{}},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"LineChart","chartName":"Chart 1"} </script>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="tag-cloud">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Staff Chart</h4>
+        </div>
+        <div class="modal-body">
+          <img style='width:100%;' src='img/items/taxedo-2.png'>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+
+
 <script type="text/javascript">
           $(function() {
             $('body').addClass('ease-in');
