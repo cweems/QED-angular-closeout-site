@@ -2,7 +2,6 @@
      {
         "order": 0,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "team-letter", 
@@ -18,7 +17,6 @@
     {
         "order": 1,
         "class": "",
-        "generalcontent" : "",
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "team-letter", 
@@ -28,12 +26,25 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna turpis, aliquet quis neque sed, suscipit pretium mauris. Fusce non neque vel massa aliquet blandit sit amet eget velit. Maecenas a pharetra dui, eget gravida justo. Aliquam id aliquam massa, faucibus tincidunt erat. Praesent eu congue magna, sed iaculis libero. Mauris et tincidunt ligula. Curabitur eros sapien, blandit a vulputate nec, tincidunt quis lorem. Nam consectetur lorem augue, non gravida nibh auctor in. Fusce egestas neque non augue consequat cursus. Morbi leo quam, aliquam eget facilisis sit amet, tempor nec mi.<br><br>Nunc pretium lacinia sodales. Donec faucibus vehicula elit, non vehicula neque bibendum eget. Integer interdum facilisis sapien ac scelerisque. Nullam mollis cursus malesuada. Pellentesque rhoncus elit et diam vehicula eleifend. Morbi tempus, magna ut porttitor congue, arcu magna hendrerit mi, ut ornare massa nulla et turpis. Vestibulum sed facilisis lectus. Etiam fringilla faucibus porttitor. Proin molestie porta blandit. Sed volutpat laoreet orci ac adipiscing. Donec justo est, faucibus quis feugiat sit amet, placerat ut neque. In ipsum augue, vulputate ac lobortis vel, convallis non leo. Suspendisse et dui lobortis, fringilla massa ut, porta felis. Aliquam vel elit id eros pellentesque sodales. Vivamus cursus magna sed mattis bibendum. Mauris ultricies urna tempus turpis venenatis consectetur. Donec non nisi interdum eros feugiat pulvinar. Nulla volutpat adipiscing velit. Fusce aliquet lacus commodo turpis aliquam malesuada. Vivamus tincidunt congue urna, vehicula hendrerit augue mollis eu.<br><br>Pellentesque aliquet quis massa vel congue. Curabitur ut massa eros. Pellentesque condimentum erat eu enim condimentum accumsan. Duis a dui quis massa consectetur porttitor. Ut at pharetra libero. Curabitur tristique eros nec turpis laoreet egestas. Sed luctus congue velit. Proin non porta felis, nec placerat ipsum.<br><br>In quis ullamcorper metus. Nunc pulvinar massa volutpat, ultrices mi ac, vulputate mauris. Vestibulum porta nunc at aliquam egestas. Sed sed elit accumsan, tempus nisi eu, tincidunt metus. Vestibulum semper sit amet dui a elementum. Fusce feugiat quam nibh, non dignissim nibh molestie in. Integer fringilla, diam eget facilisis aliquam, massa nibh aliquam justo, lacinia lobortis risus lorem sit amet libero. Nullam suscipit neque eget turpis egestas euismod.</p>"
+        "html" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna turpis, aliquet quis neque sed, suscipit pretium mauris. Fusce non neque vel massa aliquet blandit sit amet eget velit. Maecenas a pharetra dui, eget gravida justo. Aliquam id aliquam massa, faucibus tincidunt erat. Praesent eu congue magna, sed iaculis libero. Mauris et tincidunt ligula. Curabitur eros sapien, blandit a vulputate nec, tincidunt quis lorem. Nam consectetur lorem augue, non gravida nibh auctor in. Fusce egestas neque non augue consequat cursus. Morbi leo quam, aliquam eget facilisis sit amet, tempor nec mi.<br><br>Nunc pretium lacinia sodales. Donec faucibus vehicula elit, non vehicula neque bibendum eget. Integer interdum facilisis sapien ac scelerisque. Nullam mollis cursus malesuada. Pellentesque rhoncus elit et diam vehicula eleifend. Morbi tempus, magna ut porttitor congue, arcu magna hendrerit mi, ut ornare massa nulla et turpis. Vestibulum sed facilisis lectus. Etiam fringilla faucibus porttitor. Aliquam vel elit id eros pellentesque sodales. Mauris ultricies urna tempus turpis venenatis consectetur. Donec non nisi interdum eros feugiat pulvinar. Nulla volutpat adipiscing velit. Fusce aliquet lacus commodo turpis aliquam malesuada. Vivamus tincidunt congue urna, vehicula hendrerit augue mollis eu.<br><br>Pellentesque aliquet quis massa vel congue. Curabitur ut massa eros. Pellentesque condimentum erat eu enim condimentum accumsan. Duis a dui quis massa consectetur porttitor. Ut at pharetra libero. Curabitur tristique eros nec turpis laoreet egestas. Sed luctus congue velit. Proin non porta felis, nec placerat ipsum.<br><br>In quis ullamcorper metus. Nunc pulvinar massa volutpat, ultrices mi ac, vulputate mauris. Vestibulum porta nunc at aliquam egestas. Sed sed elit accumsan, tempus nisi eu, tincidunt metus. Vestibulum semper sit amet dui a elementum. Fusce feugiat quam nibh, non dignissim nibh molestie in. Integer fringilla, diam eget facilisis aliquam, massa nibh aliquam justo, lacinia lobortis risus lorem sit amet libero. Nullam suscipit neque eget turpis egestas euismod.</p>"
+    },
+    {
+        "order": 2,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "welcome",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html" : "<a id='uniqueId'>Next Section</a>"
     },
     {
         "order": 3,
         "class": "",
-        "generalcontent" : "",
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "team-letter", 
@@ -44,11 +55,26 @@
         "height" : "",
         "modal": "modal",
         "html"  : "<h1>The Evolution of KDMD</h1>"
-    }, 
+    },
+
     {
         "order": 4,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "evolution",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<p>As knowledge management practitioners, it is our job to continuously adapt to our clients needs in order to ensure better development outcomes. During the five years that our project was active, we XXX our number of USAID buy-ins and continuously developed cutting-edge solutions to meet our partners' knowledge management needs.</p>"
+    },
+
+    {
+        "order": 5,
+        "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "", 
@@ -61,9 +87,8 @@
         "html" : "<iframe src='http://embed.verite.co/timeline/?source=0Aocy56ezsv3EdFVuZUU1MlJLcERBSUhzZXh2ZjhxRFE&usp=Bevan-PotanoSans&maptype=toner&width=100%&height=400' width='100%' height='400' frameborder='0'></iframe>"
     },
     {
-        "order": 5,
+        "order": 6,
         "class": "",
-        "generalcontent" : "",
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "Stacey Young discusses", 
@@ -75,13 +100,12 @@
         "modal": "modal"
     },
     {
-        "order": 6,
+        "order": 7,
         "class": "",
-        "generalcontent" : "",
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "How our team has grown:", 
-        "imageUrl": "img/items/team.png", 
+        "imageUrl": "img/items/ft-chart.png", 
         "bigTitle": "Number of Team Members over Time", 
         "type" : "evolution",
         "width" : "col-md-4",
@@ -89,9 +113,8 @@
         "modal": "modal"
     },
     {
-        "order": 7,
+        "order": 8,
         "class": "",
-        "generalcontent" : "",
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "", 
@@ -104,10 +127,37 @@
         "html" : "<div class='list-head'>Top Partners</div><ol><li>Engility</li><li>Zaloni</li><li>Obama</li><li>Hillary</li></ol></div></div>"
     },
     {
-        "order": 8,
+        "order": 9,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
-        "covervisible" : "visible",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "approach",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1>Our KM Approach</h1>"
+    },
+    {
+        "order": 10,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "approach",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<p>KDMD brings international development professionals together to share ideas and information and develops learning products and activities that extend the reach of foreign assistance.</p>"
+    },
+    {
+        "order": 11,
+        "class": "",
+        "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "Infographic", 
         "imageUrl": "", 
@@ -115,12 +165,12 @@
         "type" : "approach",
         "width" : "col-md-12",
         "height" : "height1",
-        "modal": "modal"
+        "modal": "modal",
+        "html"  : "<img style='width:100%;' src='img/items/km-fundamentals2.png'>"
     },
     {
-        "order": 9,
+        "order": 12,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
         "covervisible" : "visible",
         "clickable" : "",
         "heading": "Infographic", 
@@ -132,9 +182,8 @@
         "modal": "modal"
     },
     {
-        "order": 10,
+        "order": 13,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
         "covervisible" : "visible",
         "clickable" : "",
         "heading": "figure", 
@@ -146,9 +195,8 @@
         "modal": "modal"
     },
     {
-        "order": 11,
+        "order": 14,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
         "covervisible" : "visible",
         "clickable" : "",
         "heading": "figure", 
@@ -160,9 +208,8 @@
         "modal": "modal"
     },
     {
-        "order": 12,
+        "order": 15,
         "class": "",
-        "generalcontent" : "<html><h1>Lorem Ipsum dolor, sit amet.</h1></html>",
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "team-letter", 
@@ -172,5 +219,118 @@
         "width" : "col-md-12",
         "height" : "height1",
         "modal": "modal"
+    },
+    {
+        "order": 16,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "partners",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1>Our USAID Partners</h1>"
+    },
+    {
+        "order": 17,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/zachary.png", 
+        "bigTitle": "The Importance of KM", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : ""
+    },
+    {
+        "order": 18,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/zachary.png", 
+        "bigTitle": "Growth of Our Funding Over Time", 
+        "type" : "partners",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : ""
+    },
+    {
+        "order": 19,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "none", 
+        "bigTitle": "The Importance of KM", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "<h1 class='col-lg-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-lg-12'>Number of videos produced by KDMD for KM Outreach.</h2>"
+    },
+    {
+        "order": 20,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "communities",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1>Building Communities</h1>"
+    },
+    {
+        "order": 21,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "reach",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1>Our Reach</h1>"
+    },
+    {
+        "order": 22,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "impact",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1>Our Impact</h1>"
+    },
+    {
+        "order": 23,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "contact",
+        "width" : "col-md-12",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1>Contact</h1>"
     }
+
 ]

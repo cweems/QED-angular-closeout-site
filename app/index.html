@@ -23,7 +23,7 @@
   <div class="col-md-3 pull-right" ng-click="query = null">
         <div class="portfolioFilter">
     <div id="site-title">KDMD</div>
-    <h2 id="site-subtitle">The Knowledge Driven<br>
+    <h2 id="site-subtitle">The Knowledge-Driven<br>
       Microenterprise<br>Development<br>
       Project</h2>
 
@@ -55,7 +55,6 @@
   <div class="input-group" ng-class="myVar">
     <span class="input-group-addon">Search:</span>
     <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
-    <span class="glyphicon glyphicon-star"></span>
 </div>
 </div>
 
@@ -64,31 +63,25 @@
 <div class="container container-fluid">
     <div class="row-fluid">
 
-      <div class="content col-md-9">
+
+      <div class="content">
         <!--Body content-->
-        
-            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" data-toggle="{{item.modal}}" ng-repeat="item in items | filter:myFilter | filter:query | orderBy:orderProp" class="item {{item.width}} {{item.height}} {{item.clickable}}" style="background-image: url('{{item.imageUrl}}');">
-              <div ng-bind-html-unsafe="item.html"></div>
-              <div class="cover {{item.covervisible}}">
-                <div class="inner-wrapper">
-                  <div class="all-caps">{{item.order}}</div>
-                  <div class="all-caps">{{item.heading}}</div>
-                  <div class="big-title">{{item.bigTitle}}</div>
-                  <div class="small-title">{{item.smallTitle}}</div>
+            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" data-toggle="{{item.modal}}" ng-repeat="item in items | filter:myFilter | filter:query | orderBy:orderProp" class="{{item.width}} {{item.height}}">
+              <div class="item item-margin {{item.clickable}}" style="background-image: url('{{item.imageUrl}}'); z-index:1000;">
+                <div ng-bind-html-unsafe="item.html"></div>
+                <div class="cover {{item.covervisible}}">
+                  <div class="inner-wrapper">
+                    <div class="all-caps">{{item.order}}</div>
+                    <div class="all-caps">{{item.heading}}</div>
+                    <div class="big-title">{{item.bigTitle}}</div>
+                    <div class="small-title">{{item.smallTitle}}</div>
+                  </div>
                 </div>
               </div>
-          </div>
+            </div>
       </div>
 </div>
 </div>
-<script type="text/javascript">
-  
-    $('.portfolioFilter a').click(function(){
-      $('.portfolioFilter .current').removeClass('current');
-      $(this).addClass('current');
-    });
-
-</script>
 <script type="text/javascript">
           $(function() {
             $('body').addClass('ease-in');

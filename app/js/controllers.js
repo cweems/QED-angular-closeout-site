@@ -7,7 +7,10 @@ function PhoneListCtrl($scope, $http) {
     $scope.items = data;
   });
 
-  $scope.orderProp = 'order';
+   $('.portfolioFilter a').click(function(){
+      $('.portfolioFilter .current').removeClass('current');
+      $(this).addClass('current');
+    });
 }
 
 //PhoneListCtrl.$inject = ['$scope', '$http'];

@@ -38,9 +38,9 @@ h1{
 }
 
 h2{
-	font-family: "Quicksand" sans-serif;
-	font-size: 20px;
-	font-weight: 300;
+	font-family: "Quicksand" sans-serif !important;
+	font-size: 20px !important;
+	font-weight: 300 !important;
 }
 
 li{
@@ -73,7 +73,7 @@ li{
 
 #site-subtitle{
     font-weight: 400;
-    padding: 19px;
+    padding: 17px;
     text-align: center;
     font-size: 19px;
     border-bottom: #fff 5px solid;
@@ -208,13 +208,6 @@ img {
     font-weight: 800 !important;
 }
 
-.main-container{
-	max-width: 900px;
-	width: 70%;
-	margin: auto;
-	height: 100%;
-}
-
 /*Blog Highlight Boxes*/
 
 .item {
@@ -223,6 +216,11 @@ img {
     font-family: "Quicksand" sans-serif;
     margin-bottom: 20px;
     position: relative;
+}
+
+.item-margin{
+    height: 100%;
+    width: 100%;
 }
 
 .clickable{
@@ -355,6 +353,7 @@ width: auto;
 
 .content{
     margin-top: 50px;
+    margin-right: 270px;
 }
 
 
@@ -365,36 +364,32 @@ ol3 { width: 370px; }
 
 
 .animate-enter, 
-.animate-leave { 
-    -webkit-transition: 400ms cubic-bezier(.79,.25,.82,.69) all;
-    -moz-transition: 400ms cubic-bezier(.79,.25,.82,.69) all;
-    -ms-transition: 400ms cubic-bezier(.79,.25,.82,.69) all;
-    -o-transition: 400ms cubic-bezier(.79,.25,.82,.69) all;
-    transition: 400ms cubic-bezier(.79,.25,.82,.69) all;
+.animate-leave
+{ 
+    -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
     position: relative;
     display: block;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space:nowrap;
 } 
- 
+
 .animate-leave.animate-leave-active,
 .animate-enter {
-    -webkit-transform: scaleY(0) scaleX(0);
-    -moz-transform: scaleY(0) scaleX(0);
-    -ms-transform: scaleY(0) scaleX(0);
-    -o-transform: scaleY(0) scaleX(0);
-    transform: scaleY(0) scaleX(0);
+    opacity: 0;
+    width: 0px;
     height: 0px;
-    opacity: 1;
 }
- 
-.animate-enter.animate-enter-active,
+
+.animate-enter.animate-enter-active, 
 .animate-leave {
-    -webkit-transform: scaleY(1) scaleX(1);
-    -moz-transform: scaleY(1) scaleX(1);
-    -ms-transform: scaleY(1) scaleX(1);
-    -o-transform: scaleY(1) scaleX(1);
-    transform: scaleY(1) scaleX(1);
-    height: 1000px;
     opacity: 1;
+    width: 150px;
+    height: 30px;
 }
 
 .input-group-addon{
@@ -417,7 +412,7 @@ ol3 { width: 370px; }
 .input-group{
     opacity: 0;
     width: 500px;
-    left: 90px;
+    left: 75px;
     margin-right: 390px;
     top: 10px;
     position: absolute !important;
