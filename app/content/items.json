@@ -69,7 +69,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<p>As knowledge management practitioners, it is our job to continuously adapt to our clients needs in order to ensure better development outcomes. During the five years that our project was active, we XXX our number of USAID buy-ins and continuously developed cutting-edge solutions to meet our partners' knowledge management needs.</p>"
+        "html"  : "<p>As knowledge management practitioners, it is our job to continuously adapt to our clients needs in order to ensure better development outcomes. During the five years that our project was active, we tripled our number of USAID buy-ins and continuously developed cutting-edge solutions to meet our partners' knowledge management needs.</p>"
     },
 
     {
@@ -184,15 +184,16 @@
     {
         "order": 13,
         "class": "",
-        "covervisible" : "visible",
+        "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "figure", 
         "imageUrl": "", 
-        "bigTitle": "Number of Basecamp Tasks", 
+        "bigTitle": "", 
         "type" : "approach",
         "width" : "col-md-4",
         "height" : "height1",
-        "modal": "modal"
+        "modal": "",
+        "html"  : "<h1 class='col-md-4 fig' style='margin-top:0px;'>17</h1><h2 class='col-md-8'>Average number of action-items to complete for an event.</h2>"
     },
     {
         "order": 14,
