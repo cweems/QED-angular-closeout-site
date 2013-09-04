@@ -26,7 +26,20 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna turpis, aliquet quis neque sed, suscipit pretium mauris. Fusce non neque vel massa aliquet blandit sit amet eget velit. Maecenas a pharetra dui, eget gravida justo. Aliquam id aliquam massa, faucibus tincidunt erat. Praesent eu congue magna, sed iaculis libero. Mauris et tincidunt ligula. Curabitur eros sapien, blandit a vulputate nec, tincidunt quis lorem. Nam consectetur lorem augue, non gravida nibh auctor in. Fusce egestas neque non augue consequat cursus. Morbi leo quam, aliquam eget facilisis sit amet, tempor nec mi.<br><br>Nunc pretium lacinia sodales. Donec faucibus vehicula elit, non vehicula neque bibendum eget. Integer interdum facilisis sapien ac scelerisque. Nullam mollis cursus malesuada. Pellentesque rhoncus elit et diam vehicula eleifend. Morbi tempus, magna ut porttitor congue, arcu magna hendrerit mi, ut ornare massa nulla et turpis. Vestibulum sed facilisis lectus. Etiam fringilla faucibus porttitor. Aliquam vel elit id eros pellentesque sodales. Mauris ultricies urna tempus turpis venenatis consectetur. Donec non nisi interdum eros feugiat pulvinar. Nulla volutpat adipiscing velit. Fusce aliquet lacus commodo turpis aliquam malesuada. Vivamus tincidunt congue urna, vehicula hendrerit augue mollis eu.<br><br>Pellentesque aliquet quis massa vel congue. Curabitur ut massa eros. Pellentesque condimentum erat eu enim condimentum accumsan. Duis a dui quis massa consectetur porttitor. Ut at pharetra libero. Curabitur tristique eros nec turpis laoreet egestas. Sed luctus congue velit. Proin non porta felis, nec placerat ipsum.<br><br>In quis ullamcorper metus. Nunc pulvinar massa volutpat, ultrices mi ac, vulputate mauris. Vestibulum porta nunc at aliquam egestas. Sed sed elit accumsan, tempus nisi eu, tincidunt metus. Vestibulum semper sit amet dui a elementum. Fusce feugiat quam nibh, non dignissim nibh molestie in. Integer fringilla, diam eget facilisis aliquam, massa nibh aliquam justo, lacinia lobortis risus lorem sit amet libero. Nullam suscipit neque eget turpis egestas euismod.</p>"
+        "html"  : "<p>From 2008 to 2013, the Knowledge-Driven Microenterprise Development Project (KDMD) worked to strengthen USAID’s knowledge management capabilities. At its core, knowledge management is about sharing lessons learned and best practices – which is why we are excited to present our experiences and achievements through this interactive final report.<br><br>KDMD was originally created as a small knowledge management project with the purpose of helping international development practitioners learn, coordinate, and distribute foreign assistance more effectively. We began with just eight full-time staff assisting three USAID partners in the management of seminars and creation of learning products. However, as we gained recognition for the quality and importance of our work, ten additional partners bought into our project and our staff grew threefold.<br><br>Along the way, we’ve also grown our skill set to encompass innovative techniques such as facilitating online seminar participation, using social media to share best practices, and creating online learning communities. We believe this growth reflects how knowledge management is evolving from individual efforts towards a comprehensive learning agenda that is becoming a cornerstone of international development.<br><br>Over the years, KDMD played a major role in promoting knowledge management at USAID and in the broader international development community. Our knowledge management products have attracted thousands of participants, users, and viewers. To accomplish this, our team spent thousands of hours supporting our partners – and we’re proud to share the results.<br><br>As you scroll through this final report, you’ll see a story of the challenges KDMD created to address, our solutions, and our impact. We hope you’ll continue our story by reflecting on how our experiences relate to your own work and sharing these lessons with others.<br><br>Sincerely,</p>"
+    },
+    {
+        "order": 11,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "img/items/signatures.png", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "welcome",
+        "width" : "col-md-12",
+        "height" : "height2",
+        "modal": "modal"
     },
     {
         "order": 20,
@@ -39,8 +52,7 @@
         "type" : "welcome",
         "width" : "col-md-12",
         "height" : "",
-        "modal": "modal",
-        "html" : "<a id='uniqueId'>Next Section</a>"
+        "modal": "modal"
     },
     {
         "order": 30,
