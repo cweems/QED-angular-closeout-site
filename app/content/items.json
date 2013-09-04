@@ -34,12 +34,12 @@
         "covervisible" : "not-visible",
         "clickable" : "",
         "heading": "team-letter", 
-        "imageUrl": "img/items/signatures.png", 
         "bigTitle": "Letter from the Team", 
         "type" : "welcome",
         "width" : "col-md-12",
-        "height" : "height2",
-        "modal": "modal"
+        "height" : "height3",
+        "modal": "modal",
+        "html"  : "<img style='width:100%;' src='img/items/signatures.png'>"
     },
     {
         "order": 20,
@@ -138,7 +138,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<div class='list-head'>Top Partners</div><ol><li>Engility</li><li>Zaloni</li><li>Obama</li><li>Hillary</li></ol></div></div>"
+        "html" : "<div class='list-head'>Top Partners</div><ol><li>Engility</li><li>TRG</li><li>GLS</li><li>Zaloni</li></ol></div></div>"
     },
     {
         "order": 90,
@@ -186,13 +186,13 @@
         "order": 120,
         "class": "",
         "covervisible" : "visible",
-        "clickable" : "",
+        "clickable" : "clickable",
         "heading": "Infographic", 
-        "imageUrl": "img/items/kitten.jpg", 
+        "imageUrl": "img/items/zachary.png", 
         "bigTitle": "Program Cycle", 
         "type" : "approach",
-        "width" : "col-md-8",
-        "height" : "height2",
+        "width" : "col-md-4",
+        "height" : "height1",
         "modal": "modal"
     },
     {
@@ -235,7 +235,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<div class='list-head'>Top Tools Used by Staff</div><ol><li>Engility</li><li>Zaloni</li><li>Obama</li><li>Hillary</li></ol></div></div>"
+        "html" : "<div class='list-head'>Top Tools Used by Staff</div><ol><li>Basecamp</li><li>Skype</li><li>GoogleDocs</li><li>Wikispaces</li><li>Drupal</li></ol></div></div>"
     },
      {
         "order": 142,
@@ -249,7 +249,7 @@
         "width" : "col-md-8",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<img style='height:100%;' src='img/items/team-composition.png'>"
+        "html" : "<img style='width:100%;' src='img/items/team-composition.png'>"
 
     },
     {
@@ -286,7 +286,7 @@
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "infographic: 6 phases of", 
-        "imageUrl": "img/items/kitten.jpg", 
+        "imageUrl": "img/items/zachary.png", 
         "bigTitle": "Learning Networks", 
         "type" : "approach",
         "width" : "col-md-4",
@@ -326,8 +326,8 @@
         "class": "",
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "USAID's Zachary Baquet discusses", 
-        "imageUrl": "img/items/zachary.png", 
+        "heading": "USAID's Kristin O'Planick discusses", 
+        "imageUrl": "img/items/kristin.png", 
         "bigTitle": "The Importance of KM", 
         "type" : "partners",
         "width" : "col-md-4",
@@ -354,23 +354,37 @@
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
-        "heading": "USAID's Zachary Baquet discusses", 
-        "imageUrl": "none", 
-        "bigTitle": "The Importance of KM", 
+        "heading": "", 
+        "imageUrl": "", 
+        "bigTitle": "", 
         "type" : "partners",
         "width" : "col-md-4",
-        "height" : "height1",
+        "height" : "height2",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-6 fig' style='margin-top:0px;'>33</h1><h2 class='col-md-6'>Number of USAID activity leads over the course of the project.</h2>"
+        "html" : "<div class='list-head'>Top Partner Needs</div><ol><li>Curriculum development</li><li>Website creation</li><li>Knowledge capture</li><li>Outreach & engagement</li><li>Activity scoping</li><li>Activity assessment</li><li>Sharing best practices</li></ol></div></div>"
     },
     {
         "order": 191,
         "class": "",
         "covervisible" : "visible",
         "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/zachary.png", 
+        "bigTitle": "Zachary Interview", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : ""
+    },
+    {
+        "order": 192,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
         "heading": "Blog post:", 
         "imageUrl": "img/items/diaspora.png", 
-        "bigTitle": "Innovative Seminar Support", 
+        "bigTitle": "Our Partner Organization", 
         "type" : "partners",
         "width" : "col-md-4",
         "height" : "height1",
@@ -378,7 +392,115 @@
         "modal": "modal"
     },
     {
+        "order": 193,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "", 
+        "bigTitle": "The Importance of KM", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>33</h1><h2 class='col-md-12'>Number of USAID activity leads over the course of the project.</h2>"
+    },
+    {
+        "order": 194,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/zachary.png", 
+        "bigTitle": "Thom Interview", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : ""
+    },
+    {
+        "order": 195,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "", 
+        "bigTitle": "The Importance of KM", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
+    },
+    {
+        "order": 196,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Outreach Product", 
+        "imageUrl": "img/items/pcycle.png", 
+        "bigTitle": "Program Cycle", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#diaspora",
+        "modal": "modal"
+    },
+    {
+        "order": 197,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Outreach Product", 
+        "imageUrl": "img/items/eande.png", 
+        "bigTitle": "E&E Digital Story", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#diaspora",
+        "modal": "modal"
+    },
+    {
+        "order": 198,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Outreach Product", 
+        "imageUrl": "img/items/mstar.png", 
+        "bigTitle": "mSTAR Video", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#diaspora",
+        "modal": "modal"
+    },
+    {
+        "order": 199,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Outreach Product", 
+        "imageUrl": "img/items/jamaica.png", 
+        "bigTitle": "Jamaica Handover", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#diaspora",
+        "modal": "modal"
+    },
+     {
         "order": 200,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Outreach Product", 
+        "imageUrl": "img/items/diaspora.png", 
+        "bigTitle": "Diaspora Engagement", 
+        "type" : "partners",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#diaspora",
+        "modal": "modal"
+    },
+    {
+        "order": 201,
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
@@ -392,7 +514,35 @@
         "html"  : "<h1>Building Communities</h1>"
     },
     {
-        "order": 210,
+        "order": 202,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "communities",
+        "width" : "col-md-4",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD</h2>"
+    },
+    {
+        "order": 203,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "communities",
+        "width" : "col-md-4",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
+    },
+    {
+        "order": 300,
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
@@ -406,7 +556,7 @@
         "html"  : "<h1>Our Reach</h1>"
     },
     {
-        "order": 220,
+        "order": 400,
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
@@ -420,7 +570,7 @@
         "html"  : "<h1>Our Impact</h1>"
     },
     {
-        "order": 230,
+        "order": 500,
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",

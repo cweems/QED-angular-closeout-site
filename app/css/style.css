@@ -309,6 +309,11 @@ width: auto;
 	margin-top: 28px;
 }
 
+.height3{
+    height: 750px;
+    margin-top: 28px;
+}
+
 #stacey1{
 	background-image: url('../images/stacey.png');
 }

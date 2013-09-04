@@ -8,9 +8,13 @@ function PhoneListCtrl($scope, $http) {
   });
 
    $('.portfolioFilter a').click(function(){
-      $('.portfolioFilter .current').removeClass('current');
-      $(this).addClass('current');
+		$('.portfolioFilter .current').removeClass('current');
+		$(this).addClass('current');
     });
+   $('.input-group .showSearch').click(function(){
+		$('.portfolioFilter .current').removeClass('current');
+		$('.portfolioFilter #first-link').addClass('current');
+   });
 }
 
 //PhoneListCtrl.$inject = ['$scope', '$http'];
