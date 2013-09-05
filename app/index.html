@@ -53,7 +53,7 @@
       </div>
 </div>
 <div class="search-toggle" ng-click="myVar='showSearch'">
-  <img src="img/searchGlassWhite.png">
+  <img id="search-glass"src="img/searchGlassWhite.png">
   <div class="input-group" ng-class="myVar">
     <span class="input-group-addon">Search:</span>
     <input ng-click="myFilter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
@@ -145,6 +145,8 @@
             $('body').addClass('ease-in');
         }); 
 </script>
+
+
 
 </body>
 </html>
