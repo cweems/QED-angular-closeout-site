@@ -31,8 +31,8 @@ body {
 }
 
 p{
-    font-family: "Quicksand" sans-serif;
-    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400; 
     font-style: normal;
     font-size: 22px;
 }
@@ -40,31 +40,32 @@ p{
 h1{
     background-color: #468EFA;
     color: #fff;
-    font-family: "Quicksand" sans-serif !important;
+    font-family: "Quicksand", sans-serif !important;
     display: inline-block;
     padding: 20px;
+    width: 100%;
     border-radius: 3px;
-    font-weight: 300;
+    font-weight: 300; 
     margin-top: 75px;
 }
 
 h2{
-	font-family: "Quicksand" sans-serif !important;
+	font-family: "Quicksand", sans-serif !important;
 	font-size: 20px !important;
 	font-weight: 300 !important;
 }
 
 li{
-	font-family: "Quicksand" sans-serif;
+	font-family: "Quicksand", sans-serif;
 	font-size: 28px;
-	font-weight: 300;
+	font-weight: 300; 
 	color:#5F5C5D;
 }
 
 .list-head{
-	font-family: "Quicksand" sans-serif;
+	font-family: "Quicksand", sans-serif;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 300; 
 	border-bottom: 1px solid #5F5C5D;
 	margin-bottom: 15px;
 	color:#5F5C5D;
@@ -79,16 +80,18 @@ li{
     padding-top: 30px;
     padding-bottom: 20px;
     font-family: 'Helvetica', sans-serif;
-    font-weight: 200;
+    font-weight: 200; 
 }
 
 #site-subtitle{
-    font-weight: 400;
+    font-weight: 400; 
     padding: 17px;
     text-align: center;
     font-size: 19px;
     border-bottom: #fff 5px solid;
     border-top: #fff 5px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -99,7 +102,7 @@ li{
 .portfolioFilter{
     background-color: #468EFA;
     box-shadow: -2px 0 7px #888;
-    font-family: "Quicksand" sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: #fff;
     height: 100%;
     width: 30%;
@@ -123,6 +126,10 @@ li{
     text-decoration:none;
     transition: color .25s linear;
     -webkit-transition: color .25s linear;
+    -moz-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    -o-transition: color .25s linear;
+
 }
 
 .portfolioFilter a:hover { 
@@ -132,18 +139,15 @@ li{
     text-decoration:none;
     transition: color .25s linear;
     -webkit-transition: color .25s linear;
+    -moz-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    -o-transition: color .25s linear;
 }
 
 .portfolioFilter a.current { 
     border-left: #fff 5px solid;
     color: #fff;
     padding-left: 15px;
-}
-
-.portfolioContainer{
-   /*margin-right: 275px;*/
-    margin-left: 5%;
-    padding-top: 30px;
 }
 
 img {
@@ -176,7 +180,7 @@ img {
 	vertical-align: middle;
 	font-family: 'Quicksand' sans-serif;
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 600; 
 	color: #fff;
 	display: inline-block;
 	background-color: none;
@@ -189,7 +193,7 @@ img {
 	vertical-align: middle;
 	font-family: 'Quicksand' sans-serif;
 	font-size: 1.2rem;
-	font-weight: 200;
+	font-weight: 200; 
 	color: white;
 	display: inline-block;
 	position: relative;
@@ -224,7 +228,7 @@ img {
 .item {
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Quicksand" sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin-bottom: 20px;
     position: relative;
 }
@@ -286,7 +290,7 @@ width: auto;
     margin: 0;
     padding: 0;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 600; 
     vertical-align: baseline;
     text-transform: uppercase;
     color: 
@@ -371,7 +375,7 @@ width: auto;
 
 .content{
     margin-top: 50px;
-    margin-right: 270px;
+    margin-right: 280px;
 }
 
 
