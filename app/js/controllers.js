@@ -7,6 +7,11 @@ function PhoneListCtrl($scope, $http) {
     $scope.items = data;
   });
 
+  $http.get('content/modals.json').success(function(modalData) {
+    $scope.modals = modalData;
+  });
+
+
    $('.portfolioFilter a').click(function(){
 		$('.portfolioFilter .current').removeClass('current');
 		$(this).addClass('current');

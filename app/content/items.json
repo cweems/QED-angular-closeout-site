@@ -151,7 +151,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<p>KDMD brings international development professionals together to share ideas and information and develops learning products and activities that extend the reach of foreign assistance.</p>"
+        "html"  : "<p>Successful international development requires social and human change. During the past 5 years, it has been our job to continuously adapt to these changing needs. Over the life of the project, KDMD has tripled our number of USAID partners and have committed to delivering cutting-edge, best-in-class solutions to USAID's knowledge management needs.</p>"
     },
     {
         "order": 110,
@@ -173,8 +173,8 @@
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "Infographic", 
-        "imageUrl": "img/items/zachary.png", 
-        "bigTitle": "Program Cycle", 
+        "imageUrl": "img/items/al-cycle.png", 
+        "bigTitle": "Life Cycle of an Activity", 
         "type" : "approach",
         "width" : "col-md-4",
         "height" : "height1",
