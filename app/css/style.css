@@ -55,6 +55,10 @@ h2{
 	font-weight: 300 !important;
 }
 
+h3{
+    font-family: "Quicksand", sans-serif !important;
+}
+
 li{
 	font-family: "Quicksand", sans-serif;
 	font-size: 28px;
@@ -440,6 +444,20 @@ ol3 { width: 370px; }
     cursor: pointer;
     border-radius: 0px 0px 3px 0px;
     z-index: 1000;
+    transition: background-color .25s linear;
+    -webkit-transition: background-color .25s linear;
+    -moz-transition: background-color .25s linear;
+    -ms-transition: background-color .25s linear;
+    -o-transition: background-color .25s linear
+}
+
+.search-toggle:hover{
+    background-color: #1f4a89;
+    transition: background-color .25s linear;
+    -webkit-transition: background-color .25s linear;
+    -moz-transition: background-color .25s linear;
+    -ms-transition: background-color .25s linear;
+    -o-transition: background-color .25s linear
 }
 
 .input-group{
@@ -449,10 +467,18 @@ ol3 { width: 370px; }
     margin-right: 390px;
     top: 10px;
     position: absolute !important;
+    transition: opacity .25s linear;
+    -webkit-transition: opacity .25s linear;     
+    -moz-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
 }
 
 .showSearch{
     opacity: 1 !important;
+    transition: opacity .25s linear;
+    -webkit-transition: opacity .25s linear;     
+    -moz-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
 }
 
 .logo-image{

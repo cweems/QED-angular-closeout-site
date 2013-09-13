@@ -24,6 +24,55 @@
         "header" : "The Life Cycle of a Learning Activity",
         "width" : "90%",
         "content": "<p>Learning activities should ideally move through four stages to complete a full life cycle. Each of the stages is important and ensures that key learning from the activity is generated, captured, shared, and applied to meet the goals of the knowledge cycle.</p><br><h3>Scoping</h3><p>Scoping is an essential part of any activity planning. The KDMD project uses scoping to solicit crucial information from a client in order to design an appropriate learning activity. Scoping can be formal or informal and can take place in person, over email, or over the telephone. Depending on the situation, it can consist of one discussion or can be spread out over multiple discussions. Scoping can (and should) take place throughout the entire activity planning process to respond to changing ideas or priorities. It should be a fluid process but one that is ultimately focused on identifying the best options based on key objectives. Once a specific learning activity has been identified, planning for the activity can begin.</p><br><h3>Implementing</h3><p>The implementation stage begins when all of the pre-work of scoping and planning is completed. This stage can involve many steps and moves quickly depending on the learning activity. This is why it is extremely important before the activity begins to put into place the processes and structure which will facilitate coordination among team members. Frequent and transparent communication as well as documentation and delegation of tasks among individuals are vital for the smooth implementation of a learning activity.</p><br><br><p>Capture and documentation are also essential components of this stage. This can be done in a variety of different ways, from note taking to live webcasting. Regardless of how information is ultimately captured, discussions about this part of the implementation stage should occur during scoping.</p><br><br><h3>Engaging</h3><p>Once a learning activity has been implemented and key information has been captured, it is important to share out this information so that others may benefit from it. Engagement can range from posting information on websites, to formal post-activity emails, to (in its simplest form) informal conversations about the activity with others. The important point is that the learning activity should not end after implementation. Instead, strategic decisions on how knowledge sharing and learning can be sustained should ideally be considered ahead of time so that new learning is leveraged long after the activity itself is over.</p><br><h3>Adapting</h3><p>The ultimate goal of a learning activity is for the knowledge generated from it to be utilized and applied by others to advance industry practice. Key learning, once it’s shared and accessed, should somehow influence the way that individuals think and act. It should inform approaches and activities going forward to re-imagine and improve how work is done. This adaptation can then be captured and shared the next time that a learning activity life cycle begins.</p>"
+    },
+    {
+        "order": 50,
+        "id" : "seminar-support",
+        "header" : "Our Innovative Seminar Support",
+        "width" : "90%",
+        "content": "<p>Over the years, KDMD has managed nine popular seminar series on topics ranging from microfinance to agricultural development. The earliest seminars were small in-person events, but with additional experience, KDMD enhanced the seminar experience in many ways:</p><br><p><em>Webinars:</em> Using the Adobe Connect platform, KDMD expanded the opportunities for remote participation to reach a truly global audience. The chat feature was particularly effective in fostering robust discussions, especially when staff from presenting organizations were encouraged to participate, answering audience questions and providing their own perspective. KDMD has also used webinars to open up the opportunities for hearing directly from people working on the ground by bringing in remote presenters. To learn more about KDMD’s experience with webinars, check out this guidance brief.</p><br><p><em>Interactivity:</em> KDMD used audience response technology both through Adobe Connect and Poll Everywhere to poll online and in person seminar participants in real time. Polling frequently helped to guide audience discussion and spark debate on complex issues.</p><br><p><em>Social Media:</em> KDMD promoted its seminars through Facebook, Twitter, and LinkedIn. Staff tweeted using popular hashtags to maximize visibility and crafted post-event blogs that provided detailed recaps of the seminar presentations.</p><br><p><em>Participant Feedback:</em> KDMD’s Assessing & Learning team solicited feedback with surveys distributed at the end of every seminar. Attendees were given the opportunity to suggest future event topics and share how they felt they could use the knowledge and resources from the seminar to improve their work.</p><br><p><em>Post-Event Products:</em> KDMD strove to make all event material easily accessible so learning could continue after the event. Beyond the presentations and other resources shared, events were captured either as screencast or webinar recordings. Staff created blog posts, archived social media posts, and filmed Greenroom Interviews with presenters to compile a rich collection of media.</p><br><p><em>Enhanced Follow-Up:</em> Finally, KDMD followed up with seminar attendees and other stakeholders through post-event emails with links to relevant resources. KDMD also work with presenters to collect responses to unanswered questions and post them to the relevant online comment board.</p><br>"
+    },
+    {
+        "order": 60,
+        "id" : "kristin-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/QQNnQTd_d44' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 70,
+        "id" : "zachary-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/rMQjHTKQ2IU' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 80,
+        "id" : "jeanne-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/beC0kDyoIuw' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 90,
+        "id" : "pc-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/gJnyj50o2MY' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 100,
+        "id" : "ee-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/3uIzSDg8_Zw' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 110,
+        "id" : "mstar-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/DA431UOmOug' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 120,
+        "id" : "diaspora-video",
+        "header" : "Our Innovative Seminar Support",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/kq9mp3eWAgs' frameborder='0' allowfullscreen></iframe>"
     }
 
 ]
