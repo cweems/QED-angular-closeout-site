@@ -4139,6 +4139,8 @@ button.close {
   min-height: 16.428571429px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
+  background-color: #468EFA;
+  border-radius: 2px 2px 0px 0px;
 }
 
 .modal-header .close {
@@ -4148,6 +4150,9 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.428571429;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: 600;
 }
 
 .modal-body {

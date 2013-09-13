@@ -2,7 +2,7 @@
 <html lang="en" ng-app  ng-controller="PhoneListCtrl">
 <head>
   <meta charset="utf-8">
-  <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{myFilter|uppercase}}</title>
+  <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{myFilter.type}}</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -17,7 +17,7 @@
   <script src="js/bootstrap.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll">
 
   <div class="col-md-3 pull-right" ng-click="query = null">
         <div class="portfolioFilter">
@@ -27,23 +27,23 @@
       Project</h2>
 
  
-                <a href="#letterFromTheTeam" ng-click="myFilter = {type: 'welcome'}" class="current" id="first-link">Letter From the Team</a>
+                <a href="#Welcome" ng-click="myFilter = {type: 'Welcome'}" class="current" id="first-link">Letter From the Team</a>
                 <br>
-                <a href="#theEvolutionOfKDMD" ng-click="myFilter = {type: 'evolution'}" >Evolution of KDMD</a>
+                <a href="#Evolution" ng-click="myFilter = {type: 'Evolution'}" >Evolution of KDMD</a>
                 <br>
-                <a href="#ourKMApproach" ng-click="myFilter = {type: 'approach'}" >Our KM Approach</a>
+                <a href="#Approach" ng-click="myFilter = {type: 'Approach'}" >Our KM Approach</a>
                 <br>
-                <a href="#ourUSAIDPartners" ng-click="myFilter = {type: 'partners'}" >Our USAID Partners</a>
+                <a href="#Partners" ng-click="myFilter = {type: 'Partners'}" >Our USAID Partners</a>
                 <br>
-                <a href="#buildingCommunities" ng-click="myFilter = {type: 'communities'}" >Building Communities</a>
+                <a href="#Communities" ng-click="myFilter = {type: 'Communities'}" >Building Communities</a>
                 <br>
-                <a href="#expandingTheKMReach" ng-click="myFilter = {type: 'reach'}" >Our Reach</a>
+                <a href="#Reach" ng-click="myFilter = {type: 'Reach'}" >Our Reach</a>
                 <br>
-                <a href="#ourImpact" ng-click="myFilter = {type: 'impact'}" >Our Impact</a>
+                <a href="#Impact" ng-click="myFilter = {type: 'Impact'}" >Our Impact</a>
                 <br>
-                <a href="#ourImpact" ng-click="myFilter = {type: 'team'}" >Our Story, Our Team</a>
+                <a href="#Team" ng-click="myFilter = {type: 'Team'}" >Our Story, Our Team</a>
                 <br>
-                <a href="#" ng-click="myFilter = {type: 'contact'}" >Contact</a>
+                <a href="#Contact" ng-click="myFilter = {type: 'Contact'}" >Contact</a>
   
           <div class="branding">
             <p id="imp">Implemented by:</p>
@@ -68,7 +68,7 @@
       <div class="content">
         <!--Body content-->
             <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:myFilter | filter:query | orderBy:orderProp" class="{{item.width}} {{item.height}}">
-              <div class="item item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
+              <div id="{{item.id}}" class="item item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
                 <div ng-bind-html-unsafe="item.html"></div>
                 <div class="cover {{item.covervisible}}">
                   <div class="inner-wrapper">
@@ -93,11 +93,11 @@
 <div ng-repeat="item in modals">
 
     <div class="modal fade" id="{{item.id}}">
-      <div class="modal-dialog">
+      <div class="modal-dialog" style="width: {{item.width}};">
         <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">{{item.header}}</h4>
+              <h1 class="modal-title">{{item.header}}</h1>
             </div>
             <div class="modal-body" ng-bind-html-unsafe="item.content"></div>
             <div class="modal-footer">
@@ -109,11 +109,15 @@
   
 </div>
 
+
+
+
 <script type="text/javascript">
           $(document).ready(function() {
             $('body').addClass('ease-in');
         }); 
 </script>
+
 
 
 
