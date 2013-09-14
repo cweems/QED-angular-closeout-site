@@ -2,7 +2,7 @@
 <html lang="en" ng-app  ng-controller="PhoneListCtrl">
 <head>
   <meta charset="utf-8">
-  <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.type}}</title>
+  <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.item}}</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -29,23 +29,25 @@
       Project</h2>
 
                 <div id="nav-links">
+                  <div class="nav">
                     <a href="#Welcome" ng-click="Filter = {type: 'Welcome'}" class="current" id="first-link">Letter From the Team</a>
                     <br>
-                    <a href="#Evolution" ng-click="Filter = {type: 'Evolution'}" >Evolution of KDMD</a>
+                    <a href="#Evolution" ng-click="Filter = {type: 'Evolution'}" id="second-link">Evolution of KDMD</a>
                     <br>
-                    <a href="#Approach" ng-click="Filter = {type: 'Approach'}" >Our KM Approach</a>
+                    <a href="#Approach" ng-click="Filter = {type: 'Approach'}" id="third-link">Our KM Approach</a>
                     <br>
-                    <a href="#Partners" ng-click="Filter = {type: 'Partners'}" >Our USAID Partners</a>
+                    <a href="#Partners" ng-click="Filter = {type: 'Partners'}" id="fourth-link">Our USAID Partners</a>
                     <br>
-                    <a href="#Communities" ng-click="Filter = {type: 'Communities'}" >Building Communities</a>
+                    <a href="#Communities" ng-click="Filter = {type: 'Communities'}" id="fifth-link">Building Communities</a>
                     <br>
-                    <a href="#Reach" ng-click="Filter = {type: 'Reach'}" >Our Reach</a>
+                    <a href="#Reach" ng-click="Filter = {type: 'Reach'}" id="sixth-link">Our Reach</a>
                     <br>
-                    <a href="#Impact" ng-click="Filter = {type: 'Impact'}" >Our Impact</a>
+                    <a href="#Impact" ng-click="Filter = {type: 'Impact'}" id="seventh-link">Our Impact</a>
                     <br>
-                    <a href="#Team" ng-click="Filter = {type: 'Team'}" >Our Story, Our Team</a>
+                    <a href="#Team" ng-click="Filter = {type: 'Team'}" id="eighth-link">Our Story, Our Team</a>
                     <br>
-                    <a href="#Contact" ng-click="Filter = {type: 'Contact'}" >Contact</a>
+                    <a href="#Contact" ng-click="Filter = {type: 'Contact'}" id="ninth-link" >Contact</a>
+                  </div>
                 </div>
   
           <div class="branding">
@@ -55,7 +57,7 @@
            <!-- End Sidebar content-->
       </div>
 </div>
-<body data-spy="scroll">
+<body data-spy="scroll" data-target="#nav-links">
 <div class="search-toggle" ng-click="show='showSearch'">
   <img id="search-glass"src="img/searchGlassWhite.png">
   <div class="input-group" ng-class="show" ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" >

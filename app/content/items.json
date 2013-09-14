@@ -606,6 +606,50 @@
         "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
     },
     {
+        "order": 210,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>8,331</h1><h2 class='col-md-12'>Number of webinar participants who joined a KDMD event online.</h2>"
+    },
+    {
+        "order": 220,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/partners.png", 
+        "bigTitle": "Partners", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "",
+        "href" : "#partners-modal"
+    },
+    {
+        "order": 230,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "", 
+        "imageUrl": "", 
+        "bigTitle": "", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html" : "<img style='width:100%;' src='img/items/webinarvsperson.png'>"
+
+    },
+    {
         "order": 300,
         "class": "",
         "covervisible" : "not-visible",
