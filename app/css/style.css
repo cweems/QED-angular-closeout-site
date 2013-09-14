@@ -99,10 +99,6 @@ li{
     font-family: 'Quicksand', sans-serif;
 }
 
-#usaid-logo{
-	padding-top: 46px;
-}
-
 .portfolioFilter{
     background-color: #468EFA;
     box-shadow: -2px 0 7px #888;
@@ -122,8 +118,10 @@ li{
     padding-right: 4px;
 }
 
-.portfolioFilter a { 
+.portfolioFilter li a { 
     padding-left: 20px;
+    font-size: 20px;
+    line-height: 8px;
     height: 100%;
     color:white;
     font-size: 22px;
@@ -136,11 +134,10 @@ li{
 
 }
 
-.portfolioFilter a:hover { 
-    padding-left: 20px;
+.portfolioFilter li a:hover { 
     height: 100%;
     color:#1f4a89;
-    text-decoration:none;
+    text-decoration:none; 
     transition: color .25s linear;
     -webkit-transition: color .25s linear;
     -moz-transition: color .25s linear;
@@ -148,7 +145,7 @@ li{
     -o-transition: color .25s linear;
 }
 
-.portfolioFilter a.current { 
+.portfolioFilter li .current { 
     border-left: #fff 5px solid;
     color: #fff;
     padding-left: 15px;
@@ -322,51 +319,12 @@ width: auto;
     margin-top: 28px;
 }
 
-#stacey1{
-	background-image: url('../images/stacey.png');
-}
-
-#timechart{
-	background-image: url('../images/timechart.png');
-}
-
-#zachary{
-	background-image: url('../images/zachary.png');
-}
-
-#jeanne{
-	background-image: url('../images/jeanne.png');
-}
-
-#partners{
-	background-image: url('../images/partners.png');
-}
 
 #testimony1{
 	background-image: url('../images/testimony1.png');
 	color:white;
 	padding: 25px;
 	text-shadow: 1px 1px 5px black;
-}
-
-#webinarParticipants{
-	background-image: url('../images/map.png');
-}
-
-#debate{
-	background-image: url('../images/debate.jpg');
-}
-
-#chimpList{
-	background-image: url('../images/chimpList.png');
-}
-
-#nussi{
-	background-image: url('../images/nussi.jpg');
-}
-
-#tchat{
-	background-image: url('../images/tchat.png');
 }
 
 .fig{
@@ -391,11 +349,11 @@ ol3 { width: 370px; }
 
 .animate-enter,
 {
-   -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+   -webkit-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
     position: relative;
     display: block;
     overflow: hidden;
@@ -405,11 +363,11 @@ ol3 { width: 370px; }
 
 .animate-leave
 { 
-    -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -webkit-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 2000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
     position: relative;
     display: block;
     overflow: hidden;
@@ -490,4 +448,14 @@ ol3 { width: 370px; }
 #search-glass{
     width: 50px;
     height: 40px;
+}
+
+.next-button{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+    background-color: #468EFA;
+    display: none;
+    z-index: 1000;
 }

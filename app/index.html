@@ -2,7 +2,7 @@
 <html lang="en" ng-app  ng-controller="PhoneListCtrl">
 <head>
   <meta charset="utf-8">
-  <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.item}}</title>
+  <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.type}}</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -17,6 +17,7 @@
 
   <script src="js/controllers.js"></script>
   <script src="js/bootstrap.js"></script>
+
 </head>
 
 
@@ -29,25 +30,17 @@
       Project</h2>
 
                 <div id="nav-links">
-                  <div class="nav">
-                    <a href="#Welcome" ng-click="Filter = {type: 'Welcome'}" class="current" id="first-link">Letter From the Team</a>
-                    <br>
-                    <a href="#Evolution" ng-click="Filter = {type: 'Evolution'}" id="second-link">Evolution of KDMD</a>
-                    <br>
-                    <a href="#Approach" ng-click="Filter = {type: 'Approach'}" id="third-link">Our KM Approach</a>
-                    <br>
-                    <a href="#Partners" ng-click="Filter = {type: 'Partners'}" id="fourth-link">Our USAID Partners</a>
-                    <br>
-                    <a href="#Communities" ng-click="Filter = {type: 'Communities'}" id="fifth-link">Building Communities</a>
-                    <br>
-                    <a href="#Reach" ng-click="Filter = {type: 'Reach'}" id="sixth-link">Our Reach</a>
-                    <br>
-                    <a href="#Impact" ng-click="Filter = {type: 'Impact'}" id="seventh-link">Our Impact</a>
-                    <br>
-                    <a href="#Team" ng-click="Filter = {type: 'Team'}" id="eighth-link">Our Story, Our Team</a>
-                    <br>
-                    <a href="#Contact" ng-click="Filter = {type: 'Contact'}" id="ninth-link" >Contact</a>
-                  </div>
+                  <ul class="nav">
+                    <li class="current"><a href="#Welcome" ng-click="Filter = {type: 'Welcome'}" id="first-link">Letter From the Team</a></li>
+                    <li><a href="#Evolution" ng-click="Filter = {type: 'Evolution'}" id="second-link">Evolution of KDMD</a></li>
+                    <li><a href="#Approach" ng-click="Filter = {type: 'Approach'}" id="third-link">Our KM Approach</a></li>
+                    <li><a href="#Partners" ng-click="Filter = {type: 'Partners'}" id="fourth-link">Our USAID Partners</a></li>
+                    <li><a href="#Communities" ng-click="Filter = {type: 'Communities'}" id="fifth-link">Building Communities</a></li>
+                    <li><a href="#Reach" ng-click="Filter = {type: 'Reach'}" id="sixth-link">Our Reach</a></li>
+                    <li><a href="#Impact" ng-click="Filter = {type: 'Impact'}" id="seventh-link">Our Impact</a></li>
+                    <li><a href="#Team" ng-click="Filter = {type: 'Team'}" id="eighth-link">Our Story, Our Team</a></li>
+                    <li><a href="#Contact" ng-click="Filter = {type: 'Contact'}" id="ninth-link">Contact</a></li>
+                  </ul>
                 </div>
   
           <div class="branding">
@@ -114,6 +107,13 @@
     </div>
   
 </div>
+
+
+
+<div class="next-button">
+  <a href="#Partners" ng-click="Filter = {type: 'Partners'}" id="fourth-link"><h1>Our USAID Partners<h1></a></li>
+</div>
+
 
 <script type="text/javascript">
           $(document).ready(function() {
