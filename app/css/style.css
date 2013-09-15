@@ -1,3 +1,6 @@
+
+/*Main CSS */
+
 body {
     font-family: Arial;
     transition: opacity 1s linear;
@@ -66,6 +69,8 @@ li{
 	color:#5F5C5D;
 }
 
+/*END Main CSS */
+
 .list-head{
 	font-family: "Quicksand", sans-serif;
 	font-size: 20px;
@@ -75,6 +80,7 @@ li{
 	color:#5F5C5D;
 }
 
+/*Side Bar*/
 
 #site-title{
     font-size: 60px;
@@ -99,6 +105,8 @@ li{
     font-family: 'Quicksand', sans-serif;
 }
 
+/*Navigation Links*/
+
 .portfolioFilter{
     background-color: #468EFA;
     box-shadow: -2px 0 7px #888;
@@ -118,10 +126,9 @@ li{
     padding-right: 4px;
 }
 
-.portfolioFilter li a { 
-    padding-left: 20px;
+.portfolioFilter li a {
     font-size: 20px;
-    line-height: 8px;
+    line-height: 24px;
     height: 100%;
     color:white;
     font-size: 22px;
@@ -145,16 +152,24 @@ li{
     -o-transition: color .25s linear;
 }
 
-.portfolioFilter li .current { 
+ul.nav li {
+    padding-left: 20px; 
+}
+
+ul.nav li.current {
+    padding-left: 15px; 
     border-left: #fff 5px solid;
     color: #fff;
-    padding-left: 15px;
 }
+
+/*End Navigation Links*/
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+
 
 
 /*Branding */
@@ -172,6 +187,13 @@ img {
 	text-transform: uppercase;
 	font-size: 13px;
 }
+
+
+/*END Branding*/
+
+/*END Side Bar*/
+
+/*Content Elements*/
 
 /*Figure*/
 
@@ -303,6 +325,10 @@ width: auto;
     #468efa;
 }
 
+/*END Content Elements*/
+
+/*Custom CSS Grid*/
+
 .height1{
 	height: 250px;
 	margin-top: 28px;
@@ -319,6 +345,7 @@ width: auto;
     margin-top: 28px;
 }
 
+/*END Custom CSS Grid*/
 
 #testimony1{
 	background-image: url('../images/testimony1.png');
@@ -426,7 +453,7 @@ ol3 { width: 370px; }
     top: 10px;
     position: absolute !important;
     transition: opacity .25s linear;
-    -webkit-transition: opacity .25s linear;     
+    -webkit-transition: opacity .25s linear;
     -moz-transition: opacity .25s linear;
     -o-transition: opacity .25s linear;
 }

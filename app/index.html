@@ -31,15 +31,15 @@
 
                 <div id="nav-links">
                   <ul class="nav">
-                    <li class="current"><a href="#Welcome" ng-click="Filter = {type: 'Welcome'}" id="first-link">Letter From the Team</a></li>
-                    <li><a href="#Evolution" ng-click="Filter = {type: 'Evolution'}" id="second-link">Evolution of KDMD</a></li>
-                    <li><a href="#Approach" ng-click="Filter = {type: 'Approach'}" id="third-link">Our KM Approach</a></li>
-                    <li><a href="#Partners" ng-click="Filter = {type: 'Partners'}" id="fourth-link">Our USAID Partners</a></li>
-                    <li><a href="#Communities" ng-click="Filter = {type: 'Communities'}" id="fifth-link">Building Communities</a></li>
-                    <li><a href="#Reach" ng-click="Filter = {type: 'Reach'}" id="sixth-link">Our Reach</a></li>
-                    <li><a href="#Impact" ng-click="Filter = {type: 'Impact'}" id="seventh-link">Our Impact</a></li>
-                    <li><a href="#Team" ng-click="Filter = {type: 'Team'}" id="eighth-link">Our Story, Our Team</a></li>
-                    <li><a href="#Contact" ng-click="Filter = {type: 'Contact'}" id="ninth-link">Contact</a></li>
+                    <li class="current"><a href="#Welcome" id="first-link">Letter From the Team</a></li>
+                    <li><a href="#Evolution" id="second-link">Evolution of KDMD</a></li>
+                    <li><a href="#Approach" id="third-link">Our KM Approach</a></li>
+                    <li><a href="#Partners" id="fourth-link">Our USAID Partners</a></li>
+                    <li><a href="#Communities" id="fifth-link">Building Communities</a></li>
+                    <li><a href="#Reach" id="sixth-link">Our Reach</a></li>
+                    <li><a href="#Impact" id="seventh-link">Our Impact</a></li>
+                    <li><a href="#Team" id="eighth-link">Our Story, Our Team</a></li>
+                    <li><a href="#Contact" id="ninth-link">Contact</a></li>
                   </ul>
                 </div>
   
@@ -55,7 +55,7 @@
   <img id="search-glass"src="img/searchGlassWhite.png">
   <div class="input-group" ng-class="show" ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" >
     <span class="input-group-addon">Search:</span>
-    <input ng-click="Filter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
+    <input name="q" ng-click="Filter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
 </div>
 </div>
  <!-- End Search Tool-->
