@@ -185,18 +185,18 @@
         "html"  : "<img style='width:100%;' src='img/items/graphic21.png'>"
     },
     {
-        "order": 120,
+        "order": 125,
         "class": "",
-        "covervisible" : "visible",
-        "clickable" : "clickable",
-        "heading": "Infographic", 
-        "imageUrl": "img/items/al-cycle.png", 
-        "bigTitle": "Life Cycle of an Activity", 
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "", 
+        "imageUrl": "", 
+        "bigTitle": "", 
         "type" : "approach partners communities reach impact team contact",
         "width" : "col-md-4",
         "height" : "height1",
-        "href" : "#life-cycle",
-        "modal": "modal"
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>78</h1><h2 class='col-md-12'>Number of after-action reports complted over the course of the project.</h2>"
     },
     {
         "order": 130,
@@ -295,6 +295,34 @@
         "height" : "height1",
         "modal": "modal",
         "html" : "<img src='img/items/ln-phases.png'>"
+    },
+    {
+        "order": 146,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "", 
+        "imageUrl": "", 
+        "bigTitle": "", 
+        "type" : "approach partners communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
+    },
+    {
+        "order": 147,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Blog post:", 
+        "imageUrl": "img/items/gantt.png", 
+        "bigTitle": "Gantt Chart", 
+        "type" : "approach partners communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#gantt",
+        "modal": "modal"
     },
     {
         "order": 150,
@@ -650,6 +678,35 @@
 
     },
     {
+        "order": 240,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "", 
+        "imageUrl": "", 
+        "bigTitle": "", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html" : "<img style='width:100%;' src='img/items/monthly-events.png'>"
+
+    },
+    {
+        "order": 250,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>37</h1><h2 class='col-md-12'>Number of online courses created by KDMD.</h2>"
+    },
+    {
         "order": 300,
         "class": "",
         "covervisible" : "not-visible",
@@ -703,7 +760,8 @@
         "type" : "reach impact team contact",
         "width" : "col-md-12",
         "height" : "height1",
-        "modal": "modal"
+        "modal": "modal",
+        "href" : "#our-websites"
     },
     {
         "order": 310,
@@ -712,11 +770,12 @@
         "clickable" : "clickable",
         "heading": "Infographic", 
         "imageUrl": "img/items/al-cycle.png", 
-        "bigTitle": "Program Cycle", 
+        "bigTitle": "Life Cycle", 
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "height" : "height1",
-        "modal": "modal"
+        "modal": "modal",
+        "href" : "#life-cycle"
     },
     {
         "order": 320,
@@ -728,7 +787,7 @@
         "bigTitle": "Letter from the Team", 
         "type" : "reach impact team contact",
         "width" : "col-md-4",
-        "height" : "",
+        "height" : "height1",
         "modal": "modal",
         "html"  : "<h1 class='col-md-12 fig'>143</h1><h2 class='col-md-12'>Newsletters sent over the course of the project.</h2>"
     },
@@ -742,9 +801,9 @@
         "bigTitle": "Letter from the Team", 
         "type" : "reach impact team contact",
         "width" : "col-md-4",
-        "height" : "",
+        "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>1013</h1><h2 class='col-md-12'>Number of tweets in our most popular twitter-chat: 'Serving the Poorest Smallholder Farmers'</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>1,013</h1><h2 class='col-md-12'>Number of tweets in our most popular twitter-chat: 'Serving the Poorest Smallholder Farmers'</h2>"
     },
     {
         "order": 335,
@@ -757,7 +816,22 @@
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "height" : "height1",
-        "modal": "modal"
+        "modal" : "modal",
+        "href" : "#tchat"
+    },
+    {
+        "order": 336,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Website Evolution", 
+        "imageUrl": "img/items/otr.png", 
+        "bigTitle": "Roadshow", 
+        "type" : "reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal" : "modal",
+        "href" : "#road-show"
     },
     {
         "order": 340,
@@ -769,9 +843,23 @@
         "bigTitle": "Letter from the Team", 
         "type" : "reach impact team contact",
         "width" : "col-md-4",
-        "height" : "",
+        "height" : "height1",
         "modal": "modal",
         "html"  : "<h1 class='col-md-12 fig'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD staff.</h2>"
+    },
+    {
+        "order": 350,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig'>8,517</h1><h2 class='col-md-12'>Combined number of social media followers on Twitter, Facebook, and YouTube.</h2>"
     },
     {
         "order": 400,
@@ -812,10 +900,54 @@
         "bigTitle": "Letter from the Team", 
         "type" : "impact team contact",
         "width" : "col-md-4",
-        "height" : "",
+        "height" : "height1",
         "modal": "modal",
         "html"  : "<img src='img/items/stars.png'><h2 class='col-md-12'>Average rating participants gave our seminars.</h2>"
     },
+    {
+        "order": 420,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "team-letter", 
+        "imageUrl": "img/items/userChart.png", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "href" : "#user-growth"
+    },
+    {
+        "order": 430,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "<h1 class='col-md-12 fig'>935</h1><h2 class='col-md-12'>Number of USAID staff who received training from the KDMD project.</h2>"
+    },
+    {
+        "order": 440,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/ribbon.png", 
+        "bigTitle": "Web Awards", 
+        "type" : "impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "",
+        "href" : "#web-awards"
+    },
+
     {
         "order": 500,
         "class": "",

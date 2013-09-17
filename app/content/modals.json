@@ -19,6 +19,13 @@
         "content": "<img style='width:100%;' src='img/items/taxedo-2.png'>"
     },
     {
+        "order": 35,
+        "id" : "our-websites",
+        "header" : "The Life Cycle of a Learning Activity",
+        "width" : "90%",
+        "content": "<p>Web technology, with its global reach and connective power, is a tool with tremendous potential to change how development work is done. The KDMD project leveraged rapidly evolving web technology on behalf of its USAID partners to build a series of websites and online knowledge sharing portals to jointly create, share, refine, and apply practical approaches to development challenges. As a key element of KDMD’s streamlined web strategy, the project leveraged the work done on previous sites to iteratively develop new functionality, creating flexible web templates on the Drupal platform that were adapted to meet identified user needs.</p><br><p>The earliest sites created by KDMD—including the African Diaspora Marketplace (May 2009), the Economic Growth Learning Center (Jun 2009), and Social Transitions (May 2010)—laid the foundation for the more robust sites that followed. KDMD’s flagship sites that the project continues to manage include the Knowledge-Driven International Development Portal (Jul 2010), Microlinks (Sep 2010), Agrilinks (Nov 2012), WLSME (Nov 2012), and Learning Lab (Jan 2013). In addition, KDMD developed the Caribbean Partners for Educational Progress Community of Practice (formerly Jamaica, Dec 2010) and FeedtheFuture.gov (Nov 2011) websites.</p><br><p>Agrilinks and Learning Lab are perfect examples of how KDMD built upon its web experience to streamline the development process. When the USAID Bureau for Food Security approached KDMD about its web needs, KDMD provided a temporary solution on KDID (Aug 2010) while a robust needs assessment process was conducted. The second iteration of Agrilinks (Apr 2011) was then constructed from the Microlinks Drupal web template and was rigorously tested through user focus groups and member surveys. Finally, the stand-alone Agrilinks (Nov 2012) site was built on the most current version of Drupal (7.0) and incorporated a cleaner design, significantly enhanced functionality, and many more web 2.0 tools. As the project’s most advanced website, Agrilinks then became the template upon which WLSME and Learning Lab—both of which also began as placeholder pages on KDID—were built. This iterative process allowed KDMD to take advantage of lessons learned to advise clients on best practices, ensure the best user experience, and minimize development time/cost.</p>"
+    },
+    {
         "order": 40,
         "id" : "life-cycle",
         "header" : "The Life Cycle of a Learning Activity",
@@ -57,6 +64,13 @@
         "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/gJnyj50o2MY' frameborder='0' allowfullscreen></iframe>"
     },
     {
+        "order": 92,
+        "id" : "gantt",
+        "header" : "Gantt Chart of Our Seminars",
+        "width" : "65%",
+        "content": "<img src='img/items/gantt.png'>"
+    },
+    {
         "order": 100,
         "id" : "ee-video",
         "header" : "Our Innovative Seminar Support",
@@ -80,6 +94,33 @@
         "id" : "partners-modal",
         "header" : "Our Partners in the International Development Community",
         "content": "<div class='col-md-6'><li>ACDI/VOCA</li> <li>APLU</li><li>AZMJ/Cracking the Nut</li><li>CGAP</li><li>Feed the Future Innovation Labs (Formely CRSPs)</li><li>FIELD-Support LWA</li><li>Fintrac</li><li>FSN Network</li><li>Inter-American Development Bank</li><li>IFC</li></div><div class='col-md-6'><li>IFPRI</li><li>ILRI</li><li>KM4Dev</li><li>Making Cents</li><li>Once Acre Fund</li><li>SEEP Network</li><li>SID-Washington KM Working Group</li><li>UN Women</li><li>WEConnect International</li><li>World Bank</li></div>"
+    },
+    {
+        "order": 135,
+        "id" : "tchat",
+        "header" : "Twitter Chats",
+        "content": "<iframe width='100%' height='315' src='//www.youtube.com/embed/Tekc3rL4G28' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 136,
+        "width" : "85%",
+        "id" : "road-show",
+        "header" : "Prezi",
+        "content": "<iframe src='https://projeqt.com/embed/v2/64618-c36b2eb2727fd353776cfc237d5e9e9b/' width='100%' height='600px' frameborder='0' style='border:1px solid #d3d3d3'></iframe>"
+    },
+    {
+        "order": 140,
+        "id" : "user-growth",
+        "header" : "User Growth",
+        "width" : "65%",
+        "content": "<img src='img/items/userChart.png'>"
+    },
+    {
+        "order": 150,
+        "width" : "85%",
+        "id" : "web-awards",
+        "header" : "Our Partners in the International Development Community",
+        "content": "<div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div>"
     }
 
 ]

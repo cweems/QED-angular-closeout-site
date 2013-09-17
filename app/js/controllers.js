@@ -7,7 +7,8 @@
 function PhoneListCtrl($scope, $http) {
   $http.get('content/items.json').success(function(data) {
     $scope.items = data;
-    $scope.Filter = {type : 'Welcome'}; 
+    $scope.Filter = {type : 'Welcome'};
+    $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution'};
   });
 
   $http.get('content/modals.json').success(function(modalData) {
@@ -19,41 +20,66 @@ function PhoneListCtrl($scope, $http) {
 		$(this).addClass('current');
   });
 
-  $('ul.nav #first-link').click(function(){
-    $scope.Filter = {type : 'Welcome'};
+  $('.next-button').click(function(){
+    var activeLink = $('ul.nav li.current').removeClass('current');
+      activeLink.next().addClass('current');
+  })
+
+
+
+  $('ul.nav li').click(function(event){
+    var navId = event.target.id;
+    switch(navId){
+    case 'first-link':
+      $scope.Filter = {type : 'Welcome'};
+      $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution'};
+      $('body').scrollTo( $('#Welcome'), 800 );
+      break;
+    case 'second-link':
+      $scope.Filter = {type : 'Evolution'};
+      $scope.nextButton = {text: 'Next Up: Our KM Approach', href: '#Approach', filter: 'Approach'};
+      $('body').scrollTo( $('#Evolution'), 800 );
+      break;
+    case 'third-link':
+      $scope.Filter = {type : 'Approach'};
+      $scope.nextButton = {text: 'Next Up: Our USAID Partners', href: '#Partners', filter: 'Partners'};
+      $('body').scrollTo( $('#Approach'), 800 );
+      break;
+    case 'fourth-link':
+      $scope.Filter = {type : 'Partners'};
+      $scope.nextButton = {text: 'Next Up: Building Communities', href: '#Communities', filter: 'Communities'};
+      $('body').scrollTo( $('#Partners'), 800 );
+      break;
+    case 'fifth-link':
+      $scope.Filter = {type : 'Communities'};
+      $scope.nextButton = {text: 'Next Up: Our Knowledge Management Reach', href: '#Reach', filter: 'Reach'};
+      $('body').scrollTo( $('#Communities'), 800 );
+      break;
+    case 'sixth-link':
+      $scope.Filter = {type : 'Reach'};
+      $scope.nextButton = {text: 'Next Up: Our Impact', href: '#Impact', filter: 'Impact'};
+      ('body').scrollTo( $('#Reach'), 800 );
+      break;
+    case 'seventh-link':
+      $scope.Filter = {type : 'Impact'};
+      $scope.nextButton = {text: 'Next Up: Our Story, Our Team', href: '#Team', filter: 'Team'};
+      ('body').scrollTo( $('#Impact'), 800 );
+      break;
+    case 'eighth-link':
+      $scope.Filter = {type : 'Team'};
+      $scope.nextButton = {text: 'Next Up: Contact', href: '#Contact', filter: 'Contact'};
+      ('body').scrollTo( $('#Team'), 800 );
+      break;
+    case 'ninth-link':
+      $scope.Filter = {type : 'Contact'};
+      ('body').scrollTo( $('#Contact'), 800 );
+      break;
+    default:
+      $scope.Filter = {type : 'Welcome'};
+    };
   });
 
-  $('ul.nav #second-link').click(function(){
-    $scope.Filter = {type : 'Evolution'};
-  });
 
-  $('ul.nav #third-link').click(function(){
-    $scope.Filter = {type : 'Approach'};
-  });
-
-  $('ul.nav #fourth-link').click(function(){
-    $scope.Filter = {type : 'Partners'};
-  });
-
-  $('ul.nav #fifth-link').click(function(){
-    $scope.Filter = {type : 'Communities'};
-  });
-
-  $('ul.nav #sixth-link').click(function(){
-    $scope.Filter = {type : 'Reach'};
-  });
-
-  $('ul.nav #seventh-link').click(function(){
-    $scope.Filter = {type : 'Impact'};
-  });
-
-  $('ul.nav #eighth-link').click(function(){
-    $scope.Filter = {type : 'Team'};
-  });
-
-  $('ul.nav #ninth-link').click(function(){
-    $scope.Filter = {type : 'Contact'};
-  });
 
   $(document).ready(function() {
     $(window).scroll(function() {
@@ -64,7 +90,7 @@ function PhoneListCtrl($scope, $http) {
           $('.next-button').hide("slow");
         }
       });
-    });  
+  });  
 }
 
 //PhoneListCtrl.$inject = ['$scope', '$http'];

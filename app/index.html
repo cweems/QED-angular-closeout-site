@@ -2,6 +2,7 @@
 <html lang="en" ng-app  ng-controller="PhoneListCtrl">
 <head>
   <meta charset="utf-8">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.type}}</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -10,16 +11,12 @@
 
   <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
-  <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
-  <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
-
+  <script type="text/javascript" src="http://www.appelsiini.net/download/jquery.viewport.mini.js"></script>
   <!--Internal JS-->
-
-  <script src="js/controllers.js"></script>
-  <script src="js/bootstrap.js"></script>
 
 </head>
 
+<body data-spy="scroll" data-target="#nav-links">
 
 
   <div class="col-md-3 pull-right" ng-click="query = null">
@@ -44,13 +41,12 @@
                 </div>
   
           <div class="branding">
-            <p id="imp">Implemented by:</p>
+            <p id="imp">A USAID Project Implemented by:</p>
             <img class="logo-image" src="img/qed-white.png">
           </div>
            <!-- End Sidebar content-->
       </div>
 </div>
-<body data-spy="scroll" data-target="#nav-links">
 <div class="search-toggle" ng-click="show='showSearch'">
   <img id="search-glass"src="img/searchGlassWhite.png">
   <div class="input-group" ng-class="show" ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" >
@@ -66,8 +62,8 @@
 
       <div class="content">
         <!--Body content-->
-            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" class="{{item.width}} {{item.height}}">
-              <div id="{{item.id}}" class="item item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
+            <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" id="{{item.id}}" class="{{item.class}} {{item.width}} {{item.height}}">
+              <div class="item item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
                 <div ng-bind-html-unsafe="item.html"></div>
                 <div class="cover {{item.covervisible}}">
                   <div class="inner-wrapper">
@@ -83,6 +79,9 @@
 
 
       <!--END Body content-->
+<div class="next-button">
+  <a ng-click="Filter = {type : '{{nextButton.filter}}'}" ng-model="Filter" href="{{nextButton.href}}"><h1>{{nextButton.text}}</h1></a>
+</div>
 
 </div>
 </div>
@@ -108,19 +107,10 @@
   
 </div>
 
-
-
-<div class="next-button">
-  <a href="#Partners" ng-click="Filter = {type: 'Partners'}" id="fourth-link"><h1>Our USAID Partners<h1></a></li>
-</div>
-
-
-<script type="text/javascript">
-          $(document).ready(function() {
-            $('body').addClass('ease-in');
-        }); 
-</script>
-
+<script src="js/controllers.js"></script>
+<script src="js/jquery-easing.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 
 
 
