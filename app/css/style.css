@@ -466,6 +466,20 @@ ol3 { width: 370px; }
     width: 150px;
     height: auto;
     margin-left: 10px;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity .25s linear;
+    -webkit-transition: opacity .25s linear;     
+    -moz-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
+}
+
+.logo-image:hover{
+    opacity: .7;
+    transition: opacity .25s linear;
+    -webkit-transition: opacity .25s linear;     
+    -moz-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
 }
 
 #search-glass{
