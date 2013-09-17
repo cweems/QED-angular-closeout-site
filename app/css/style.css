@@ -462,6 +462,51 @@ ol3 { width: 370px; }
     -o-transition: opacity .25s linear;
 }
 
+div.next-button a{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    transition: color .25s linear;
+    -webkit-transition: color .25s linear;
+    -moz-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    -o-transition: color .25s linear;
+
+}
+
+div.next-button a:hover{
+    color:#1f4a89;
+    transition: color .25s linear;
+    -webkit-transition: color .25s linear;
+    -moz-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    -o-transition: color .25s linear;
+}
+
+div.next-button{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #468EFA;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0px 0px 7px #6f6f6f;
+}
+
+div.next-button:hover{
+    box-shadow: 0px 0px 15px #6f6f6f;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        transition: all .2s linear;
+}
+
 .logo-image{
     width: 150px;
     height: auto;
@@ -485,14 +530,4 @@ ol3 { width: 370px; }
 #search-glass{
     width: 50px;
     height: 40px;
-}
-
-.next-button{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border-radius: 3px;
-    background-color: #468EFA;
-    display: none;
-    z-index: 1000;
 }
