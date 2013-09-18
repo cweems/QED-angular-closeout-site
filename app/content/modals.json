@@ -145,10 +145,24 @@
     },
     {
         "order": 150,
+        "id" : "popular-tchats",
+        "header" : "Our Most Popular Twitter Chats",
+        "width" : "65%",
+        "content": "<img src='img/items/popular-tchats.png'>"
+    },
+    {
+        "order": 350,
         "width" : "85%",
         "id" : "web-awards",
         "header" : "Our Partners in the International Development Community",
-        "content": "<div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div>"
+        "content": "<div class='container'><div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div></div>"
+    },
+    {
+        "order": 400,
+        "width" : "85%",
+        "id" : "l2",
+        "header" : "Our Partners in the International Development Community",
+        "content": "<div class='container'><div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div></div>"
     }
 
 ]

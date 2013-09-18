@@ -325,6 +325,91 @@ width: auto;
     #468efa;
 }
 
+/*Map*/
+    #map{
+    width: 900px;
+    height: 500px;
+    background-image: url('../img/map.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.well{
+    margin: 20px;
+}
+
+.touch-point{
+    height: 40px;
+    width: 40px;
+    background-image: url('../img/marker.png');
+    background-size:100%;
+    cursor: pointer;
+}
+#example{
+    width: 50px;
+    height: 50px;
+}
+
+#a{
+    position: relative;
+    top: 81px;
+    left: 142px;
+}
+
+#b{
+    position: relative;
+    top: 28px;
+    left: 157px;
+}
+
+#c{
+    position: relative;
+    top: 28px;
+    left: 558px;
+}
+
+#d{
+    position: relative;
+    top: 52px;
+    left: 608px;
+}
+
+#e{
+    position: relative;
+    top: 51px;
+    left: 625px;
+}
+
+#f{
+    position: relative;
+    top: -110px;
+    left: 429px;
+}
+
+#g{
+    position: relative;
+    top: -104px;
+    left: 129px;
+}
+
+#h{
+    position: relative;
+    top: -15px;
+    left: 407px;
+}
+
+#i{
+    position: relative;
+    top: -149px;
+    left: 357px;
+}
+
+#j{
+    position: relative;
+    top: -165;
+    left: 436px;
+}
+/*END Map*/
+
 /*END Content Elements*/
 
 /*Custom CSS Grid*/

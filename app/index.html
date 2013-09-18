@@ -7,6 +7,8 @@
   <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.type}}</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
 
   <!--CDNs -->
 
@@ -14,6 +16,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
   <script type="text/javascript" src="http://www.appelsiini.net/download/jquery.viewport.mini.js"></script>
   <!--Internal JS-->
+
+  <script src="js/controllers.js"></script>
+  <script src="js/jquery-easing.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 
 </head>
 
@@ -73,7 +80,8 @@
 
 
 
-      <div class="content"> 
+      <div class="content">
+      
 
         <!--Body content-->
             <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" id="{{item.id}}" class="{{item.class}} {{item.width}} {{item.height}}">
@@ -121,11 +129,11 @@
   
 </div>
 
-<script src="js/controllers.js"></script>
-<script src="js/jquery-easing.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-
+<script type="text/javascript">
+    $('.touch-point').popover({
+      trigger: "hover"
+    });
+   </script>
 
 
 </body>
