@@ -617,7 +617,7 @@
         "width" : "col-md-4",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD.</h2>"
     },
     {
         "order": 205,
@@ -645,7 +645,21 @@
         "width" : "col-md-4",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>8,331</h1><h2 class='col-md-12'>Number of webinar participants who joined a KDMD event online.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>15,736</h1><h2 class='col-md-12'>Number of participants who joined a seminar organized by KDMD.</h2>"
+    },
+    {
+        "order": 215,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html" : "<div id='carousel-example-generic' class='carousel slide'><!-- Indicators --><ol class='carousel-indicators'><li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li><li data-target='#carousel-example-generic' data-slide-to='1'></li><li data-target='#carousel-example-generic' data-slide-to='2'></li></ol><!-- Wrapper for slides --><div class='carousel-inner'><div class='item active'><!-- class of active since it's the first item --><img src='img/items/speaker.png' alt='' /><div class='carousel-caption'>KDMD provides great opportunities to hear experts speak about their work and research results. Their Q&A provide an insight into participants' experiences. It presents a sense of community.</div></div><div class='item'><img src='img/items/nussi.png' alt='' /><div class='carousel-caption'>KDMD has been FIELD-Support’s primary vehicle for disseminating and distributing key findings, lessons, and methodologies that are developed under the LWA—especially to its targeted audiences: the practitioner community.</div></div><div class='item'><img src='img/items/anita.png' alt='' /><div class='carousel-caption'>KDMD has approached our partnership with the utmost professionalism and commitment to ensure high quality results. Flexible, responsive and positive, it has been an absolute pleasure to work with your team.</div></div></div><!-- Controls --><a class='left carousel-control' href='#carousel-example-generic' data-slide='prev'><span class='icon-prev'></span></a><a class='right carousel-control' href='#carousel-example-generic' data-slide='next'><span class='icon-next'></span></a></div>"
     },
     {
         "order": 220,
@@ -661,6 +675,21 @@
         "modal": "modal",
         "html"  : "",
         "href" : "#partners-modal"
+    },
+    {
+        "order": 225,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "USAID's Zachary Baquet discusses", 
+        "imageUrl": "img/items/blendedlearning.png", 
+        "bigTitle": "Blended Learning", 
+        "type" : "communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "html"  : "",
+        "href" : "#blendedlearning"
     },
     {
         "order": 230,
@@ -834,6 +863,34 @@
         "href" : "#road-show"
     },
     {
+        "order": 337,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Website Evolution", 
+        "imageUrl": "img/items/list-growth.png", 
+        "bigTitle": "Mailing Lists", 
+        "type" : "reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal" : "modal",
+        "href" : "#list-growth"
+    },
+    {
+        "order": 338,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Website Evolution", 
+        "imageUrl": "img/items/mission-map.png", 
+        "bigTitle": "Mission Map", 
+        "type" : "reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal" : "modal",
+        "href" : "#mission-map"
+    },
+    {
         "order": 340,
         "class": "",
         "covervisible" : "not-visible",
@@ -848,7 +905,7 @@
         "html"  : "<h1 class='col-md-12 fig'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD staff.</h2>"
     },
     {
-        "order": 350,
+        "order": 345,
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
@@ -860,6 +917,20 @@
         "height" : "height1",
         "modal": "modal",
         "html"  : "<h1 class='col-md-12 fig'>8,517</h1><h2 class='col-md-12'>Combined number of social media followers on Twitter, Facebook, and YouTube.</h2>"
+    },
+    {
+        "order": 350,
+        "class": "",
+        "covervisible" : "not-visible",
+        "clickable" : "",
+        "heading": "team-letter", 
+        "imageUrl": "", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "reach impact team contact",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html" : "<div class='jumbotron'><div class='container'><h2>Most re-tweeted post on Twitter:</h2><blockquote class='twitter-tweet'><p>How Africa Can Transform <a href='https://twitter.com/search?q=%23LandTenure&amp;src=hash'>#LandTenure</a>, Revolutionize <a href='https://twitter.com/search?q=%23Agriculture&amp;src=hash'>#Agriculture</a>, and End <a href='https://twitter.com/search?q=%23Poverty&amp;src=hash'>#Poverty</a> <a href='http://t.co/W8NLibPufN'>http://t.co/W8NLibPufN</a> via <a href='https://twitter.com/allafrica'>@allafrica</a> <a href='https://twitter.com/WorldBank'>@WorldBank</a></p>&mdash; Agrilinks (@Agrilinks) <a href='https://twitter.com/Agrilinks/statuses/359738383590883330'>July 23, 2013</a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script><p><a data-toggle='modal' href='#twitter-embed' class='btn btn-primary btn-lg'>See more tweets from KDMD &rsaquo;</a></p></div></div>"
     },
     {
         "order": 400,

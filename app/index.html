@@ -2,6 +2,7 @@
 <html lang="en" ng-app  ng-controller="PhoneListCtrl">
 <head>
   <meta charset="utf-8">
+  <!--Created by Charlie Weems (charlieweems.com) @charlieweems https://github.com/cweems/QED-angular-closeout-site-->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <title ng-model="query">KDMD • The Knowledge Driven Microenterprise Development Project • {{Filter.type}}</title>
   <link rel="stylesheet" href="css/style.css">
@@ -49,23 +50,34 @@
            <!-- End Sidebar content-->
       </div>
 </div>
-<div class="search-toggle" ng-click="show='showSearch'">
-  <img id="search-glass"src="img/searchGlassWhite.png">
-  <div class="input-group" ng-class="show" ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" >
+<div class="search-bg">
+  <div class="search-toggle" ng-click="show = !show" ng-class="{'search-toggle' : !show, 'search-toggle-clicked' : show}">
+    <img id="search-glass"src="img/searchGlassWhite.png">
+  </div>
+  <div class="input-group" ng-class="{'showSearch' : show, 'hideSearch' : !show}">
     <span class="input-group-addon">Search:</span>
     <input name="q" ng-click="Filter = null" type="text" class="form-control" placeholder="e.g.'timeline' or 'social media' or 'impact'" ng-model="query">
-</div>
+  </div>
 </div>
  <!-- End Search Tool-->
 
 
-<div class="container container-fluid">
+
+
+<div class="container outer-container container-fluid">
+
+
+
     <div class="row-fluid">
 
-      <div class="content">
+
+
+
+      <div class="content"> 
+
         <!--Body content-->
             <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" id="{{item.id}}" class="{{item.class}} {{item.width}} {{item.height}}">
-              <div class="item item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
+              <div class="tile item-margin {{item.clickable}}" data-toggle="{{item.modal}}" href="{{item.href}}" style="background-image: url('{{item.imageUrl}}');">
                 <div ng-bind-html-unsafe="item.html"></div>
                 <div class="cover {{item.covervisible}}">
                   <div class="inner-wrapper">
@@ -81,7 +93,7 @@
 
 
       <!--END Body content-->
-<div class="next-button">
+<div class="next-button" id={{nextButton.id}}>
   <a ng-click="Filter = {type : '{{nextButton.filter}}'}" ng-model="Filter" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
 </div>
 

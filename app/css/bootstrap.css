@@ -1969,8 +1969,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #468EFA;
+  border-color: #1f4a89;
 }
 
 .btn-primary:hover,
@@ -1978,8 +1978,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: #1f4a89;
+  border-color: #1f4a89;
 }
 
 .btn-primary.disabled,
@@ -4855,6 +4855,7 @@ a.list-group-item.active > .badge,
 
 .carousel {
   position: relative;
+  max-width: 560px;
 }
 
 .carousel-inner {
@@ -5013,7 +5014,7 @@ a.list-group-item.active > .badge,
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  top: 20px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -5037,8 +5038,8 @@ a.list-group-item.active > .badge,
     font-size: 30px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+    right: 15%;
+    left: 15%;
     padding-bottom: 30px;
   }
   .carousel-indicators {
@@ -5067,7 +5068,7 @@ a.list-group-item.active > .badge,
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding: 50px 60px;
+    padding: 10px 60px;
     border-radius: 6px;
   }
   .jumbotron h1 {

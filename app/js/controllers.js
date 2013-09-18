@@ -25,6 +25,19 @@ function PhoneListCtrl($scope, $http) {
       activeLink.next().addClass('current');
   })
 
+  $(document).scroll(function(){
+    var currentSection = $('h1:in-viewport:first').parent().parent().parent().attr('id');
+    if(!currentSection.type(undefined)){
+    console.log(currentSection);
+    switch(currentSection){
+      case 'first-link':
+        $('ul.nav li.current').removeClass('current');
+        $('ul.nav li#first-link').addClass('current');
+        $scope.Filter = {type : 'Welcome'};
+        $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', newValue: 'first-link'};
+    };
+  };
+  });
 
   $('ul.nav li').click(function(event){
     var navId = event.target.id;
@@ -41,7 +54,7 @@ function PhoneListCtrl($scope, $http) {
       break;
     case 'third-link':
       $scope.Filter = {type : 'Approach'};
-      $scope.nextButton = {text: 'Next Up: Our US newValue Partners', href: '#Partners', filter: 'Partners', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Our USAID Partners', href: '#Partners', filter: 'Partners', newValue: 'first-link'};
       $('body').scrollTo( $('#Approach'), 800 );
       break;
     case 'fourth-link':
@@ -83,7 +96,7 @@ function PhoneListCtrl($scope, $http) {
         if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
           $('.next-button').show("slow");
         }
-        if ($('body').height() > ($(window).height() + 200 + $(window).scrollTop())) {
+        if ($('body').height() > ($(window).height() + 30 + $(window).scrollTop())) {
           $('.next-button').hide("slow");
         }
       });

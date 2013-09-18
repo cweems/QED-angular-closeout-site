@@ -21,9 +21,9 @@
     {
         "order": 35,
         "id" : "our-websites",
-        "header" : "The Life Cycle of a Learning Activity",
+        "header" : "The Evolution of Our Websites",
         "width" : "90%",
-        "content": "<p>Web technology, with its global reach and connective power, is a tool with tremendous potential to change how development work is done. The KDMD project leveraged rapidly evolving web technology on behalf of its USAID partners to build a series of websites and online knowledge sharing portals to jointly create, share, refine, and apply practical approaches to development challenges. As a key element of KDMD’s streamlined web strategy, the project leveraged the work done on previous sites to iteratively develop new functionality, creating flexible web templates on the Drupal platform that were adapted to meet identified user needs.</p><br><p>The earliest sites created by KDMD—including the African Diaspora Marketplace (May 2009), the Economic Growth Learning Center (Jun 2009), and Social Transitions (May 2010)—laid the foundation for the more robust sites that followed. KDMD’s flagship sites that the project continues to manage include the Knowledge-Driven International Development Portal (Jul 2010), Microlinks (Sep 2010), Agrilinks (Nov 2012), WLSME (Nov 2012), and Learning Lab (Jan 2013). In addition, KDMD developed the Caribbean Partners for Educational Progress Community of Practice (formerly Jamaica, Dec 2010) and FeedtheFuture.gov (Nov 2011) websites.</p><br><p>Agrilinks and Learning Lab are perfect examples of how KDMD built upon its web experience to streamline the development process. When the USAID Bureau for Food Security approached KDMD about its web needs, KDMD provided a temporary solution on KDID (Aug 2010) while a robust needs assessment process was conducted. The second iteration of Agrilinks (Apr 2011) was then constructed from the Microlinks Drupal web template and was rigorously tested through user focus groups and member surveys. Finally, the stand-alone Agrilinks (Nov 2012) site was built on the most current version of Drupal (7.0) and incorporated a cleaner design, significantly enhanced functionality, and many more web 2.0 tools. As the project’s most advanced website, Agrilinks then became the template upon which WLSME and Learning Lab—both of which also began as placeholder pages on KDID—were built. This iterative process allowed KDMD to take advantage of lessons learned to advise clients on best practices, ensure the best user experience, and minimize development time/cost.</p>"
+        "content": "<div class='container'><div class='col-md-6'><p>Web technology, with its global reach and connective power, is a tool with tremendous potential to change how development work is done. The KDMD project leveraged rapidly evolving web technology on behalf of its USAID partners to build a series of websites and online knowledge sharing portals to jointly create, share, refine, and apply practical approaches to development challenges. As a key element of KDMD’s streamlined web strategy, the project leveraged the work done on previous sites to iteratively develop new functionality, creating flexible web templates on the Drupal platform that were adapted to meet identified user needs.</p><br><p>The earliest sites created by KDMD—including the African Diaspora Marketplace (May 2009), the Economic Growth Learning Center (Jun 2009), and Social Transitions (May 2010)—laid the foundation for the more robust sites that followed. KDMD’s flagship sites that the project continues to manage include the Knowledge-Driven International Development Portal (Jul 2010), Microlinks (Sep 2010), Agrilinks (Nov 2012), WLSME (Nov 2012), and Learning Lab (Jan 2013). In addition, KDMD developed the Caribbean Partners for Educational Progress Community of Practice (formerly Jamaica, Dec 2010) and FeedtheFuture.gov (Nov 2011) websites.</p></div><div class='col-md-6'><p>Agrilinks and Learning Lab are perfect examples of how KDMD built upon its web experience to streamline the development process. When the USAID Bureau for Food Security approached KDMD about its web needs, KDMD provided a temporary solution on KDID (Aug 2010) while a robust needs assessment process was conducted. The second iteration of Agrilinks (Apr 2011) was then constructed from the Microlinks Drupal web template and was rigorously tested through user focus groups and member surveys. Finally, the stand-alone Agrilinks (Nov 2012) site was built on the most current version of Drupal (7.0) and incorporated a cleaner design, significantly enhanced functionality, and many more web 2.0 tools. As the project’s most advanced website, Agrilinks then became the template upon which WLSME and Learning Lab—both of which also began as placeholder pages on KDID—were built. This iterative process allowed KDMD to take advantage of lessons learned to advise clients on best practices, ensure the best user experience, and minimize development time/cost.</p></div></div>"
     },
     {
         "order": 40,
@@ -96,6 +96,13 @@
         "content": "<div class='col-md-6'><li>ACDI/VOCA</li> <li>APLU</li><li>AZMJ/Cracking the Nut</li><li>CGAP</li><li>Feed the Future Innovation Labs (Formely CRSPs)</li><li>FIELD-Support LWA</li><li>Fintrac</li><li>FSN Network</li><li>Inter-American Development Bank</li><li>IFC</li></div><div class='col-md-6'><li>IFPRI</li><li>ILRI</li><li>KM4Dev</li><li>Making Cents</li><li>Once Acre Fund</li><li>SEEP Network</li><li>SID-Washington KM Working Group</li><li>UN Women</li><li>WEConnect International</li><li>World Bank</li></div>"
     },
     {
+        "order": 133,
+        "width" : "85%",
+        "id" : "blendedlearning",
+        "header" : "Our Blended Learning Approach",
+        "content": "<p>The Knowledge-Driven Microenterprise Development (KDMD) project promotes a blended learning approach to training, which combines in-person and online interaction to drive the highest learning impact. Blended learning approaches move beyond the traditional classroom setting and may include participatory and self-paced modules, interactive and stand-alone courses, videos, webinars, and other distance learning techniques.</p><br><p>In the early stages of the project, KDMD began working with the USAID Economic Growth (EG) office to develop a blending learning approach to fit the demands of an expanding workforce and global staff. The KDMD training team mainly focused on the EG Overview course, a mandatory requirement for EG officers, which began as an in-person 5-day course of mostly technical presentations. KDMD transformed the training into a blended course, moving the majority of the technical content online in the form of screencasts, quizzes, and discussions. The in-person portion of the course was treated more like a workshop with case studies and simulations, allowing participants to test and apply their knowledge. This blended approach was then successfully applied to a number of other courses for the EG office and Bureau for Food Security.</p><br><p>After various iterations of the blended courses, KDMD documented lessons learned and began to incorporate feedback into future offerings. One of the key lessons was to be realistic about the amount of pre-work expected of participants. Based on feedback throughout the project, one of the benefits of the blended approach is that the pre-workshop activities better prepare participants for the in-person workshops. And although this pre-work is useful to ensure participants come with a firm grasp of the subject matter, it is important not overload them so that they cannot attend to their everyday responsibilities. KDMD also found it extremely beneficial to bring all the participants and course organizers together in a kick-off webinar to introduce the course, get to know one another, and provide instructions on the pre-work activities.</p><br><p>KDMD continues to receive excellent feedback on our approach. As a 2010 participant said, 'I really benefited from this blended format. Thanks for all the hard work and careful planning that went into this course.'</p>"
+    },
+    {
         "order": 135,
         "id" : "tchat",
         "header" : "Twitter Chats",
@@ -105,8 +112,29 @@
         "order": 136,
         "width" : "85%",
         "id" : "road-show",
-        "header" : "Prezi",
+        "header" : "Roadshow Projeqt",
         "content": "<iframe src='https://projeqt.com/embed/v2/64618-c36b2eb2727fd353776cfc237d5e9e9b/' width='100%' height='600px' frameborder='0' style='border:1px solid #d3d3d3'></iframe>"
+    },
+    {
+        "order": 137,
+        "width" : "65%",
+        "id" : "list-growth",
+        "header" : "Growth of Our Mailing Lists",
+        "content": "<img style='width:100%;' src='img/items/list-growth.png'>"
+    },
+    {
+        "order": 138,
+        "width" : "65%",
+        "id" : "mission-map",
+        "header" : "Top 5 USAID Missions",
+        "content": "<img style='width:100%;' src='img/items/mission-map.png'>"
+    },
+    {
+        "order": 139,
+        "width" : "65%",
+        "id" : "twitter-embed",
+        "header" : "The Microlinks and Agrilinks Twitter Feeds",
+        "content" : "<div class='container'><div class='col-md-6'><a class='twitter-timeline' href='https://twitter.com/Agrilinks' data-widget-id='380207734047518720'>Tweets by @Agrilinks</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script></div><div class='col-md-6'><a class='twitter-timeline' href='https://twitter.com/Microlinks' data-widget-id='380208202735837185'>Tweets by @Microlinks</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script></div></div>"
     },
     {
         "order": 140,
