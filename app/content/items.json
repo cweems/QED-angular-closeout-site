@@ -13,7 +13,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>Letter from the Team</h1><p>From 2008 to 2013, the Knowledge-Driven Microenterprise Development (KDMD) Project supported USAID in developing its knowledge management and learning capacities. At its core, knowledge management is about sharing lessons learned and best practices – which is why we are excited to present our experiences and achievements through this interactive final report.<br><br>KDMD was originally created as a knowledge management project under the former Microenterprise Development office (now E3/MPEP/MD) with the purpose of helping international development practitioners learn, coordinate, and distribute foreign assistance more effectively. We began with just eight full-time staff assisting USAID in the management of seminars and creation of learning products. However, as we gained recognition for the quality and importance of this work, 12 additional USAID operating units bought into our project and our staff grew three-fold.<br><br>Along the way, we’ve increased our skill set to encompass innovative techniques such as facilitating online seminar participation, using social media to share best practices, and creating online learning communities. As the field of knowledge management has evolved, the KDMD team has stayed informed of leading trends and opportunities to engage international development stakeholders in new and creative ways that foster learning and maximize the impact of development efforts.<br><br>Over the years, KDMD played a major role in promoting knowledge management and learning at USAID and in the broader international development community. Our knowledge products have attracted thousands of participants, users, and viewers. To accomplish this, our team spent thousands of hours supporting our partners – and we’re proud to share the results.<br><br>As you scroll through this final report, you’ll see a story of the challenges that KDMD faced, our solutions, our partners in learning, what we’ve learned, and our impact. We hope you’ll continue our story by reflecting on how our experiences relate to your own work and that you’ll be inspired to share these lessons with others.<br><br>Sincerely,</p>"
+        "html"  : "<h1 class='section-head'>Letter from the Team</h1><br><p>From 2008 to 2013, the Knowledge-Driven Microenterprise Development (KDMD) Project supported USAID in developing its knowledge management and learning capacities. At its core, knowledge management is about sharing lessons learned and best practices – which is why we are excited to present our experiences and achievements through this interactive final report.<br><br>KDMD was originally created as a knowledge management project under the former Microenterprise Development office (now E3/MPEP/MD) with the purpose of helping international development practitioners learn, coordinate, and distribute foreign assistance more effectively. We began with just eight full-time staff assisting USAID in the management of seminars and creation of learning products. However, as we gained recognition for the quality and importance of this work, 12 additional USAID operating units bought into our project and our staff grew three-fold.<br><br>Along the way, we’ve increased our skill set to encompass innovative techniques such as facilitating online seminar participation, using social media to share best practices, and creating online learning communities. As the field of knowledge management has evolved, the KDMD team has stayed informed of leading trends and opportunities to engage international development stakeholders in new and creative ways that foster learning and maximize the impact of development efforts.<br><br>Over the years, KDMD played a major role in promoting knowledge management and learning at USAID and in the broader international development community. Our knowledge products have attracted thousands of participants, users, and viewers. To accomplish this, our team spent thousands of hours supporting our partners – and we’re proud to share the results.<br><br>As you scroll through this final report, you’ll see a story of the challenges that KDMD faced, our solutions, our partners in learning, what we’ve learned, and our impact. We hope you’ll continue our story by reflecting on how our experiences relate to your own work and that you’ll be inspired to share these lessons with others.<br><br>Sincerely,</p>"
     },
     {
         "order": 11,
@@ -54,7 +54,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>The Evolution of KDMD</h1>"
+        "html"  : "<h1 class='section-head'>The Evolution of KDMD</h1>"
     },
 
     {
@@ -589,7 +589,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>Building Communities</h1>"
+        "html"  : "<h1 class='section-head'>Building Communities</h1>"
     },
     {
         "order": 203,
@@ -762,7 +762,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>Our Reach</h1>"
+        "html"  : "<h1 class='section-head'>Our Reach</h1>"
     },
     {
         "order": 302,
@@ -1029,7 +1029,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>Our Impact</h1>"
+        "html"  : "<h1 class='section-head'>Our Impact</h1>"
     },
     {
         "order": 410,
@@ -1129,7 +1129,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>Our Story, Our Team</h1>"
+        "html"  : "<h1 class='section-head'>Our Story, Our Team</h1>"
     },
     {
         "order": 510,
@@ -1258,7 +1258,7 @@
         "width" : "col-md-12",
         "height" : "",
         "modal": "modal",
-        "html"  : "<h1>Contact</h1>"
+        "html"  : "<h1 class='section-head'>Contact</h1>"
     },
     {
         "order": 610,
