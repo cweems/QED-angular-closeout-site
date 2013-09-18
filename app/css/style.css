@@ -100,8 +100,8 @@ li{
     font-size: 19px;
     border-bottom: #fff 5px solid;
     border-top: #fff 5px solid;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -326,7 +326,7 @@ width: auto;
 }
 
 /*Map*/
-    #map{
+#map{
     width: 900px;
     height: 500px;
     background-image: url('../img/map.png');
@@ -351,64 +351,65 @@ width: auto;
 
 #a{
     position: relative;
-    top: 81px;
-    left: 142px;
+    top: 84px;
+    left: 148px;
 }
 
 #b{
     position: relative;
-    top: 28px;
-    left: 157px;
+    top: 32px;
+    left: 163px;
 }
 
 #c{
     position: relative;
-    top: 28px;
-    left: 558px;
+    top: 43px;
+    left: 580px;
 }
 
 #d{
     position: relative;
-    top: 52px;
-    left: 608px;
+    top: 45px;
+    left: 644px;
 }
 
 #e{
     position: relative;
-    top: 51px;
-    left: 625px;
+    top: 63px;
+    left: 654px;
 }
 
 #f{
     position: relative;
-    top: -110px;
-    left: 429px;
+    top: -105px;
+    left: 451px;
 }
 
 #g{
     position: relative;
-    top: -104px;
-    left: 129px;
+    top: -96px;
+    left: 134px;
 }
 
 #h{
     position: relative;
-    top: -15px;
-    left: 407px;
+    top: -11px;
+    left: 426px;
 }
 
 #i{
     position: relative;
-    top: -149px;
-    left: 357px;
+    top: -141px;
+    left: 375px;
 }
 
 #j{
     position: relative;
-    top: -165;
-    left: 436px;
+    top: -159px;
+    left: 454px;
 }
 /*END Map*/
+
 
 /*END Content Elements*/
 
@@ -644,4 +645,8 @@ div.next-button:hover{
 #search-glass{
     width: 50px;
     height: 40px;
+}
+
+.bottom-margin{
+    margin-bottom: 20px;
 }
