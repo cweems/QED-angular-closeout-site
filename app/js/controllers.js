@@ -26,8 +26,7 @@ function PhoneListCtrl($scope, $http) {
   })
 
   $(document).scroll(function(){
-    var currentSection = $('h1:in-viewport:first').parent().parent().parent().attr('id');
-    if(!currentSection.type(undefined)){
+    var currentSection = $('h1:in-viewport:first').attr('class');
     console.log(currentSection);
     switch(currentSection){
       case 'first-link':
@@ -36,7 +35,6 @@ function PhoneListCtrl($scope, $http) {
         $scope.Filter = {type : 'Welcome'};
         $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', newValue: 'first-link'};
     };
-  };
   });
 
   $('ul.nav li').click(function(event){
