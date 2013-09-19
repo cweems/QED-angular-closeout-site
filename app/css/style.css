@@ -1,3 +1,8 @@
+@font-face{
+    font-family: GillSans;
+    src: url('../fonts/GillSans.ttc');
+}
+
 
 /*Main CSS */
 
@@ -89,8 +94,7 @@ li{
     padding-right: 19px;
     padding-top: 30px;
     padding-bottom: 20px;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 200; 
+    font-family: 'GillSans', sans-serif; 
 }
 
 #site-subtitle{
@@ -328,7 +332,7 @@ width: auto;
 /*Map*/
 #map{
     width: 900px;
-    height: 500px;
+    height: 415px;
     background-image: url('../img/map.png');
     background-size:100%;
     background-repeat: no-repeat;
@@ -451,8 +455,20 @@ width: auto;
 .content{
     margin-top: 50px;
     margin-right: 280px;
+    max-width: 1100px;
 }
 
+@media (max-width: 768px) {
+    .content{
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .content{
+        margin-left: 150px;
+    }
+}
 
 ol3 { width: 370px; }
 .has-gutters .col4 { width: 550px; }

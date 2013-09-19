@@ -4,40 +4,37 @@
 
 
 
-function PhoneListCtrl($scope, $http) {
+function mainCtrl($scope, $http) {
   $http.get('content/items.json').success(function(data) {
-    $scope.items = data;
-    $scope.Filter = {type : 'Welcome'};
-    $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution'};
+    $scope.items = data; //Loads content items
+    $scope.Filter = {type : 'Welcome'}; //Sets filter for first section
+    $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution'}; //Sets value for 'next' button
   });
 
   $http.get('content/modals.json').success(function(modalData) {
-    $scope.modals = modalData;
+    $scope.modals = modalData; //Gets modal content
   });
 
-  $('ul.nav li').click(function(){
+  $('ul.nav li').click(function(){ //Changes class of clicked link to 'active'; white bar next to nav moves
 		$('ul.nav li.current').removeClass('current');
 		$(this).addClass('current');
   });
 
-  $('.next-button').click(function(){
+  $('.next-button').click(function(){ //Changes class of nav when next button is clicked
     var activeLink = $('ul.nav li.current').removeClass('current');
       activeLink.next().addClass('current');
   })
 
   $(document).scroll(function(){
-    var currentSection = $('h1:in-viewport:first').attr('class');
-    console.log(currentSection);
-    switch(currentSection){
-      case 'first-link':
-        $('ul.nav li.current').removeClass('current');
-        $('ul.nav li#first-link').addClass('current');
-        $scope.Filter = {type : 'Welcome'};
-        $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', newValue: 'first-link'};
+    $('.section-head').waypoint(function(direction) {
+      var theWaypoint = $(this).attr('id');
+      if(theWaypoint != undefined){
+      console.log(theWaypoint).string();
     };
+    });
   });
 
-  $('ul.nav li').click(function(event){
+  $('ul.nav li').click(function(event){ 
     var navId = event.target.id;
     switch(navId){
     case 'first-link':

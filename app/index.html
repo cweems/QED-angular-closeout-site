@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app  ng-controller="PhoneListCtrl">
+<html lang="en" ng-app  ng-controller="mainCtrl">
 <head>
   <meta charset="utf-8">
   <!--Created by Charlie Weems (charlieweems.com) @charlieweems https://github.com/cweems/QED-angular-closeout-site-->
@@ -19,15 +19,15 @@
 
   <script src="js/controllers.js"></script>
   <script src="js/jquery-easing.js"></script>
+  <script src="js/waypoints.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 
 </head>
 
-<body data-spy="scroll" data-target="#nav-links">
+<body>
 
-
-  <div class="col-md-3 pull-right" ng-click="query = null">
+  <div class="hidden-xs col-md-3 pull-right" ng-click="query = null">
         <div class="portfolioFilter">
     <div id="site-title">KDMD</div>
     <h2 id="site-subtitle">The Knowledge-Driven<br>
@@ -35,7 +35,7 @@
       Project</h2>
 
                 <div id="nav-links">
-                  <ul class="nav">
+                  <ul class="nav nav-list affix">
                     <li class="current"><a href="#Welcome" id="first-link">Letter From the Team</a></li>
                     <li><a href="#Evolution" id="second-link">Evolution of KDMD</a></li>
                     <li><a href="#Approach" id="third-link">Our KM Approach</a></li>
@@ -75,13 +75,11 @@
 
 
 
-    <div class="row-fluid">
 
 
 
 
-      <div class="content">
-      
+      <div class="content" data-spy="scroll" data-target="#nav-links ul">
 
         <!--Body content-->
             <div ng-animate="{enter: 'animate-enter', leave: 'animate-leave', move: 'animate-enter'}" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" id="{{item.id}}" class="{{item.class}} {{item.width}} {{item.height}}">
@@ -102,7 +100,7 @@
 
       <!--END Body content-->
 <div class="next-button" id={{nextButton.id}}>
-  <a ng-click="Filter = {type : '{{nextButton.filter}}'}" ng-model="Filter" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
+  <a ng-click="Filter = {type : '{{nextButton.filter}}'}" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
 </div>
 
 </div>
@@ -129,11 +127,7 @@
   
 </div>
 
-<script type="text/javascript">
-    $('.touch-point').popover({
-      trigger: "hover"
-    });
-   </script>
+
 
 
 </body>
