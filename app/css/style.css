@@ -126,6 +126,7 @@ li{
     padding-left: 4px;
     line-height: 30px;
     padding-right: 4px;
+    min-height: 600px;
 }
 
 .portfolioFilter li a {
@@ -481,39 +482,36 @@ ol3 { width: 370px; }
 /**** Transitions ****/
 
 
-.animate-enter,
-{
-    -webkit-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    -moz-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    -ms-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    -o-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
+.animate-enter, 
+.animate-leave { 
+    -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
     position: relative;
     display: block;
-    overflow: hidden;
-    text-overflow: clip;
-    white-space:nowrap; 
-}
-
-.animate-leave
-{ 
-    -webkit-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    -moz-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    -ms-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    -o-transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    transition: 500ms cubic-bezier(0.750, 0.750, 0.750, 0.750) all;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    text-overflow: clip;
-    white-space:nowrap;
 } 
 
-.animate-leave, .animate-leave-active {
+.animate-leave.animate-leave-active,
+.animate-enter {
+    -webkit-transform: scaleY(0) scaleX(0);
+    -moz-transform: scaleY(0) scaleX(0);
+    -ms-transform: scaleY(0) scaleX(0);
+    -o-transform: scaleY(0) scaleX(0);
+    transform: scaleY(0) scaleX(0);
+    height: 0px;
     opacity: 0;
 }
 
- .animate-enter .animate-leave-active{
+.animate-enter.animate-enter-active,
+.animate-leave {
+    -webkit-transform: scaleY(1) scaleX(1);
+    -moz-transform: scaleY(1) scaleX(1);
+    -ms-transform: scaleY(1) scaleX(1);
+    -o-transform: scaleY(1) scaleX(1);
+    transform: scaleY(1) scaleX(1);
+    height: 30px;
     opacity: 1;
 }
 
