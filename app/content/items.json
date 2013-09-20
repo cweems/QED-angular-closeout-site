@@ -213,7 +213,7 @@
         "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>17</h1><h2 class='col-md-12'>Average number of action-items to complete for an event.</h2>"
     },
     {
-        "order": 140,
+        "order": 135,
         "class": "",
         "covervisible" : "not-visible",
         "clickable" : "",
@@ -225,6 +225,20 @@
         "height" : "height1",
         "modal": "modal",
         "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>224</h1><h2 class='col-md-12'>Number of wiki pages authored by KDMD staff.</h2>"
+    },
+    {
+        "order": 140,
+        "class": "",
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Infographic", 
+        "imageUrl": "img/items/al-cycle.png", 
+        "bigTitle": "Life Cycle", 
+        "type" : "approach partners communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "href" : "#life-cycle"
     },
     {
         "order": 141,
@@ -281,20 +295,6 @@
         "height" : "height1",
         "modal": "modal",
         "html" : "<img src='img/items/ln-phases.png'>"
-    },
-    {
-        "order": 146,
-        "class": "",
-        "covervisible" : "not-visible",
-        "clickable" : "",
-        "heading": "", 
-        "imageUrl": "", 
-        "bigTitle": "", 
-        "type" : "approach partners communities reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
     },
     {
         "order": 147,
@@ -438,20 +438,6 @@
         "modal": "modal",
         "html"  : "",
         "href" : "#zachary-video"
-    },
-    {
-        "order": 192,
-        "class": "",
-        "covervisible" : "visible",
-        "clickable" : "clickable",
-        "heading": "Blog post:", 
-        "imageUrl": "img/items/org-chart-icon.png", 
-        "bigTitle": "Our Partner Geography", 
-        "type" : "partners communities reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "href" : "#org-chart",
-        "modal": "modal"
     },
     {
         "order": 193,
@@ -620,20 +606,6 @@
         "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD.</h2>"
     },
     {
-        "order": 205,
-        "class": "",
-        "covervisible" : "not-visible",
-        "clickable" : "",
-        "heading": "team-letter", 
-        "imageUrl": "", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "communities reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "",
-        "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
-    },
-    {
         "order": 210,
         "class": "",
         "covervisible" : "not-visible",
@@ -651,7 +623,7 @@
         "order": 215,
         "class": "",
         "covervisible" : "not-visible",
-        "clickable" : "",
+        "clickable" : "clickable",
         "heading": "team-letter", 
         "imageUrl": "", 
         "bigTitle": "Letter from the Team", 
@@ -791,20 +763,6 @@
         "height" : "height1",
         "modal": "modal",
         "href" : "#our-websites"
-    },
-    {
-        "order": 310,
-        "class": "",
-        "covervisible" : "visible",
-        "clickable" : "clickable",
-        "heading": "Infographic", 
-        "imageUrl": "img/items/al-cycle.png", 
-        "bigTitle": "Life Cycle", 
-        "type" : "reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "modal": "modal",
-        "href" : "#life-cycle"
     },
     {
         "order": 320,
