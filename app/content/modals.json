@@ -263,6 +263,12 @@
         "content" : "<p>The creative idea of former Chief of Party, Thom Sinclair, KSLam (Knowledge Sharing and Learning in the morning) is an opportunity for the KDMD team to gather twice per month to share ideas and interesting approaches to inform our work in Knowledge Management (KM) and learning. Because good KM and learning is inspired by innovation and the constant influx of new ideas, the KDMD culture has always encouraged discovery and curiosity. Fridays, in particular, are heralded as “no meeting” days, providing time to read or pursue individual interests. Often these exploits will serve as the basis for a KSLam presentation.</p><br><p><em>What it looks like:</em><br><p>Different team members (individuals or groups) lead these 45-minute sessions based on their background, current projects, or areas of interest and expertise. They could be presentations, discussions, or workshops – but they should always be fun and interactive!</p><br><p> For example, when team members attend a conference they might use KSLam as an opportunity to share that experience with the rest of the team. Other KSLams have focused on:</p><br><ul><li>Key Skills (i.e. project management or facilitation)</li><li>KDMD-specific activities (i.e. blended learning or evaluation plans)</li><li>New Resources (i.e. organizational tools or information sharing)</li><li>Team building (i.e. strengths quest)</li><li>Big Idead (i.e. open data or USAID Forward forums)</li></ul><br><p><em>The Outcome:</em><p><br><p>In the end, the goal is that team members leave with a new idea, approach, or tool that will lead them on their own creative endeavors to apply to their activities, thus creating a cycle of learning and innovation that expands our skills and services and enhances the quality of our work.</p>"
     },
     {
+        "order": 520,
+        "id" : "kdmd-commute",
+        "header" : "About KSLAMs",
+        "content" : "<img src='img/items/kdmdcommute.png'>"
+    },
+    {
         "order": 800,
         "width" : "<p></p>",
         "id" : "qed-twitter",
