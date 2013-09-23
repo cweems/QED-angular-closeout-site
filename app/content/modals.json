@@ -144,8 +144,14 @@
     },
     {
         "order": 100,
-        "id" : "ee-video",
-        "header" : "Our Innovative Seminar Support",
+        "id" : "hss-video",
+        "header" : "Health Systems Strengthening Digital Story",
+        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/hRHHO6zoPnk' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+        "order": 105,
+        "id" : "mch-video",
+        "header" : "Maternal and Child Health Digital Story",
         "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/3uIzSDg8_Zw' frameborder='0' allowfullscreen></iframe>"
     },
     {

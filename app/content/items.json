@@ -346,7 +346,7 @@
         "href" : "#zachary-video"
     },
     {
-        "order": 193,
+        "order": 192,
         "covervisible" : "not-visible", 
         "bigTitle": "The Importance of KM", 
         "type" : "partners communities reach impact team contact",
@@ -356,7 +356,7 @@
         "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>33</h1><h2 class='col-md-12'>Number of USAID activity leads over the course of the project.</h2>"
     },
     {
-        "order": 194,
+        "order": 193,
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "Heading Here", 
@@ -369,7 +369,7 @@
         "href" : "#jeanne-video"
     },
     {
-        "order": 195,
+        "order": 194,
         "covervisible" : "not-visible", 
         "bigTitle": "The Importance of KM", 
         "type" : "partners communities reach impact team contact",
@@ -379,7 +379,7 @@
         "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
     },
     {
-        "order": 196,
+        "order": 195,
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "Outreach Product", 
@@ -392,16 +392,29 @@
         "modal": "modal"
     },
     {
-        "order": 197,
+        "order": 196,
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "Outreach Product", 
         "imageUrl": "img/items/eande.png", 
-        "bigTitle": "E&E Digital Story", 
+        "bigTitle": "HSS Digital Story", 
         "type" : "partners communities reach impact team contact",
         "width" : "col-md-4",
         "height" : "height1",
-        "href" : "#ee-video",
+        "href" : "#hss-video",
+        "modal": "modal"
+    },
+    {
+        "order": 197,
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Outreach Product", 
+        "imageUrl": "img/items/mch.png", 
+        "bigTitle": "MCH Digital Story", 
+        "type" : "partners communities reach impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#mch-video",
         "modal": "modal"
     },
     {
