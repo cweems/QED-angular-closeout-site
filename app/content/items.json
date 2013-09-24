@@ -2,13 +2,22 @@
      
     {
         "order": 1,
-        "id" : "Welcome",
+        "id" : "Summary",
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team",
         "type" : "summary welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
         "html"  : "<h1 id='summary' class='section-head'>KDMD Final Report</h1>"    
+    },
+    {
+        "order": 2,
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team",
+        "type" : "summary welcome evolution approach partners communities reach impact team contact",
+        "width" : "col-md-12",
+        "html"  : "<div class='container well'><div class='col-md-4'>Submitted:<br>September 2013</div> <div class='col-md-4'>Contract #: <br>EEM-C-00-08-00004-00</div> <div class='col-md-4'>Prepared by:<br>The QED Group, LLC<br>1250 Eye Street, Suite 1100<br>Washington, DC, 20005</div></div>"    
     },
     {
         "order": 10,
@@ -952,7 +961,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "href" : "#l2"
+        "href" : "#sar-download"
     },
     {
         "order": 540,
@@ -1017,7 +1026,7 @@
         "order": 580,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "Words Most Frequently Used In", 
+        "heading": "Our Internal KM Efforts:", 
         "imageUrl": "img/items/adrian.png", 
         "bigTitle": "What is a KSLAM?", 
         "type" : "team contact",
@@ -1106,7 +1115,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "href" : "#partners-modal"
+        "href" : "#qed-facebook"
     },
     {
         "order": 630,

@@ -7,8 +7,8 @@
 function mainCtrl($scope, $http) {
   $http.get('content/items.json').success(function(data) {
     $scope.items = data; //Loads content items
-    $scope.Filter = {type : 'Welcome'}; //Sets filter for first section
-    $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution'}; //Sets value for 'next' button
+    $scope.Filter = {type : 'Summary'}; //Sets filter for first section
+    $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome'}; //Sets value for 'next' button
   });
 
   $http.get('content/modals.json').success(function(modalData) {
@@ -37,6 +37,11 @@ function mainCtrl($scope, $http) {
   $('ul.nav li').click(function(event){ 
     var navId = event.target.id;
     switch(navId){
+    case 'summary':
+      $scope.Filter = {type : 'Summary'};
+      $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome', newValue: 'first-link'};
+      $('body').scrollTo( $('#Summary'), 800 );
+      break;
     case 'first-link':
       $scope.Filter = {type : 'Welcome'};
       $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', newValue: 'first-link'};

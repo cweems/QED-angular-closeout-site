@@ -49,7 +49,7 @@
     {
         "order": 60,
         "id" : "kristin-video",
-        "header" : "Our Innovative Seminar Support",
+        "header" : "The Importance of KM",
         "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/QQNnQTd_d44' frameborder='0' allowfullscreen></iframe>"
     },
     {
@@ -97,7 +97,7 @@
     {
         "order": 68,
         "id" : "Jamaica",
-        "header" : "Jamaica",
+        "header" : "USAID | Jamaica",
         "content": "<p>Since 2009, KDMD assisted USAID/Jamaica in designing, managing, and implementing the Jamaica Partners for Educational Progress Community of Practice (CoP), a country-level community focused on improving basic education and early grade literacy in the country. The CoP originally started as a network of education professionals and stakeholders who collaborated virtually and in person to share knowledge, discuss critical issues, and provide peer support. In addition to building a website to serve as the CoP hub, KDMD rolled out a series of core CoP products and activities, including EduExchange online discussions, EduFocus publications, and a community newsletter. In June 2013, KDMD facilitated the successful transition of the management of the CoP from USAID/Jamaica to the University of the West Indies, a local academic institution in the Caribbean that was well-prepared to assume ownership of the newly expanded Caribbean Partners for Educational Progress Community of Practice.  </p>"
     },
     {
@@ -197,7 +197,7 @@
         "order": 134,
         "id" : "avgevents",
         "header" : "Number of Events Hosted by KDMD",
-        "content" : "<img style='width:100%;' src='img/items/monthly-events.png'>"
+        "content" : "<img style='width:100%;' src='img/items/monthly-events.png'><br><br><p>Learning events were a major element of KDMD's outreach efforts. While the project organized an average of 12 events per month, the actual number of events varied significantly in response to the demands of clients.</p>"
     },
     {
         "order": 135,
@@ -217,7 +217,7 @@
         "width" : "65%",
         "id" : "list-growth",
         "header" : "Growth of Our Mailing Lists",
-        "content": "<img style='width:100%;' src='img/items/list-growth.png'>"
+        "content": "<img style='width:100%;' src='img/items/list-growth.png'><br><br><p>Mailing lists served as a critical outreach tool that helped bring visitors to our websites and events.</p>"
     },
     {
         "order": 138,
@@ -255,6 +255,13 @@
         "content": "<div class='container'><div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div></div>"
     },
     {
+        "order": 360,
+        "width" : "85%",
+        "id" : "sar-download",
+        "header" : "Our Partners in the International Development Community",
+        "content": "<p>KDMD's Semi-Annual Reports served as an important tool in establishing goals and marking achievements for the project. Download these PDF reports to dive deeper into the successes and challenges we met in our KM efforts:</p>"
+    },
+    {
         "order": 400,
         "width" : "85%",
         "id" : "l2",
@@ -287,6 +294,13 @@
         "id" : "qed-twitter",
         "header" : "QED Twitter Feed",
         "content" : "<a class='twitter-timeline' href='https://twitter.com/QEDGroup' data-widget-id='380386925594415105'>Tweets by @QEDGroup</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>"
+    },
+    {
+        "order": 900,
+        "width" : "<p></p>",
+        "id" : "qed-facebook",
+        "header" : "QED Facebook Feed",
+        "content" : "<div id='fb-root'></div><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = '//connect.facebook.net/en_US/all.js#xfbml=1&appId=370261533087575';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>"
     }
 
 ]
