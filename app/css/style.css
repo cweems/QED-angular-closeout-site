@@ -96,15 +96,18 @@ li{
 }
 
 #site-subtitle{
-    font-weight: 400; 
+    font-weight: 600;
     padding: 17px;
     text-align: center;
-    font-size: 19px;
-    border-bottom: #fff 5px solid;
-    border-top: #fff 5px solid;
+    font-size: 20px;
+    border-bottom: 
+    #fff 5px solid;
+    border-top: 
+    #fff 5px solid;
     padding-top: 8px;
     padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
+    line-height: 20px;
 }
 
 /*Navigation Links*/
@@ -127,6 +130,7 @@ li{
     line-height: 30px;
     padding-right: 4px;
     min-height: 600px;
+    -webkit-transform-style: preserve-3d;
 }
 
 .portfolioFilter li a {
@@ -141,7 +145,6 @@ li{
     -moz-transition: color .25s linear;
     -ms-transition: color .25s linear;
     -o-transition: color .25s linear;
-
 }
 
 .portfolioFilter li a:hover { 
@@ -190,6 +193,7 @@ img {
 	text-transform: uppercase;
 	font-size: 11px;
     color: #468EFA;
+    margin-bottom: 0px; 
 }
 
 

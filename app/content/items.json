@@ -211,6 +211,7 @@
      {
         "order": 142,
         "covervisible" : "not-visible",
+        "clickable" : "clickable",
         "heading": "", 
         "bigTitle": "", 
         "type" : "approach partners communities reach impact team contact",
