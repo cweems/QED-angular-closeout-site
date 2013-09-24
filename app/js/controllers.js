@@ -22,19 +22,19 @@ function mainCtrl($scope, $http) {
 
   $('.next-button').click(function(){ //Changes class of nav when next button is clicked
     var activeLink = $('ul.nav li.current').removeClass('current');
-      activeLink.next().addClass('current');
+    activeLink.next().addClass('current');
   })
 
   $(document).scroll(function(){
     $('.section-head').waypoint(function(direction) {
       var theWaypoint = $(this).attr('id');
-      if(theWaypoint != undefined){
-      console.log(theWaypoint).string();
-    };
+      if(theWaypoint !== undefined){
+        console.log(theWaypoint).string;
+      }
     });
   });
 
-  $('ul.nav li').click(function(event){ 
+  $('ul.nav li').click(function(event){
     var navId = event.target.id;
     switch(navId){
     case 'summary':
