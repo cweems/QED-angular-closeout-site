@@ -6,7 +6,7 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team",
-        "type" : "welcome evolution approach partners communities reach impact team contact",
+        "type" : "summary welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
         "html"  : "<h1 id='summary' class='section-head'>KDMD Final Report</h1>"    
     },

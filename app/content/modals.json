@@ -184,7 +184,7 @@
         "width" : "85%",
         "id" : "partners-modal",
         "header" : "Our Partners in the International Development Community",
-        "content": "<div class='col-md-6'><li>ACDI/VOCA</li> <li>APLU</li><li>AZMJ/Cracking the Nut</li><li>CGAP</li><li>Feed the Future Innovation Labs (Formely CRSPs)</li><li>FIELD-Support LWA</li><li>Fintrac</li><li>FSN Network</li><li>Inter-American Development Bank</li><li>IFC</li></div><div class='col-md-6'><li>IFPRI</li><li>ILRI</li><li>KM4Dev</li><li>Making Cents</li><li>Once Acre Fund</li><li>SEEP Network</li><li>SID-Washington KM Working Group</li><li>UN Women</li><li>WEConnect International</li><li>World Bank</li></div>"
+        "content": "<div class='container'><div class='col-md-6'><li>ACDI/VOCA</li> <li>APLU</li><li>AZMJ/Cracking the Nut</li><li>CGAP</li><li>Feed the Future Innovation Labs (Formely CRSPs)</li><li>FIELD-Support LWA</li><li>Fintrac</li><li>FSN Network</li><li>Inter-American Development Bank</li><li>IFC</li></div><div class='col-md-6'><li>IFPRI</li><li>ILRI</li><li>KM4Dev</li><li>Making Cents</li><li>Once Acre Fund</li><li>SEEP Network</li><li>SID-Washington KM Working Group</li><li>UN Women</li><li>WEConnect International</li><li>World Bank</li></div></div>"
     },
     {
         "order": 133,
