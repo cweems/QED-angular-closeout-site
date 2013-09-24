@@ -111,10 +111,10 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "approach partners communities reach impact team contact",
+        "type" : "evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 90,
@@ -276,10 +276,10 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "partners communities reach impact team contact",
+        "type" : "approach partners communities reach impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 160,
@@ -485,10 +485,10 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "communities reach impact team contact",
+        "type" : "partners communities reach impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 202,
@@ -610,10 +610,10 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "reach impact team contact",
+        "type" : "communities reach impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 301,
@@ -822,10 +822,10 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "impact team contact",
+        "type" : "reach impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 401,
@@ -836,7 +836,7 @@
         "type" : "impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 class='section-head'>Our Influence</h1><br><br><p>KDMD has revolutionized the way development practitioners connect with each other, significantly influencing how knowledge management is understood across USAID. This project has demonstrated that “knowledge management” is a technical field unto itself. Now more than ever, programs are being designed with a KM component to maximize learning and ultimately, to achieve better development outcomes.</p>"
+        "html"  : "<h1 class='section-head'>Our Impact</h1><br><br><p>KDMD has revolutionized the way development practitioners connect with each other, significantly influencing how knowledge management is understood across USAID. This project has demonstrated that “knowledge management” is a technical field unto itself. Now more than ever, programs are being designed with a KM component to maximize learning and ultimately, to achieve better development outcomes.</p>"
     },
     {
         "order": 410,
@@ -902,10 +902,10 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "team contact",
+        "type" : "impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 501,
@@ -916,7 +916,7 @@
         "type" : "team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 class='section-head'>Our Story, Our Team</h1>"
+        "html"  : "<h1 class='section-head'>Our Team, Our Story</h1>"
     },
     {
         "order": 510,
@@ -1019,7 +1019,7 @@
         "clickable" : "clickable",
         "heading": "Words Most Frequently Used In", 
         "imageUrl": "img/items/adrian.png", 
-        "bigTitle": "About KSLAM", 
+        "bigTitle": "What is a KSLAM?", 
         "type" : "team contact",
         "width" : "col-md-4",
         "height" : "height1",
@@ -1058,7 +1058,7 @@
         "type" : "team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     },
     {
         "order": 601,
@@ -1070,6 +1070,17 @@
         "width" : "col-md-12",
         "modal": "modal",
         "html"  : "<h1 class='section-head'>Contact</h1>"
+    },
+    {
+        "order": 670,
+        "id" : "Contact",
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "contact",
+        "width" : "col-md-12",
+        "modal": "modal",
+        "html"  : "<div class='panel panel-default'><div class='panel-heading'><h4 class='panel-title'><a class='accordion-toggle' data-toggle='collapse' data-parent='#accordion' href='#collapseOne'><p class='text-center'>Disclaimer</p></a></h4></div><div id='collapseOne' class='panel-collapse collapse'><div class='panel-body'><p>Since the KDMD project officially began in 2008, data collection processes have significantly evolved and expanded over the years. The authors of this report used as many sources as possible to synthesize the project’s accomplishments, but they also acknowledge that in many cases, data was not available in all years for all programs. In order to illustrate the broad scope of KDMD’s work, the calculation of metrics across this report used a robust mixture of methods, tools and resources. The following is an illustrative list of some methods and tools used:</p><br><ul><li>Activity reports</li><li>Google Analytics</li><li>Surveys with staff and other stakeholders</li><li>Project billing/staffing records</li><li>USAID University Training Course Enrollment Data</li><li>Adobe Connect analytics</li><li>After Action Review records</li><li>KDMD Training Sign in Sheets</li></ul><br><p>Due to incomplete datasets, not all activities were uniformly documented with the same tools, resulting in some missing data points. In the case of missing data for a documented activity, an average across other similar activities was used as a proxy in the calculation of these overall metrics.</p><br><p>This final report was produced for review by the U.S. Agency for International Development (USAID) under the Knowledge-Driven Microenterprise Development (KDMD) project, implemented by the QED Group LLC (Contract #EEM-C00-08-00004-00). The views expressed are those of the authors and do not represent the views of the U.S. Agency for International Development of the United States Government.</p></div></div></div>"
     },
     {
         "order": 610,
@@ -1111,25 +1122,13 @@
         "href" : "#partners-modal"
     },
     {
-        "order": 400,
+        "order": 640,
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
         "type" : "impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<h1 width='100%'></h1>"
-    },
-    {
-        "order": 670,
-        "id" : "Contact",
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "contact",
-        "width" : "col-md-12",
-        "modal": "modal",
-        "html"  : "<div class='panel panel-default'><div class='panel-heading'><h4 class='panel-title'><a class='accordion-toggle' data-toggle='collapse' data-parent='#accordion' href='#collapseOne'><p class='text-center'>Disclaimer</p></a></h4></div><div id='collapseOne' class='panel-collapse collapse'><div class='panel-body'><p>Since the KDMD project officially began in 2008, data collection processes have significantly evolved and expanded over the years. The authors of this report used as many sources as possible to synthesize the project’s accomplishments, but they also acknowledge that in many cases, data was not available in all years for all programs. In order to illustrate the broad scope of KDMD’s work, the calculation of metrics across this report used a robust mixture of methods, tools and resources. The following is an illustrative list of some methods and tools used:</p><br><ul><li>Activity reports</li><li>Google Analytics</li><li>Surveys with staff and other stakeholders</li><li>Project billing/staffing records</li><li>USAID University Training Course Enrollment Data</li><li>Adobe Connect analytics</li><li>After Action Review records</li><li>KDMD Training Sign in Sheets</li></ul><br><p>Due to incomplete datasets, not all activities were uniformly documented with the same tools, resulting in some missing data points. In the case of missing data for a documented activity, an average across other similar activities was used as a proxy in the calculation of these overall metrics.</p><br><p>This final report was produced for review by the U.S. Agency for International Development (USAID) under the Knowledge-Driven Microenterprise Development (KDMD) project, implemented by the QED Group LLC (Contract #EEM-C00-08-00004-00). The views expressed are those of the authors and do not represent the views of the U.S. Agency for International Development of the United States Government.</p></div></div></div>"
+        "html"  : "<h1 class='spacer' width='100%'></h1>"
     }
-
 ]

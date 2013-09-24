@@ -692,3 +692,7 @@ div.next-button:hover{
 [ng\:cloak], [ng-cloak], .ng-cloak {
   display: none;
 }
+
+.spacer{
+    background-color: white;
+}
