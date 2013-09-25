@@ -7,7 +7,7 @@
 function mainCtrl($scope, $http) {
   $http.get('content/items.json').success(function(data) {
     $scope.items = data; //Loads content items
-    $scope.Filter = {type : 'Summary'}; //Sets filter for first section
+    $scope.Filter = {type : 'Introduction'}; //Sets filter for first section
     $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome'}; //Sets value for 'next' button
   });
 
@@ -38,9 +38,9 @@ function mainCtrl($scope, $http) {
     var navId = event.target.id;
     switch(navId){
     case 'summary':
-      $scope.Filter = {type : 'Summary'};
+      $scope.Filter = {type : 'Introduction'};
       $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome', newValue: 'first-link'};
-      $('body').scrollTo( $('#Summary'), 800 );
+      $('body').scrollTo( $('#Introduction'), 800 );
       break;
     case 'first-link':
       $scope.Filter = {type : 'Welcome'};

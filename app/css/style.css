@@ -69,7 +69,7 @@ h3{
 
 li{
 	font-family: "Quicksand", sans-serif;
-	font-size: 28px; 
+	font-size: 25px; 
 	color:#5F5C5D;
 }
 
@@ -363,7 +363,7 @@ width: auto;
     background-repeat: no-repeat;
 }
 .well{
-    margin: 20px;
+    margin-top: 30px;
 }
 
 .touch-point{

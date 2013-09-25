@@ -2,20 +2,20 @@
      
     {
         "order": 1,
-        "id" : "Summary",
+        "id" : "Introduction",
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team",
-        "type" : "summary welcome evolution approach partners communities reach impact team contact",
+        "type" : "introduction welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
-        "html"  : "<h1 id='summary' class='section-head'>KDMD Final Report</h1>"    
+        "html"  : "<h1 id='introduction' class='section-head'>KDMD Final Report</h1>"    
     },
     {
         "order": 2,
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team",
-        "type" : "summary welcome evolution approach partners communities reach impact team contact",
+        "type" : "introduction welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
         "html"  : "<div class='container well'><div class='col-md-4'>Submitted:<br>September 2013</div> <div class='col-md-4'>Contract #: <br>EEM-C-00-08-00004-00</div> <div class='col-md-4'>Prepared by:<br>The QED Group, LLC<br>1250 Eye Street, Suite 1100<br>Washington, DC, 20005</div></div>"    
     },
@@ -65,7 +65,7 @@
         "bigTitle": "Letter from the Team",
         "type" : "evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
-        "html"  : "<p>As knowledge management practitioners, it is our job to continuously adapt to our clients needs in order to ensure better development outcomes. During the five years that our project was active, we tripled our number of USAID buy-ins and continuously developed cutting-edge solutions to meet our partners' knowledge management needs.</p>"
+        "html"  : "<p>As knowledge management practitioners, it is our job to continuously adapt to our client's needs in order to ensure better development outcomes. During the five years that our project was active, we tripled our number of USAID buy-ins and continuously developed cutting-edge solutions to meet our partners' knowledge management needs.</p>"
     },
     {
         "order": 50,
@@ -80,7 +80,7 @@
         "order": 60,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "Stacey Young discusses", 
+        "heading": "KDMD's Original COR Stacey Young discusses", 
         "imageUrl": "img/items/stacey.png", 
         "bigTitle": "The Need for KM at USAID",
         "smallTitle" : "Watch the video >", 
@@ -113,7 +113,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<div class='list-head'>Main Sub-Contractors</div><ol><li>Engility</li><li>TRG</li><li>GLS</li><li>Zaloni</li></ol></div></div>"
+        "html" : "<div class='list-head'>Main Sub-Contractors</div><ol><li>Engility</li><li>Training Resources Group</li><li>Global Learning Systems</li><li>Zaloni</li></ol></div></div>"
     },
     {
         "order": 89,
@@ -168,7 +168,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>78</h1><h2 class='col-md-12'>Number of after-action reports complted over the course of the project.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>78</h1><h2 class='col-md-12'>Number of after-action reports complted over the course of the project</h2>"
     },
     {
         "order": 130,
@@ -179,7 +179,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>17</h1><h2 class='col-md-12'>Average number of action-items to complete for an event.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>17</h1><h2 class='col-md-12'>Average number of action items to complete for an event</h2>"
     },
     {
         "order": 135,
@@ -190,7 +190,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>224</h1><h2 class='col-md-12'>Number of wiki pages authored by KDMD staff.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>224</h1><h2 class='col-md-12'>Number of wiki pages authored by KDMD staff</h2>"
     },
     {
         "order": 140,
@@ -219,15 +219,16 @@
     },
      {
         "order": 142,
-        "covervisible" : "not-visible",
+        "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "", 
-        "bigTitle": "", 
+        "bigTitle": "Our Team Composition", 
         "type" : "approach partners communities reach impact team contact",
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<div class='list-head'>Our Team Composition</div><img style='width:100%;' src='img/items/team-composition.png'>"
+        "html" : "<img style='width:100%;' src='img/items/team-composition.png'>",
+        "href" : "#team-composition"
 
     },
     {
@@ -381,7 +382,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>33</h1><h2 class='col-md-12'>Number of USAID activity leads over the course of the project.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>33</h1><h2 class='col-md-12'>Number of USAID activity leads over the course of the project</h2>"
     },
     {
         "order": 193,
@@ -405,7 +406,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>476</h1><h2 class='col-md-12'>Number of videos produced by the KDMD project</h2>"
     },
     {
         "order": 195,
@@ -530,7 +531,7 @@
         "type" : "communities reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD</h2>"
     },
     {
         "order": 210,
@@ -540,7 +541,7 @@
         "type" : "communities reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>15,736</h1><h2 class='col-md-12'>Number of participants who joined a seminar organized by KDMD.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>15,736</h1><h2 class='col-md-12'>Number of participants who joined a seminar organized by KDMD</h2>"
     },
     {
         "order": 212,
@@ -550,7 +551,7 @@
         "type" : "communities reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>37</h1><h2 class='col-md-12'>Number of online courses created by KDMD.</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>37</h1><h2 class='col-md-12'>Number of online courses created by KDMD</h2>"
     },
     {
         "order": 215,
@@ -670,7 +671,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>143</h1><h2 class='col-md-12'>Newsletters sent over the course of the project.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>143</h1><h2 class='col-md-12'>Newsletters sent over the course of the project</h2>"
     },
     {
         "order": 330,
@@ -748,7 +749,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD staff.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD staff</h2>"
     },
     {
         "order": 345,
@@ -759,7 +760,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>8,517</h1><h2 class='col-md-12'>Combined number of social media followers on Twitter, Facebook, and YouTube.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>8,517</h1><h2 class='col-md-12'>Combined number of social media followers on Twitter, Facebook, and YouTube</h2>"
     },
     {
         "order": 360,
@@ -780,7 +781,7 @@
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>747,450</h1><h2 class='col-md-12'>Total page views for all KDMD websites.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>747,450</h1><h2 class='col-md-12'>Total page views for all KDMD websites</h2>"
     },
     {
         "order": 348,
@@ -790,7 +791,7 @@
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>496,754</h1><h2 class='col-md-12'>Total unique visitors who interacted with our sites.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>496,754</h1><h2 class='col-md-12'>Total unique visitors who interacted with our sites</h2>"
     },
     {
         "order": 350,
@@ -815,7 +816,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>160</h1><h2 class='col-md-12'>Total number of newsletters sent to our email lists with MailChimp.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>160</h1><h2 class='col-md-12'>Total number of newsletters sent to our email lists with MailChimp</h2>"
     },
     {
         "order": 370,
@@ -826,7 +827,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>60%</h1><h2 class='col-md-12'>Increase in unique visiors after upgrading to Agrilinks 2.0.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>60%</h1><h2 class='col-md-12'>Increase in unique visiors after upgrading to Agrilinks 2.0</h2>"
     },
     {
         "order": 400,
@@ -895,7 +896,7 @@
         "type" : "impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-4 fig'>935</h1><h2 class='col-md-8'>Number of USAID staff trained by the KDMD project.</h2>"
+        "html"  : "<h1 class='col-md-4 fig'>935</h1><h2 class='col-md-8'>Number of USAID staff trained by the KDMD project</h2>"
     },
     {
         "order": 440,
@@ -906,7 +907,7 @@
         "width" : "col-md-12",
         "height" : "height3",
         "modal": "modal",
-        "html" : "<div class='container col-md-12'><div class='well col-md-11'><div id='map'><div href='#' id='a' data-toggle='popover' class='touch-point' data-content='I have used the value chain wiki when writing SOWs. I have used various parts of the site when answering questions from the field - often sending them links so that they know where to find their own answers. I have used recordings of seminars to gather content for training curricula. More generally, the knowledge has filtered into my day-to-day work, which is hard to point to specifically.' data-original-title='USAID Staff |  Washington, DC'></div><div href='#' id='b' data-toggle='popover' class='touch-point' data-content='Microlinks is a great opportunity to hear experts speak about their work experiences and research results. And, the Q&A provide an insight into participant experiences as well as good opportunity for shared ideas, insights and experiences. It presents a sense of community.' data-original-title='AboutMicrofinance | New York, NY'></div><div href='#' id='c' rel='popover' class='touch-point' data-content='I tried to strengthen the value chain that we had identified in Lamjung, a western hilly district in Nepal. Our community user group (mostly made up of women) was given training and introduced market based system to help them kick start incense making enterprise. I shared the basics of value chain to young volunteers from Nepal and UK, who were working with members of the community. The project has already seen a couple of proactive individuals taking initial steps to start their SME.' data-original-title='Microlinks User | Nepal'></div><div href='#' id='d' class='touch-point' rel='popover' data-content='I think the prime benefit was not what we learned but what we had chance to present - the MSME project in Cambodia was presented by the chief of party. I think questions and interest we have received, as a mission, in the water and sanitation aspects, were a result of this training/presentation. I found ideas on visually impaired and mobile money - not so much in the specific, but in remembering to account for visual impairment in development programs - and talking to our staff about this. Reinvigorated discussion about inclusion, use of mobile technology.' data-original-title='USAID Staff | Cambodia'></div><div href='#' id='e' rel='popover' class='touch-point' data-content='Childfund International, (Indonesia): I applied the resources from Microlinks to my work, for example when I was working at Mercy Corps in Indonesia National Office Economic Development Section, Microlinks shared the training presentation on involving women in economic empowerment that assisted me in developing a project design that enabled more participation from local women in a grant proposal for market research activity for certain commodity in eastern part of Indonesia that resulted in approval for the grant.' data-original-title='Childfund International | Indonesia'></div><div href='#' id='f' rel='popover' class='touch-point' data-content='Microlinks provides a centralized repository of information related to USAID value chain development approach, so it saves a lot of time searching the internet for this type of information. Also provides efficient way to link to other professionals working in the field.' data-original-title='Key Development Fund | Lebanon'></div><div href='#' id='g' rel='popover' class='touch-point' data-content='I logged into the Agriculture Extension and Advisory Services under the New Normal of Climate Change webinar in February. I am helping a farmers group implement a grant for a demonstration farm and Farmer Field Schools. I learned the importance of capitalizing on the impact of recent experiences with climate shocks. Last fall we were affected by Hurricane Sandy followed by a crop failure inducing drought. These events will be highlighted as teachable moments as we demonstrate climate adaptive technology in a farmer-to-farmer format.' data-original-title='Peace Corps Volunteer | Jamaica'></div><div href='#' id='h' rel='popover' class='touch-point' data-content='Advising regional civic society groups that include farmer organizations, CBOs and government department. Advising private sector companies and on grant application assessment, evaluation and setting award criterion.' data-original-title='Southern Africa Trade Hub | Botswana'></div><div href='#' id='i' rel='popover' class='touch-point' data-content='So far I have used information from the seminar in particular for strengthening my research skills and to acquire scientific knowledge to facilitate the creation and utilization of food quality improvement and maintenance system. It has also helped me in the development of the project titled Evaluation of Processing Methods for Optimization of Vitamin A in Cocoyam Based Foods for Combating Vitamin A deficiency in Women and Children. This project is still ongoing but I intend to carry out extension work using most of the Health facilities within my area.' data-original-title='Agrilinks User | Nigeria'></div><div href='#' id='j' rel='popover' class='touch-point' data-content='When I found myself involved in a re-alignment and reprogramming of a controversial awarded USAID project reading through several of the Agrilinks cases as well as Microlinks gave me a good grounding in my assignment execution.' data-original-title='Agrilinks User | Kenya'></div></div></div></div><script type='text/javascript'>$('.touch-point').popover({trigger: 'hover'}); </script>"
+        "html" : "<div class='container col-md-12'><div class='well'><div id='map'><div href='#' id='a' data-toggle='popover' class='touch-point' data-content='I have used the value chain wiki when writing SOWs. I have used various parts of the site when answering questions from the field - often sending them links so that they know where to find their own answers. I have used recordings of seminars to gather content for training curricula. More generally, the knowledge has filtered into my day-to-day work, which is hard to point to specifically.' data-original-title='USAID Staff |  Washington, DC'></div><div href='#' id='b' data-toggle='popover' class='touch-point' data-content='Microlinks is a great opportunity to hear experts speak about their work experiences and research results. And, the Q&A provide an insight into participant experiences as well as good opportunity for shared ideas, insights and experiences. It presents a sense of community.' data-original-title='AboutMicrofinance | New York, NY'></div><div href='#' id='c' rel='popover' class='touch-point' data-content='I tried to strengthen the value chain that we had identified in Lamjung, a western hilly district in Nepal. Our community user group (mostly made up of women) was given training and introduced market based system to help them kick start incense making enterprise. I shared the basics of value chain to young volunteers from Nepal and UK, who were working with members of the community. The project has already seen a couple of proactive individuals taking initial steps to start their SME.' data-original-title='Microlinks User | Nepal'></div><div href='#' id='d' class='touch-point' rel='popover' data-content='I think the prime benefit was not what we learned but what we had chance to present - the MSME project in Cambodia was presented by the chief of party. I think questions and interest we have received, as a mission, in the water and sanitation aspects, were a result of this training/presentation. I found ideas on visually impaired and mobile money - not so much in the specific, but in remembering to account for visual impairment in development programs - and talking to our staff about this. Reinvigorated discussion about inclusion, use of mobile technology.' data-original-title='USAID Staff | Cambodia'></div><div href='#' id='e' rel='popover' class='touch-point' data-content='Childfund International, (Indonesia): I applied the resources from Microlinks to my work, for example when I was working at Mercy Corps in Indonesia National Office Economic Development Section, Microlinks shared the training presentation on involving women in economic empowerment that assisted me in developing a project design that enabled more participation from local women in a grant proposal for market research activity for certain commodity in eastern part of Indonesia that resulted in approval for the grant.' data-original-title='Childfund International | Indonesia'></div><div href='#' id='f' rel='popover' class='touch-point' data-content='Microlinks provides a centralized repository of information related to USAID value chain development approach, so it saves a lot of time searching the internet for this type of information. Also provides efficient way to link to other professionals working in the field.' data-original-title='Key Development Fund | Lebanon'></div><div href='#' id='g' rel='popover' class='touch-point' data-content='I logged into the Agriculture Extension and Advisory Services under the New Normal of Climate Change webinar in February. I am helping a farmers group implement a grant for a demonstration farm and Farmer Field Schools. I learned the importance of capitalizing on the impact of recent experiences with climate shocks. Last fall we were affected by Hurricane Sandy followed by a crop failure inducing drought. These events will be highlighted as teachable moments as we demonstrate climate adaptive technology in a farmer-to-farmer format.' data-original-title='Peace Corps Volunteer | Jamaica'></div><div href='#' id='h' rel='popover' class='touch-point' data-content='Advising regional civic society groups that include farmer organizations, CBOs and government department. Advising private sector companies and on grant application assessment, evaluation and setting award criterion.' data-original-title='Southern Africa Trade Hub | Botswana'></div><div href='#' id='i' rel='popover' class='touch-point' data-content='So far I have used information from the seminar in particular for strengthening my research skills and to acquire scientific knowledge to facilitate the creation and utilization of food quality improvement and maintenance system. It has also helped me in the development of the project titled Evaluation of Processing Methods for Optimization of Vitamin A in Cocoyam Based Foods for Combating Vitamin A deficiency in Women and Children. This project is still ongoing but I intend to carry out extension work using most of the Health facilities within my area.' data-original-title='Agrilinks User | Nigeria'></div><div href='#' id='j' rel='popover' class='touch-point' data-content='When I found myself involved in a re-alignment and reprogramming of a controversial awarded USAID project reading through several of the Agrilinks cases as well as Microlinks gave me a good grounding in my assignment execution.' data-original-title='Agrilinks User | Kenya'></div></div></div></div><script type='text/javascript'>$('.touch-point').popover({trigger: 'hover', placement: 'auto'}); </script>"
     },
     {
         "order": 500,
@@ -974,7 +975,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>37</h1><h2 class='col-md-12'>Number of KSLAMs that KDMD staff participated in over the course of the project.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>37</h1><h2 class='col-md-12'>Number of KSLAMs that KDMD staff participated in over the course of the project</h2>"
     },
     {
         "order": 550,
@@ -998,7 +999,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>31</h1><h2 class='col-md-12'>Average age of KDMD staff.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>31</h1><h2 class='col-md-12'>Average age of KDMD staff</h2>"
     },
     {
         "order": 565,
@@ -1059,7 +1060,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>76%</h1><h2 class='col-md-12'>Percent of KDMD staff who have an advanced degree.</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>76%</h1><h2 class='col-md-12'>Percent of KDMD staff who have an advanced degree</h2>"
     },
     {
         "order": 600,
