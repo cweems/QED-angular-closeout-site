@@ -65,6 +65,8 @@ h2{
 
 h3{
     font-family: "Quicksand", sans-serif !important;
+    font-weight: 600 !important;
+    color: #468EFA;
 }
 
 li{
@@ -140,7 +142,7 @@ li{
     padding-left: 4px;
     line-height: 30px;
     padding-right: 4px;
-    min-height: 600px;
+    min-height: 700px;
     -webkit-transform-style: preserve-3d;
 }
 
@@ -177,6 +179,7 @@ ul.nav li.current {
     padding-left: 15px; 
     border-left: #fff 5px solid;
     color: #fff;
+    font-weight: 600;
 }
 
 /*End Navigation Links*/
@@ -446,6 +449,18 @@ width: auto;
     top: -159px;
     left: 454px;
 }
+
+#k{
+    position: relative;
+    top: -346px;
+    left: 381px;
+}
+
+#l{
+    position: relative;
+    top: -193px;
+    left: 163px;
+}
 /*END Map*/
 
 
@@ -711,4 +726,8 @@ div.next-button:hover{
 
 .spacer{
     background-color: white;
+}
+
+.small-list li{
+    font-size: 17px;
 }

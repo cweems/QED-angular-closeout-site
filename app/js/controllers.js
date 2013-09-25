@@ -25,15 +25,6 @@ function mainCtrl($scope, $http) {
     activeLink.next().addClass('current');
   })
 
-  $(document).scroll(function(){
-    $('.section-head').waypoint(function(direction) {
-      var theWaypoint = $(this).attr('id');
-      if(theWaypoint !== undefined){
-        console.log(theWaypoint).string;
-      }
-    });
-  });
-
   $('ul.nav li').click(function(event){
     var navId = event.target.id;
     switch(navId){
