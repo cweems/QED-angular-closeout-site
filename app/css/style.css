@@ -731,3 +731,7 @@ div.next-button:hover{
 .small-list li{
     font-size: 17px;
 }
+
+.row{
+    text-align: center !important;
+}

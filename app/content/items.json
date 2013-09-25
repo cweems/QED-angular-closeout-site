@@ -17,7 +17,16 @@
         "bigTitle": "Letter from the Team",
         "type" : "introduction welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
-        "html"  : "<div class='container well'><div class='col-md-4'>Submitted:<br>September 2013</div> <div class='col-md-4'>Contract #: <br>EEM-C-00-08-00004-00</div> <div class='col-md-4'>Prepared by:<br>The QED Group, LLC<br>1250 Eye Street, Suite 1100<br>Washington, DC, 20005</div></div>"    
+        "html"  : "<div class='container well'><div class='col-md-3'>Years Active:<br>May 2008 -<br>September 2013</div><div class='col-md-3'>Total funding:<br>$99.4 million</div><div class='col-md-3'>Contract #: <br>EEM-C-00-08-00004-00</div><div class='col-md-3'>Implemented by:<br>The QED Group, LLC<br>1250 Eye Street, Suite 1100<br>Washington, DC, 20005</div></div>"    
+    },
+    {
+        "order": 2,
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team",
+        "type" : "introduction welcome evolution approach partners communities reach impact team contact",
+        "width" : "col-md-12",
+        "html"  : "<p>The 5-year, $99.4 million Knowledge-Driven Microenterprise Development (KDMD) project designed and implemented state-of-the-art knowledge management, learning, and sharing tools and approaches that promote collaboration among international development practitioners. </p><br><p>Serving 13 distinct USAID buy-ins, the KDMD project created 4 major websites that attracted 914,890 views from 496,754 distinct users in 191 countries. Additionally, the project organized 9 seminar series that hosted 15,736 participants through 146 seminar sessions on various topics related to international development. Additionally, the project developed 37 adult learning and training courses that were used by 935 USAID staff.</p>"    
     },
     {
         "order": 10,
@@ -932,7 +941,21 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "href" : "#web-awards"
+        "href" : "#applied-learning"
+    },
+    {
+        "order": 470,
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Encouraging Open Data:", 
+        "imageUrl": "img/items/socrata/socrata1.png", 
+        "bigTitle": "KDMD's DCA Dashboard",
+        "smallTitle" : "Learn more about the project>",
+        "type" : "impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#dca-dashboard",
+        "modal": "modal"
     },
     {
         "order": 500,
@@ -1030,9 +1053,10 @@
         "order": 565,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "team-letter", 
+        "heading": "", 
         "imageUrl": "img/items/success-ing.png", 
-        "bigTitle": "Our Ingredients for Success", 
+        "bigTitle": "Our Ingredients for Success",
+        "smallTitle" : "Read the post >",
         "type" : "team contact",
         "width" : "col-md-4",
         "height" : "height1",
