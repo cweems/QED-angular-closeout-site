@@ -16,13 +16,13 @@ function mainCtrl($scope, $http) {
   });
 
   $('ul.nav li').click(function(){ //Changes class of clicked link to 'active'; white bar next to nav moves
-		$('ul.nav li.current').removeClass('current');
-		$(this).addClass('current');
+		$('ul.nav li.active').removeClass('active');
+		$(this).addClass('active');
   });
 
   $('.next-button').click(function(){ //Changes class of nav when next button is clicked
-    var activeLink = $('ul.nav li.current').removeClass('current');
-    activeLink.next().addClass('current');
+    var activeLink = $('ul.nav li.active').removeClass('active');
+    activeLink.next().addClass('active');
   })
 
   $('ul.nav li').click(function(event){
