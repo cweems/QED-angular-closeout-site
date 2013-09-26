@@ -735,3 +735,9 @@ div.next-button:hover{
 .row{
     text-align: center !important;
 }
+
+.exec-summary em{
+    color: #468EFA;
+    font-weight: 600;
+    font-style: none;
+}
