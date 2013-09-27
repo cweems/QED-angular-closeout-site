@@ -8,7 +8,7 @@ function mainCtrl($scope, $http) {
   $http.get('content/items.json').success(function(data) {
     $scope.items = data; //Loads content items
     $scope.Filter = {type : 'Introduction'}; //Sets filter for first section
-    $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome'}; //Sets value for 'next' button
+    $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome', identification: 'first-link'}; //Sets value for 'next' button
   });
 
   $http.get('content/modals.json').success(function(modalData) {
@@ -30,47 +30,105 @@ function mainCtrl($scope, $http) {
     switch(navId){
     case 'summary':
       $scope.Filter = {type : 'Introduction'};
-      $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome', identification: 'first-link'};
       $('body').scrollTo( $('#Introduction'), 800 );
       break;
     case 'first-link':
       $scope.Filter = {type : 'Welcome'};
-      $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', identification: 'first-link'};
       $('body').scrollTo( $('#Welcome'), 800 );
       break;
     case 'second-link':
       $scope.Filter = {type : 'Evolution'};
-      $scope.nextButton = {text: 'Next Up: Our KM Approach', href: '#Approach', filter: 'Approach', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Our KM Approach', href: '#Approach', filter: 'Approach', identification: 'first-link'};
       $('body').scrollTo( $('#Evolution'), 800 );
       break;
     case 'third-link':
       $scope.Filter = {type : 'Approach'};
-      $scope.nextButton = {text: 'Next Up: Our USAID Partners', href: '#Partners', filter: 'Partners', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Our USAID Partners', href: '#Partners', filter: 'Partners', identification: 'first-link'};
       $('body').scrollTo( $('#Approach'), 800 );
       break;
     case 'fourth-link':
       $scope.Filter = {type : 'Partners'};
-      $scope.nextButton = {text: 'Next Up: Building Communities', href: '#Communities', filter: 'Communities', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Building Communities', href: '#Communities', filter: 'Communities', identification: 'first-link'};
       $('body').scrollTo( $('#Partners'), 800 );
       break;
     case 'fifth-link':
       $scope.Filter = {type : 'Communities'};
-      $scope.nextButton = {text: 'Next Up: Our Knowledge Management Reach', href: '#Reach', filter: 'Reach', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Our Knowledge Management Reach', href: '#Reach', filter: 'Reach', identification: 'first-link'};
       $('body').scrollTo( $('#Communities'), 800 );
       break;
     case 'sixth-link':
       $scope.Filter = {type : 'Reach'};
-      $scope.nextButton = {text: 'Next Up: Our Impact', href: '#Impact', filter: 'Impact', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Our Impact', href: '#Impact', filter: 'Impact', identification: 'first-link'};
       ('body').scrollTo( $('#Reach'), 800 );
       break;
     case 'seventh-link':
       $scope.Filter = {type : 'Impact'};
-      $scope.nextButton = {text: 'Next Up: Our Story, Our Team', href: '#Team', filter: 'Team', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Our Story, Our Team', href: '#Team', filter: 'Team', identification: 'first-link'};
       ('body').scrollTo( $('#Impact'), 800 );
       break;
     case 'eighth-link':
       $scope.Filter = {type : 'Team'};
-      $scope.nextButton = {text: 'Next Up: Contact', href: '#Contact', filter: 'Contact', newValue: 'first-link'};
+      $scope.nextButton = {text: 'Next Up: Contact', href: '#Contact', filter: 'Contact', identification: 'first-link'};
+      ('body').scrollTo( $('#Team'), 800 );
+      break;
+    case 'ninth-link':
+      $scope.Filter = {type : 'Contact'};
+      ('body').scrollTo( $('#Contact'), 800 );
+      break;
+    default:
+      $scope.Filter = {type : 'Welcome'};
+    };
+  });
+
+  $('.next-button').click(function(event){
+    var nextButtonId = event.target.id;
+    console.log(nextButtonId).string;
+    switch(nextButtonId){
+    case 'summary':
+      $scope.Filter = {type : 'Introduction'};
+      $scope.nextButton = {text: 'Next Up: Letter from the Team', href: '#Welcome', filter: 'Welcome', identification: 'first-link'};
+      $('body').scrollTo( $('#Introduction'), 800 );
+      break;
+    case 'first-link':
+      $scope.Filter = {type : 'Welcome'};
+      $scope.nextButton = {text: 'Next Up: Evolution of KDMD', href: '#Evolution', filter: 'Evolution', identification: 'first-link'};
+      $('body').scrollTo( $('#Welcome'), 800 );
+      break;
+    case 'second-link':
+      $scope.Filter = {type : 'Evolution'};
+      $scope.nextButton = {text: 'Next Up: Our KM Approach', href: '#Approach', filter: 'Approach', identification: 'first-link'};
+      $('body').scrollTo( $('#Evolution'), 800 );
+      break;
+    case 'third-link':
+      $scope.Filter = {type : 'Approach'};
+      $scope.nextButton = {text: 'Next Up: Our USAID Partners', href: '#Partners', filter: 'Partners', identification: 'first-link'};
+      $('body').scrollTo( $('#Approach'), 800 );
+      break;
+    case 'fourth-link':
+      $scope.Filter = {type : 'Partners'};
+      $scope.nextButton = {text: 'Next Up: Building Communities', href: '#Communities', filter: 'Communities', identification: 'first-link'};
+      $('body').scrollTo( $('#Partners'), 800 );
+      break;
+    case 'fifth-link':
+      $scope.Filter = {type : 'Communities'};
+      $scope.nextButton = {text: 'Next Up: Our Knowledge Management Reach', href: '#Reach', filter: 'Reach', identification: 'first-link'};
+      $('body').scrollTo( $('#Communities'), 800 );
+      break;
+    case 'sixth-link':
+      $scope.Filter = {type : 'Reach'};
+      $scope.nextButton = {text: 'Next Up: Our Impact', href: '#Impact', filter: 'Impact', identification: 'first-link'};
+      ('body').scrollTo( $('#Reach'), 800 );
+      break;
+    case 'seventh-link':
+      $scope.Filter = {type : 'Impact'};
+      $scope.nextButton = {text: 'Next Up: Our Story, Our Team', href: '#Team', filter: 'Team', identification: 'first-link'};
+      ('body').scrollTo( $('#Impact'), 800 );
+      break;
+    case 'eighth-link':
+      $scope.Filter = {type : 'Team'};
+      $scope.nextButton = {text: 'Next Up: Contact', href: '#Contact', filter: 'Contact', identification: 'first-link'};
       ('body').scrollTo( $('#Team'), 800 );
       break;
     case 'ninth-link':

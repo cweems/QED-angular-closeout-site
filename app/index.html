@@ -67,7 +67,7 @@
             <a href="http://usaid.gov">
               <img class="logo-image" src="img/usaid.png">
             </a>
-            <p id="imp">Implemented by <a href="http://www.qedgroupllc.com"> The QED Group, LLC</a></p>
+            <p id="imp">Implemented by <a href="http://www.qedgroupllc.com" target="_blank"> The QED Group, LLC</a></p>
           </div>
            <!-- End Sidebar content-->
       </div>
@@ -87,9 +87,9 @@
 
 
 
-<div class="container outer-container container-fluid">
+<div class="container outer-container container-fluid" data-spy="scroll" data-target="#nav-links ul">
 
-      <div class="content" data-spy="scroll" data-target="#nav-links ul">
+      <div class="content">
 
         <!--Body content-->
             <div ng-animate="'animate'" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" id="{{item.id}}" class="{{item.class}} {{item.width}} {{item.height}}">
@@ -109,8 +109,8 @@
 
 
       <!--END Body content-->
-<div class="next-button" id={{nextButton.id}}>
-  <a ng-click="Filter = {type : '{{nextButton.filter}}'}" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
+<div class="next-button" id="{{nextButton.identification}}">
+  <a ng-click="Filter = {type : 'Welcome'}" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
 </div>
 
 </div>
