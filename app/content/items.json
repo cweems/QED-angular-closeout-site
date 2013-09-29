@@ -8,7 +8,7 @@
         "bigTitle": "Letter from the Team",
         "type" : "introduction welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
-        "html"  : "<h1 id='introduction' class='section-head'>KDMD Final Report</h1>"    
+        "html"  : "<section id='Introduction'></section><h1 id='introduction' class='section-head'>KDMD Final Report</h1>"    
     },
     {
         "order": 2,
@@ -26,7 +26,7 @@
         "bigTitle": "Letter from the Team",
         "type" : "introduction welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
-        "html"  : "<div class='exec-summary'><p>Serving <em>13</em> distinct USAID buy-ins, the Knowledge-Driven Microenterprise Development (KDMD) project created <em>12</em> major websites that attracted <em>914,890</em> views from <em>496,754</em> distinct users in <em>191</em> countries. In coordination with its online work, the project organized <em>9</em> seminar series that hosted <em>15,736</em> participants through <em>146</em> seminar sessions on various topics related to international development. Additionally, the project developed <em>37</em> adult learning courses that trained <em>935</em> USAID staff and partners.</p></div>"    
+        "html"  : "<div class='exec-summary'><p>Serving <em>13</em> distinct USAID operating units, the Knowledge-Driven Microenterprise Development (KDMD) project created <em>12</em> major websites that attracted <em>1,056,746</em> views from <em>496,754</em> distinct users in <em>191</em> countries (since 2010). In coordination with its online work, the project organized <em>9</em> seminar series that hosted <em>15,736</em> participants through <em>146</em> seminar sessions on various topics related to international development. Additionally, the project developed <em>37</em> adult learning courses that trained <em>935</em> USAID staff and partners.</p></div>"    
     },
     {
         "order": 10,
@@ -36,7 +36,7 @@
         "bigTitle": "Letter from the Team",
         "type" : "welcome evolution approach partners communities reach impact team contact",
         "width" : "col-md-12",
-        "html"  : "<h1 id='first-section' class='section-head'>Letter from the Team</h1><br><br><p>From 2008 to 2013, the Knowledge-Driven Microenterprise Development (KDMD) Project supported USAID in developing its knowledge management and learning capacities. At its core, knowledge management is about sharing lessons learned and best practices – which is why we are excited to present our experiences and achievements through this interactive final report.<br><br>KDMD was originally created as a knowledge management project under the former Microenterprise Development office (now E3/MPEP/MD) with the purpose of helping international development practitioners learn, coordinate, and distribute foreign assistance more effectively. We began with just eight full-time staff assisting USAID in the management of seminars and creation of learning products. However, as we gained recognition for the quality and importance of this work, 12 additional USAID operating units bought into our project and our staff grew three-fold.<br><br>Along the way, we’ve increased our skill set to encompass innovative techniques such as facilitating online seminar participation, using social media to share best practices, and creating online learning communities. As the field of knowledge management has evolved, the KDMD team has stayed informed of leading trends and opportunities to engage international development stakeholders in new and creative ways that foster learning and maximize the impact of development efforts.<br><br>Over the years, KDMD played a major role in promoting knowledge management and learning at USAID and in the broader international development community. Our knowledge products have attracted thousands of participants, users, and viewers. To accomplish this, our team spent thousands of hours supporting our partners – and we’re proud to share the results.<br><br>As you scroll through this final report, you’ll see a story of the challenges that KDMD faced, our solutions, our partners in learning, what we’ve learned, and our impact. We hope you’ll continue our story by reflecting on how our experiences relate to your own work and that you’ll be inspired to share these lessons with others.<br><br>Sincerely,</p>"
+        "html"  : "<h1 id='first-section' class='section-head'>Letter from the Team</h1><br><br><p>From 2008 to 2013, the Knowledge-Driven Microenterprise Development (KDMD) Project—implemented by The QED Group, LLC in partnership with subcontractors IRG/Engility, TRG, GLS, and Zaloni—supported USAID in developing its knowledge management and learning capacities. At its core, knowledge management is about sharing lessons learned and best practices – which is why we are excited to present our experiences and achievements through this interactive final report.</p><br><br><p>KDMD was originally created as a knowledge management project under the former Microenterprise Development office (now E3/MPEP/MD) with the purpose of helping international development practitioners learn, coordinate, and distribute foreign assistance more effectively. We began with just eight full-time staff assisting USAID in the management of seminars and creation of learning products. However, as we gained recognition for the quality and importance of this work, 12 additional USAID operating units bought into our project and our staff grew three-fold.<br><br>Along the way, we’ve increased our skill set to encompass innovative techniques such as facilitating online seminar participation, using social media to share best practices, and creating online learning communities. As the field of knowledge management has evolved, the KDMD team has stayed informed of leading trends and opportunities to engage international development stakeholders in new and creative ways that foster learning and maximize the impact of development efforts.<br><br>Over the years, KDMD played a major role in promoting knowledge management and learning at USAID and in the broader international development community. Our knowledge products have attracted thousands of participants, users, and viewers. To accomplish this, our team spent thousands of hours supporting our partners – and we’re proud to share the results.<br><br>As you scroll through this final report, you’ll see a story of the challenges that KDMD faced, our solutions, our partners in learning, what we’ve learned, and our impact. We hope you’ll continue our story by reflecting on how our experiences relate to your own work and that you’ll be inspired to share these lessons with others.<br><br>Sincerely,</p>"
     },
     {
         "order": 11,
@@ -89,7 +89,7 @@
         "order": 60,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "KDMD's Original COR Stacey Young discusses", 
+        "heading": "USAID/PPL's Stacey Young discusses", 
         "imageUrl": "img/items/stacey.png", 
         "bigTitle": "The Need for KM at USAID",
         "smallTitle" : "Watch the video >", 
@@ -107,7 +107,7 @@
         "imageUrl": "img/items/ft-chart.png", 
         "bigTitle": "Number of Team Members over Time",
         "smallTitle" : "See the graph >", 
-        "type" : "evolution approach partners communities reach impact team contact",
+        "type" : "introduction evolution approach partners communities reach impact team contact",
         "width" : "col-md-4",
         "height" : "height1",
         "href" : "#staff-chart",
@@ -122,7 +122,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<div class='list-head'>Main Sub-Contractors</div><ol><li>Engility</li><li>Training Resources Group</li><li>Global Learning Systems</li><li>Zaloni</li></ol></div></div>"
+        "html" : "<div class='list-head'>Main Sub-Contractors</div><ol><li>IRG Engility</li><li>Training Resources Group</li><li>Global Learning Systems</li><li>Zaloni</li></ol></div></div>"
     },
     {
         "order": 89,
@@ -153,7 +153,7 @@
         "type" : "approach partners communities reach impact team contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<p>Successful international development requires social and human change. During the past 5 years, it has been our job to continuously adapt to these changing needs. Over the life of the project, KDMD has tripled our number of USAID partners and have committed to delivering cutting-edge, best-in-class solutions to USAID's knowledge management needs.</p>"
+        "html"  : "<p>Successful international development requires social and human change. During the past 5 years, it has been our job to continuously adapt to these changing needs. Over the life of the project, KDMD has tripled our number of USAID partners and has committed to delivering cutting-edge, best-in-class solutions to USAID's knowledge management needs.</p>"
     },
     {
         "order": 110,
@@ -177,7 +177,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>78</h1><h2 class='col-md-12'>Number of after-action reports complted over the course of the project</h2>"
+        "html"  : "<h1 class='col-md-12 fig' style='margin-top:0px;'>78</h1><h2 class='col-md-12'>Number of after-action reports completed over the course of the project</h2>"
     },
     {
         "order": 130,
@@ -353,7 +353,7 @@
         "imageUrl": "img/items/timechart.png", 
         "bigTitle": "Our Funding Over Time",
         "smallTitle" : "Explore the graph >",
-        "type" : "partners communities reach impact team contact",
+        "type" : " introduction partners communities reach impact team contact",
         "width" : "col-md-8",
         "height" : "height1",
         "modal": "modal",
@@ -374,7 +374,7 @@
         "order": 191,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "USAID's Zachary Baquet discuses", 
+        "heading": "USAID's Zachary Baquet discusses", 
         "imageUrl": "img/items/zachary.png", 
         "bigTitle": "The Evolution of a KM Program",
         "smallTitle" : "Watch the video >",
@@ -398,7 +398,7 @@
         "order": 193,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "USAID's Jeanne Downing discuses", 
+        "heading": "USAID's Jeanne Downing discusses", 
         "imageUrl": "img/items/jeanne.png", 
         "bigTitle": "Partnering with KDMD",
         "smallTitle" : "Watch the video >",
@@ -480,7 +480,7 @@
         "clickable" : "clickable",
         "heading": "Outreach Product", 
         "imageUrl": "img/items/jamaica.png", 
-        "bigTitle": "Jamaica Handover",
+        "bigTitle": "Jamaica Digital Story",
         "smallTitle" : "Watch the video >",
         "type" : "partners communities reach impact team contact",
         "width" : "col-md-4",
@@ -682,7 +682,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>143</h1><h2 class='col-md-12'>Newsletters sent over the course of the project</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>160</h1><h2 class='col-md-12'>Total number of newsletters sent to our email lists with MailChimp</h2>"
     },
     {
         "order": 330,
@@ -693,7 +693,7 @@
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>1,013</h1><h2 class='col-md-12'>Number of tweets in our most popular twitter-chat: 'Serving the Poorest Smallholder Farmers'</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>1,013</h1><h2 class='col-md-12'>Number of tweets in our most popular Twitter Chat: 'Serving the Poorest Smallholder Farmers'</h2>"
     },
     {
         "order": 335,
@@ -782,7 +782,7 @@
         "width" : "col-md-8",
         "height" : "height1",
         "modal": "modal",
-        "html" : "<div class='jumbotron'><div class='container'><h2>Most re-tweeted post on Twitter:</h2><blockquote class='twitter-tweet'><p>How Africa Can Transform <a href='https://twitter.com/search?q=%23LandTenure&amp;src=hash'>#LandTenure</a>, Revolutionize <a href='https://twitter.com/search?q=%23Agriculture&amp;src=hash'>#Agriculture</a>, and End <a href='https://twitter.com/search?q=%23Poverty&amp;src=hash'>#Poverty</a> <a href='http://t.co/W8NLibPufN'>http://t.co/W8NLibPufN</a> via <a href='https://twitter.com/allafrica'>@allafrica</a> <a href='https://twitter.com/WorldBank'>@WorldBank</a></p>&mdash; Agrilinks (@Agrilinks) <a href='https://twitter.com/Agrilinks/statuses/359738383590883330'>July 23, 2013</a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script><p><a data-toggle='modal' href='#twitter-embed' class='btn btn-primary btn-lg'>See more tweets from KDMD &rsaquo;</a></p></div></div>"
+        "html" : "<div class='jumbotron'><div class='container'><h2>Most re-tweeted KDMD post on Twitter:</h2><blockquote class='twitter-tweet'><p>How Africa Can Transform <a href='https://twitter.com/search?q=%23LandTenure&amp;src=hash'>#LandTenure</a>, Revolutionize <a href='https://twitter.com/search?q=%23Agriculture&amp;src=hash'>#Agriculture</a>, and End <a href='https://twitter.com/search?q=%23Poverty&amp;src=hash'>#Poverty</a> <a href='http://t.co/W8NLibPufN'>http://t.co/W8NLibPufN</a> via <a href='https://twitter.com/allafrica'>@allafrica</a> <a href='https://twitter.com/WorldBank'>@WorldBank</a></p>&mdash; Agrilinks (@Agrilinks) <a href='https://twitter.com/Agrilinks/statuses/359738383590883330'>July 23, 2013</a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script><p><a data-toggle='modal' href='#twitter-embed' class='btn btn-primary btn-lg'>See more tweets from KDMD &rsaquo;</a></p></div></div>"
     },
     {
         "order": 347,
@@ -792,7 +792,7 @@
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>914,890</h1><h2 class='col-md-12'>Total page views for all KDMD websites</h2>"
+        "html"  : "<h1 class='col-md-12 fig'>1,056,746</h1><h2 class='col-md-12'>Total page views for all KDMD websites (since 2010). Lesson learned: begin tracking website traffic as early as possible.</h2>"
     },
     {
         "order": 348,
@@ -817,17 +817,6 @@
         "height" : "height1",
         "modal": "modal",
         "href" : "#popular-tchats"
-    },
-    {
-        "order": 360,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>160</h1><h2 class='col-md-12'>Total number of newsletters sent to our email lists with MailChimp</h2>"
     },
     {
         "order": 370,
@@ -914,11 +903,11 @@
         "covervisible" : "not-visible",
         "heading": "team-letter", 
         "bigTitle": "Letter from the Team", 
-        "type" : "impact team contact",
+        "type" : "introduction impact team contact",
         "width" : "col-md-12",
         "height" : "height3",
         "modal": "modal",
-        "html" : "<div class='container col-md-12'><div class='well' sytle='width:100%;'><div id='map'><div href='#' id='a' data-toggle='popover' class='map-point' data-content='I have used the value chain wiki when writing SOWs. I have used various parts of the site when answering questions from the field - often sending them links so that they know where to find their own answers. I have used recordings of seminars to gather content for training curricula. More generally, the knowledge has filtered into my day-to-day work, which is hard to point to specifically.' data-original-title='USAID Staff |  Washington, DC'></div><div href='#' id='b' data-toggle='popover' class='map-point' data-content='Microlinks is a great opportunity to hear experts speak about their work experiences and research results. And, the Q&A provide an insight into participant experiences as well as good opportunity for shared ideas, insights and experiences. It presents a sense of community.' data-original-title='AboutMicrofinance | New York, NY'></div><div href='#' id='c' rel='popover' class='map-point' data-content='I tried to strengthen the value chain that we had identified in Lamjung, a western hilly district in Nepal. Our community user group (mostly made up of women) was given training and introduced market based system to help them kick start incense making enterprise. I shared the basics of value chain to young volunteers from Nepal and UK, who were working with members of the community. The project has already seen a couple of proactive individuals taking initial steps to start their SME.' data-original-title='Microlinks User | Nepal'></div><div href='#' id='d' class='map-point' rel='popover' data-content='I think the prime benefit was not what we learned but what we had chance to present - the MSME project in Cambodia was presented by the chief of party. I think questions and interest we have received, as a mission, in the water and sanitation aspects, were a result of this training/presentation. I found ideas on visually impaired and mobile money - not so much in the specific, but in remembering to account for visual impairment in development programs - and talking to our staff about this. Reinvigorated discussion about inclusion, use of mobile technology.' data-original-title='USAID Staff | Cambodia'></div><div href='#' id='e' rel='popover' class='map-point' data-content='Childfund International, (Indonesia): I applied the resources from Microlinks to my work, for example when I was working at Mercy Corps in Indonesia National Office Economic Development Section, Microlinks shared the training presentation on involving women in economic empowerment that assisted me in developing a project design that enabled more participation from local women in a grant proposal for market research activity for certain commodity in eastern part of Indonesia that resulted in approval for the grant.' data-original-title='Childfund International | Indonesia'></div><div href='#' id='f' rel='popover' class='map-point' data-content='Microlinks provides a centralized repository of information related to USAID value chain development approach, so it saves a lot of time searching the internet for this type of information. Also provides efficient way to link to other professionals working in the field.' data-original-title='Key Development Fund | Lebanon'></div><div href='#' id='g' rel='popover' class='map-point' data-content='I logged into the Agriculture Extension and Advisory Services under the New Normal of Climate Change webinar in February. I am helping a farmers group implement a grant for a demonstration farm and Farmer Field Schools. I learned the importance of capitalizing on the impact of recent experiences with climate shocks. Last fall we were affected by Hurricane Sandy followed by a crop failure inducing drought. These events will be highlighted as teachable moments as we demonstrate climate adaptive technology in a farmer-to-farmer format.' data-original-title='Peace Corps Volunteer | Jamaica'></div><div href='#' id='h' rel='popover' class='map-point' data-content='Advising regional civic society groups that include farmer organizations, CBOs and government department. Advising private sector companies and on grant application assessment, evaluation and setting award criterion.' data-original-title='Southern Africa Trade Hub | Botswana'></div><div href='#' id='i' rel='popover' class='map-point' data-content='So far I have used information from the seminar in particular for strengthening my research skills and to acquire scientific knowledge to facilitate the creation and utilization of food quality improvement and maintenance system. It has also helped me in the development of the project titled Evaluation of Processing Methods for Optimization of Vitamin A in Cocoyam Based Foods for Combating Vitamin A deficiency in Women and Children. This project is still ongoing but I intend to carry out extension work using most of the Health facilities within my area.' data-original-title='Agrilinks User | Nigeria'></div><div href='#' id='j' rel='popover' class='map-point' data-content='When I found myself involved in a re-alignment and reprogramming of a controversial awarded USAID project reading through several of the Agrilinks cases as well as Microlinks gave me a good grounding in my assignment execution.' data-original-title='Agrilinks User | Kenya'></div><div href='#' id='k' rel='popover' class='map-point' data-content='Through the parcipation of several online conferences and webinars, I got to know some other researchers who are also working on female entrepreneurship in developing countries. This allowed me to learn alot of practical issues in the areas as the course participants were excutives including policy makers, programe managers, developmnt practitioners, researchers and entrepreneurs.' data-original-title='Microlinks User | Switzerland'></div><div href='#' id='l' rel='popover' class='map-point' data-content='I strongly support you in doing this work. It is important for people like me and my team to have connection with institutions like yours, who are constantly developing new ideas.' data-original-title='Microlinks User | Bolivia'></div></div></div></div><script type='text/javascript'>$('.map-point').popover({trigger: 'hover', placement: 'auto left'}); </script>"
+        "html" : "<div class='container col-md-12'><div class='well row' sytle='width:100%;'><h3>Our Program at Workp</h3><div id='map'><div href='#' id='a' data-toggle='popover' class='map-point' data-content='I have used the value chain wiki when writing SOWs. I have used various parts of the site when answering questions from the field - often sending them links so that they know where to find their own answers. I have used recordings of seminars to gather content for training curricula. More generally, the knowledge has filtered into my day-to-day work, which is hard to point to specifically.' data-original-title='USAID Staff |  Washington, DC'></div><div href='#' id='b' data-toggle='popover' class='map-point' data-content='Microlinks is a great opportunity to hear experts speak about their work experiences and research results. And, the Q&A provide an insight into participant experiences as well as good opportunity for shared ideas, insights and experiences. It presents a sense of community.' data-original-title='AboutMicrofinance | New York, NY'></div><div href='#' id='c' rel='popover' class='map-point' data-content='I tried to strengthen the value chain that we had identified in Lamjung, a western hilly district in Nepal. Our community user group (mostly made up of women) was given training and introduced market based system to help them kick start incense making enterprise. I shared the basics of value chain to young volunteers from Nepal and UK, who were working with members of the community. The project has already seen a couple of proactive individuals taking initial steps to start their SME.' data-original-title='Microlinks User | Nepal'></div><div href='#' id='d' class='map-point' rel='popover' data-content='I think the prime benefit was not what we learned but what we had chance to present - the MSME project in Cambodia was presented by the chief of party. I think questions and interest we have received, as a mission, in the water and sanitation aspects, were a result of this training/presentation. I found ideas on visually impaired and mobile money - not so much in the specific, but in remembering to account for visual impairment in development programs - and talking to our staff about this. Reinvigorated discussion about inclusion, use of mobile technology.' data-original-title='USAID Staff | Cambodia'></div><div href='#' id='e' rel='popover' class='map-point' data-content='I applied the resources from Microlinks to my work, for example when I was working at Mercy Corps in Indonesia National Office Economic Development Section, Microlinks shared the training presentation on involving women in economic empowerment that assisted me in developing a project design that enabled more participation from local women in a grant proposal for market research activity for certain commodity in eastern part of Indonesia that resulted in approval for the grant.' data-original-title='Childfund International | Indonesia'></div><div href='#' id='f' rel='popover' class='map-point' data-content='Microlinks provides a centralized repository of information related to USAID value chain development approach, so it saves a lot of time searching the internet for this type of information. Also provides efficient way to link to other professionals working in the field.' data-original-title='Key Development Fund | Lebanon'></div><div href='#' id='g' rel='popover' class='map-point' data-content='I logged into the Agriculture Extension and Advisory Services under the New Normal of Climate Change webinar in February. I am helping a farmers group implement a grant for a demonstration farm and Farmer Field Schools. I learned the importance of capitalizing on the impact of recent experiences with climate shocks. Last fall we were affected by Hurricane Sandy followed by a crop failure inducing drought. These events will be highlighted as teachable moments as we demonstrate climate adaptive technology in a farmer-to-farmer format.' data-original-title='Peace Corps Volunteer | Jamaica'></div><div href='#' id='h' rel='popover' class='map-point' data-content='Advising regional civic society groups that include farmer organizations, CBOs and government department. Advising private sector companies and on grant application assessment, evaluation and setting award criterion.' data-original-title='Southern Africa Trade Hub | Botswana'></div><div href='#' id='i' rel='popover' class='map-point' data-content='So far I have used information from the seminar in particular for strengthening my research skills and to acquire scientific knowledge to facilitate the creation and utilization of food quality improvement and maintenance system. It has also helped me in the development of the project titled Evaluation of Processing Methods for Optimization of Vitamin A in Cocoyam Based Foods for Combating Vitamin A deficiency in Women and Children. This project is still ongoing but I intend to carry out extension work using most of the Health facilities within my area.' data-original-title='Agrilinks User | Nigeria'></div><div href='#' id='j' rel='popover' class='map-point' data-content='When I found myself involved in a re-alignment and reprogramming of a controversial awarded USAID project reading through several of the Agrilinks cases as well as Microlinks gave me a good grounding in my assignment execution.' data-original-title='Agrilinks User | Kenya'></div><div href='#' id='k' rel='popover' class='map-point' data-content='Through the parcipation of several online conferences and webinars, I got to know some other researchers who are also working on female entrepreneurship in developing countries. This allowed me to learn alot of practical issues in the areas as the course participants were excutives including policy makers, programe managers, developmnt practitioners, researchers and entrepreneurs.' data-original-title='Microlinks User | Switzerland'></div><div href='#' id='l' rel='popover' class='map-point' data-content='I strongly support you in doing this work. It is important for people like me and my team to have connection with institutions like yours, who are constantly developing new ideas.' data-original-title='Microlinks User | Bolivia'></div></div></div></div><script type='text/javascript'>$('.map-point').popover({trigger: 'hover', placement: 'auto left'}); </script>"
     },
     {
         "order": 450,
@@ -1005,30 +994,50 @@
         "href"  : "#ingredients"
     },
     {
-        "order": 520,
-        "covervisible" : "visible",
-        "clickable" : "clickable",
-        "heading": "Become a learning expert:", 
-        "imageUrl": "img/items/l2.png", 
-        "bigTitle": "L Squared", 
+        "order": 516,
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team", 
         "type" : "team contact",
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "href" : "#l2"
+        "html"  : "<h1 class='col-md-12 fig'>76%</h1><h2 class='col-md-12'>Percent of KDMD staff who have an advanced degree</h2>"
     },
     {
-        "order": 530,
-        "covervisible" : "visible",
-        "clickable" : "clickable",
-        "heading": "Read  about our Story in-depth", 
-        "imageUrl": "img/items/sars.png", 
-        "bigTitle": "Semi-Annual Reports", 
+        "order": 517,
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team", 
         "type" : "team contact",
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "href" : "#sar-download"
+        "html"  : "<h1 class='col-md-12 fig'>31</h1><h2 class='col-md-12'>Average age of KDMD staff</h2>"
+    },
+    {
+        "order": 518,
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "team-letter", 
+        "imageUrl": "img/items/commute.png", 
+        "bigTitle": "How We Get to Work", 
+        "type" : "team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "modal": "modal",
+        "href"  : "#kdmd-commute"
+    },
+    {
+        "order": 519,
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "team contact",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html" : "<div id='carousel-team' class='carousel slide clickable'><!-- Indicators --><ol class='carousel-indicators'><li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li><li data-target='#carousel-example-generic' data-slide-to='1'></li><li data-target='#carousel-example-generic' data-slide-to='2'></li><li data-target='#carousel-team' data-slide-to='3'></li><li data-target='#carousel-example-generic' data-slide-to='4'></li><li data-target='#carousel-example-generic' data-slide-to='5'></li><li data-target='#carousel-team' data-slide-to='6'></li><li data-target='#carousel-team' data-slide-to='7'></li><li data-target='#carousel-team' data-slide-to='8'></li><li data-target='#carousel-team' data-slide-to='9'></li><li data-target='#carousel-team' data-slide-to='10'></li></ol><!-- Wrapper for slides --><div class='carousel-inner'><div class='item active'><!-- class of active since it's the first item --><img src='img/items/slider/okey.png' alt='' /><div class='carousel-caption'><p>Define what success will look like in excruciating detail.</p></div></div><div class='item'><img src='img/items/slider/group.png' alt='' /><div class='carousel-caption'><p>Scoping is as much about understanding the client as the objectives of an activity.</p></div></div><div class='item'><img src='img/items/slider/jess.png' alt='' /><div class='carousel-caption'><p>Adapt the 'lessons learned' to your style--they're meant as a guide.</p></div></div><div class='item'><img src='img/items/slider/ashleigh.png' alt='' /><div class='carousel-caption'><p>Don't confuse the tool with the outcome. Don't oversimplify your planning to one tool. Think bigger!</p></div></div><div class='item'><img src='img/items/slider/joy.png' alt='' /><div class='carousel-caption'><p>Post-activity reflections are never a waste of time.</p></div></div><div class='item'><img src='img/items/slider/heather.png' alt='' /><div class='carousel-caption'><p>KM is about behavior change; it can't be outsourced.</div></div><div class='item'><img src='img/items/slider/ale.png' alt='' /><div class='carousel-caption'><p>Look for ways to build on and connect with existing activities/platforms before you start a new one.</p></div></div><div class='item'><img src='img/items/slider/maciej.png' alt='' /><div class='carousel-caption'><p>People prefer to consume information in different ways, so think creatively about repackaging content.</p></div></div><div class='item'><img src='img/items/slider/usaid.png' alt='' /><div class='carousel-caption'><p>Collaboration is a powerful thing. Your results will be so much better when you involve others in the process.</p></div></div><div class='item'><img src='img/items/slider/usaid2.png' alt='' /><div class='carousel-caption'><p>Listen to your audience. Get the participants' perspective.</p></div></div></div><!-- Controls --><a class='left carousel-control' href='#carousel-team' data-slide='prev'><span class='icon-prev'></span></a><a class='right carousel-control' href='#carousel-team' data-slide='next'><span class='icon-next'></span></a></div>"
     },
     {
         "order": 540,
@@ -1042,20 +1051,7 @@
         "html"  : "<h1 class='col-md-12 fig'>37</h1><h2 class='col-md-12'>Number of KSLAMs that KDMD staff participated in over the course of the project</h2>"
     },
     {
-        "order": 550,
-        "covervisible" : "visible",
-        "clickable" : "clickable",
-        "heading": "Words Most Frequently Used In", 
-        "imageUrl": "img/items/taxedo-2.png", 
-        "bigTitle": "Our KSLAMs", 
-        "type" : "team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "href" : "#tag-cloud",
-        "modal": "modal"
-    },
-    {
-        "order": 570,
+        "order": 545,
         "covervisible" : "visible",
         "clickable" : "clickable",
         "heading": "Our Internal KM Efforts:", 
@@ -1068,50 +1064,43 @@
         "modal": "modal"
     },
     {
-        "order": 565,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
+        "order": 550,
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Most Frequent Themes From", 
+        "imageUrl": "img/items/taxedo-2.png", 
+        "bigTitle": "Our KSLAMs", 
+        "type" : "team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#tag-cloud",
+        "modal": "modal"
+    },
+    {
+        "order": 560,
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Become a learning expert:", 
+        "imageUrl": "img/items/l2.png", 
+        "bigTitle": "L Squared", 
         "type" : "team contact",
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>31</h1><h2 class='col-md-12'>Average age of KDMD staff</h2>"
+        "href" : "#l2"
     },
     {
         "order": 570,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "team contact",
-        "width" : "col-md-8",
-        "height" : "height1",
-        "modal": "modal",
-        "html" : "<div id='carousel-team' class='carousel slide clickable'><!-- Indicators --><ol class='carousel-indicators'><li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li><li data-target='#carousel-example-generic' data-slide-to='1'></li><li data-target='#carousel-example-generic' data-slide-to='2'></li><li data-target='#carousel-team' data-slide-to='3'></li><li data-target='#carousel-example-generic' data-slide-to='4'></li><li data-target='#carousel-example-generic' data-slide-to='5'></li><li data-target='#carousel-team' data-slide-to='6'></li><li data-target='#carousel-team' data-slide-to='7'></li><li data-target='#carousel-team' data-slide-to='8'></li><li data-target='#carousel-team' data-slide-to='9'></li><li data-target='#carousel-team' data-slide-to='10'></li></ol><!-- Wrapper for slides --><div class='carousel-inner'><div class='item active'><!-- class of active since it's the first item --><img src='img/items/slider/okey.png' alt='' /><div class='carousel-caption'><p>Define what success will look like in excruciating detail.</p></div></div><div class='item'><img src='img/items/slider/group.png' alt='' /><div class='carousel-caption'><p>Scoping is as much about understanding the client as the objectives of an activity.</p></div></div><div class='item'><img src='img/items/slider/jess.png' alt='' /><div class='carousel-caption'><p>Adapt the 'lessons learned' to your style--they're meant as a guide.</p></div></div><div class='item'><img src='img/items/slider/ashleigh.png' alt='' /><div class='carousel-caption'><p>Don't confuse the tool with the outcome. Don't oversimplify your planning to one tool. Think bigger!</p></div></div><div class='item'><img src='img/items/slider/joy.png' alt='' /><div class='carousel-caption'><p>Post-activity reflections are never a waste of time.</p></div></div><div class='item'><img src='img/items/slider/heather.png' alt='' /><div class='carousel-caption'><p>KM is about behavior change; it can't be outsourced.</div></div><div class='item'><img src='img/items/slider/ale.png' alt='' /><div class='carousel-caption'><p>Look for ways to build on and connect with existing activities/platforms before you start a new one.</p></div></div><div class='item'><img src='img/items/slider/maciej.png' alt='' /><div class='carousel-caption'><p>People prefer to consume information in different ways, so think creatively about repackaging content.</p></div></div><div class='item'><img src='img/items/slider/usaid.png' alt='' /><div class='carousel-caption'><p>Collaboration is a powerful thing. Your results will be so much better when you involve others in the process.</p></div></div><div class='item'><img src='img/items/slider/usaid2.png' alt='' /><div class='carousel-caption'><p>Listen to your audience. Get the participants' perspective.</p></div></div></div><!-- Controls --><a class='left carousel-control' href='#carousel-team' data-slide='prev'><span class='icon-prev'></span></a><a class='right carousel-control' href='#carousel-team' data-slide='next'><span class='icon-next'></span></a></div>"
-    },
-    {
-        "order": 590,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "team-letter", 
-        "imageUrl": "img/items/commute.png", 
-        "bigTitle": "How We Get to Work", 
+        "heading": "Read  about our Story in-depth", 
+        "imageUrl": "img/items/sars.png", 
+        "bigTitle": "Semi-Annual Reports", 
         "type" : "team contact",
         "width" : "col-md-4",
         "height" : "height1",
         "modal": "modal",
-        "href"  : "#kdmd-commute"
-    },
-    {
-        "order": 592,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>76%</h1><h2 class='col-md-12'>Percent of KDMD staff who have an advanced degree</h2>"
+        "href" : "#sar-download"
     },
     {
         "order": 600,
@@ -1143,13 +1132,13 @@
         "type" : "contact",
         "width" : "col-md-12",
         "modal": "modal",
-        "html"  : "<div class='panel panel-default'><div class='panel-heading'><h4 class='panel-title'><a class='accordion-toggle' data-toggle='collapse' data-parent='#accordion' href='#collapseOne'><p class='text-center'>Disclaimer</p></a></h4></div><div id='collapseOne' class='panel-collapse collapse'><div class='panel-body'><p>Since the KDMD project officially began in 2008, data collection processes have significantly evolved and expanded over the years. The authors of this report used as many sources as possible to synthesize the project’s accomplishments, but they also acknowledge that in many cases, data was not available in all years for all programs. In order to illustrate the broad scope of KDMD’s work, the calculation of metrics across this report used a robust mixture of methods, tools and resources. The following is an illustrative list of some methods and tools used:</p><br><ul><li>Activity reports</li><li>Google Analytics</li><li>Surveys with staff and other stakeholders</li><li>Project billing/staffing records</li><li>USAID University Training Course Enrollment Data</li><li>Adobe Connect analytics</li><li>After Action Review records</li><li>KDMD Training Sign in Sheets</li></ul><br><p>Due to incomplete datasets, not all activities were uniformly documented with the same tools, resulting in some missing data points. In the case of missing data for a documented activity, an average across other similar activities was used as a proxy in the calculation of these overall metrics.</p><br><p>This final report was produced for review by the U.S. Agency for International Development (USAID) under the Knowledge-Driven Microenterprise Development (KDMD) project, implemented by the QED Group LLC (Contract #EEM-C00-08-00004-00). The views expressed are those of the authors and do not represent the views of the U.S. Agency for International Development of the United States Government.</p></div></div></div>"
+        "html"  : "<div class='panel panel-default'><div class='panel-heading'><h4 class='panel-title'><a class='accordion-toggle' data-toggle='collapse' data-parent='#accordion' href='#collapseOne'><p class='text-center'>Disclaimer</p></a></h4></div><div id='collapseOne' class='panel-collapse collapse'><div class='panel-body'><p>Since the KDMD project officially began in 2008, data collection processes have significantly evolved and expanded over the years. The authors of this report used as many sources as possible to synthesize the project’s accomplishments, but they also acknowledge that in many cases, data was not available in all years for all programs. In order to illustrate the broad scope of KDMD’s work, the calculation of metrics across this report used a robust mixture of methods, tools, and resources. The following is an illustrative list of some methods and tools used:</p><br><ul><li>Activity reports</li><li>Google Analytics</li><li>Surveys with staff and other stakeholders</li><li>Project billing/staffing records</li><li>USAID University Training Course Enrollment Data</li><li>Adobe Connect analytics</li><li>After-Action Review records</li><li>KDMD Training sign in sheets</li></ul><br><p>Due to incomplete datasets, not all activities were uniformly documented with the same tools, resulting in some missing data points. In the case of missing data for a documented activity, an average across other similar activities was used as a proxy in the calculation of these overall metrics.</p><br><p>This final report was produced for review by the U.S. Agency for International Development (USAID) under the Knowledge-Driven Microenterprise Development (KDMD) Project, implemented by the QED Group LLC (Contract #EEM-C00-08-00004-00). The views expressed are those of the authors and do not represent the views of the U.S. Agency for International Development of the United States Government.</p></div></div></div>"
     },
     {
         "order": 610,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "Heading Here", 
+        "heading": "Connect with us via", 
         "imageUrl": "img/items/twitter.png", 
         "bigTitle": "Twitter", 
         "type" : "contact",
@@ -1162,7 +1151,7 @@
         "order": 620,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "Heading Here", 
+        "heading": "Connect with us via", 
         "imageUrl": "img/items/facebook.png", 
         "bigTitle": "Facebook", 
         "type" : "contact",
@@ -1175,7 +1164,7 @@
         "order": 630,
         "covervisible" : "visible",
         "clickable" : "clickable",
-        "heading": "Heading Here", 
+        "heading": "Connect with us via", 
         "imageUrl": "img/items/email.png", 
         "bigTitle": "Email", 
         "type" : "contact",

@@ -8,13 +8,12 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/bootstrap-tooltip.js"></script>
-<script src="js/bootstrap-popover.js"></script>
+  <script src="js/bootstrap-popover.js"></script>
 
   <!--CDNs -->
 
   <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
-  <script type="text/javascript" src="http://www.appelsiini.net/download/jquery.viewport.mini.js"></script>
   <!--Internal JS-->
 
   <script src="js/controllers.js"></script>
@@ -45,23 +44,23 @@
 
   <div class="hidden-xs col-md-3 pull-right" ng-click="query = null">
         <div class="portfolioFilter">
-                <div id="site-title">KDMD</div>
-                <div id="site-subtitle">The Knowledge-Driven<br>Microenterprise<br>Development<br>Project</div>
-                <div class="final-report-text">• Final Report •</div>
-                <div id="nav-links">
-                  <ul class="nav nav-list affix">
-                    <li class="active"><a href="#Summary" id="summary">Introduction</a></li>
-                    <li><a href="#Welcome" id="first-link">Letter from the Team</a></li>
-                    <li><a href="#Evolution" id="second-link">Evolution of KDMD</a></li>
-                    <li><a href="#Approach" id="third-link">Our KM Approach</a></li>
-                    <li><a href="#Partners" id="fourth-link">Our USAID Partners</a></li>
-                    <li><a href="#Communities" id="fifth-link">Building Communities</a></li>
-                    <li><a href="#Reach" id="sixth-link">Our Reach</a></li>
-                    <li><a href="#Impact" id="seventh-link">Our Impact</a></li>
-                    <li><a href="#Team" id="eighth-link">Our Team, Our Story</a></li>
-                    <li><a href="#Contact" id="ninth-link">Contact</a></li>
-                  </ul>
-                </div>
+          <div id="site-title">KDMD</div>
+          <div id="site-subtitle">The Knowledge-Driven<br>Microenterprise<br>Development<br>Project</div>
+          <div class="final-report-text">• Final Report •</div>
+          <div id="nav-links">
+            <ul class="nav nav-list affix">
+              <li class="active"><a href="#Introduction" id="summary">Introduction</a></li>
+              <li><a href="#Welcome" id="first-link">Letter from the Team</a></li>
+              <li><a href="#Evolution" id="second-link">Evolution of KDMD</a></li>
+              <li><a href="#Approach" id="third-link">Our KM Approach</a></li>
+              <li><a href="#Partners" id="fourth-link">Our USAID Partners</a></li>
+              <li><a href="#Communities" id="fifth-link">Building Communities</a></li>
+              <li><a href="#Reach" id="sixth-link">Our Reach</a></li>
+              <li><a href="#Impact" id="seventh-link">Our Impact</a></li>
+              <li><a href="#Team" id="eighth-link">Our Team, Our Story</a></li>
+              <li><a href="#Contact" id="ninth-link">Contact</a></li>
+            </ul>
+          </div>
   
           <div class="branding">
             <a href="http://usaid.gov">
@@ -87,9 +86,9 @@
 
 
 
-<div class="container outer-container container-fluid" data-spy="scroll" data-target="#nav-links ul">
+<div class="container outer-container container-fluid">
 
-      <div class="content">
+      <div class="content" data-spy="scroll" data-target="#nav-links ul li a">
 
         <!--Body content-->
             <div ng-animate="'animate'" ng-repeat="item in items | filter:Filter | filter:query | orderBy:orderProp" id="{{item.id}}" class="{{item.class}} {{item.width}} {{item.height}}">
@@ -110,7 +109,7 @@
 
       <!--END Body content-->
 <div class="next-button" id="{{nextButton.identification}}">
-  <a ng-click="Filter = {type : 'Welcome'}" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
+  <a data-ng-click="Filter.type = nextButton.filter" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
 </div>
 
 </div>
@@ -126,7 +125,7 @@
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h1 class="modal-title">{{item.header}}</h1>
             </div>
-            <div class="modal-body" ng-bind-html-unsafe="item.content"></div>
+            <div class="modal-body" id="{{item.id}}" ng-bind-html-unsafe="item.content"></div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -135,10 +134,7 @@
     </div>
   
 </div>
-
-<script type="text/javascript">
-</script>
-
+<script type='text/javascript'>('.modal-backdrop, #stacey-video .close, #stacey-video .btn').click(function(event){console.log('clicked!');$('#stacey-video iframe').attr('src','');});</script>
 
 </body>
 </html>
