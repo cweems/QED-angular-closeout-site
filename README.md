@@ -19,26 +19,26 @@ Github has served as the online backup/repository for this website. In the event
 
 Probably the best way to understand the site is a quick walkthrough of the structure. The main files of this application are loated in the 'app' folder, which has the following structure:
 
-app
+app<br>
   |_ bower_components (package manager for AngularJS).<br>
   |<br>
-  |_ contnent
-  |   |_ items.json (modal triggers, elements that appear on the main page.)
-  |   |_ modals.json (modals and their content)
-  |
-  |_ css
-  |   |_ bootstrap.css (provides the bootstrap framework)
-  |   |_ style.css (provides custom styles)
-  |
-  |_ fonts (contains Gill Sans, other fonts are loaded from the Google Fonts API)
-  |
-  |_ img (all images)
-  |   |_ documents (contains the final semi-annual reports and other PDFs)
-  |   |_ items (images that appear in modals or modal triggers)
-  |
-  |_ js (the javascript)
-  |
-  |_ lib (the angularjs library)
+  |_ contnent<br>
+  |   |_ items.json (modal triggers, elements that appear on the main page.)<br>
+  |   |_ modals.json (modals and their content)<br>
+  |<br>
+  |_ css<br>
+  |   |_ bootstrap.css (provides the bootstrap framework)<br>
+  |   |_ style.css (provides custom styles)<br>
+  |<br>
+  |_ fonts (contains Gill Sans, other fonts are loaded from the Google Fonts API)<br>
+  |<br>
+  |_ img (all images)<br>
+  |   |_ documents (contains the final semi-annual reports and other PDFs)<br>
+  |   |_ items (images that appear in modals or modal triggers)<br>
+  |<br>
+  |_ js (the javascript)<br>
+  |<br>
+  |_ lib (the angularjs library)<br>
   
   
 ###Uploading the Final Semi-Annual Report
