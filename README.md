@@ -20,8 +20,8 @@ Github has served as the online backup/repository for this website. In the event
 Probably the best way to understand the site is a quick walkthrough of the structure. The main files of this application are loated in the 'app' folder, which has the following structure:
 
 app
-  |_ bower_components (package manager for AngularJS).
-  |
+  |_ bower_components (package manager for AngularJS).<br>
+  |<br>
   |_ contnent
   |   |_ items.json (modal triggers, elements that appear on the main page.)
   |   |_ modals.json (modals and their content)
