@@ -1,18 +1,51 @@
 #KDMD Close Out Site
 
+###About
+
 This website was created for the USAID Knowledge-Driven Microenterprise Project and is inspired by annualreport-2011.kiva.org.
 
-##Uploading the Final SAR:
-
-Because the final Semi-Annual Report wasn't ready at the time this site went live, I made a placeholder PDF file. In the site files go to app/img/documents/ then replace 10_SAR.pdf with a file of the same name.
-
-##Primary features of the site include:
+Primary features of the site include:
 
 * Ability to load a large amount of content in an orderly manner.
 * Navigation in a sidebar, "next" buttons, and search.
 * Organize a variety of content into a cohesive set of information.
+* Content management via JSON rather than SQL.
 
-##Other notes for Dan:
+###Github Basics
+
+Github has served as the online backup/repository for this website. In the event that the site is accedentally deleted, simply download .zip file copy, unpack, and replace on the server.
+
+###Directory Structure
+
+Probably the best way to understand the site is a quick walkthrough of the structure. The main files of this application are loated in the 'app' folder, which has the following structure:
+
+app
+  |_ bower_components (package manager for AngularJS).
+  |
+  |_ contnent
+  |   |_ items.json (modal triggers, elements that appear on the main page.)
+  |   |_ modals.json (modals and their content)
+  |
+  |_ css
+  |   |_ bootstrap.css (provides the bootstrap framework)
+  |   |_ style.css (provides custom styles)
+  |
+  |_ fonts (contains Gill Sans, other fonts are loaded from the Google Fonts API)
+  |
+  |_ img (all images)
+  |   |_ documents (contains the final semi-annual reports and other PDFs)
+  |   |_ items (images that appear in modals or modal triggers)
+  |
+  |_ js (the javascript)
+  |
+  |_ lib (the angularjs library)
+  
+  
+###Uploading the Final Semi-Annual Report
+
+Because the final Semi-Annual Report wasn't ready at the time this site went live, I made a placeholder PDF file. In the site files go to app/img/documents/ then replace 10_SAR.pdf with a file of the same name.
+
+###Other notes for Dan
 
 This site was built using AngularJS and Twitter Bootstrap. The site functions using a pair of ng-repeat directives that read content from a JSON file. One directive handles the modal triggers and site content, the other handles the modals. If content is not appearing but the side bar is, the JSON is probably invalid. I can't imagine why this would happen in the future, but in case it does, you can validate the JSON here: http://jsonlint.com.
 
@@ -22,6 +55,6 @@ By using ng-repeat, I was able to integrate various filter options that allow fo
 
 Many of the interactive features of the site are from Bootstrap 3.
 
-#Minification:
+###Minification
 
 I plan on minifying all of the css and js files using Grunt.js. This means that all of the source css and js will be difficult to read. If you need to make changes to the site, I would recommend forking this repository and then making your edits in the 'app' folder. You can either re-upload the 'app' files directly, or you can use grunt to concatenate and minify all of the css and js. It's really up to you!
