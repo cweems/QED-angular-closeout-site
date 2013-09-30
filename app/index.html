@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="js/bootstrap-tooltip.js"></script>
   <script src="js/bootstrap-popover.js"></script>
+  <script src="js/scrollspy.js"></script>
 
   <!--CDNs -->
 
@@ -21,6 +22,8 @@
   <script src="js/waypoints.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+
+  <!-- build:js /js/main.js -->
 
    <!--GA-->
 
@@ -66,7 +69,7 @@
             <a href="http://usaid.gov">
               <img class="logo-image" src="img/usaid.png">
             </a>
-            <p id="imp">Implemented by <a href="http://www.qedgroupllc.com" target="_blank"> The QED Group, LLC</a></p>
+            <p id="imp"><a href="http://www.qedgroupllc.com" target="_blank">Implemented by The QED Group, LLC</a></p>
           </div>
            <!-- End Sidebar content-->
       </div>
@@ -96,7 +99,6 @@
                 <div ng-bind-html-unsafe="item.html"></div>
                 <div class="cover {{item.covervisible}}">
                   <div class="inner-wrapper">
-                    <div class="all-caps">{{item.order}}</div>
                     <div class="all-caps">{{item.heading}}</div>
                     <div class="big-title">{{item.bigTitle}}</div>
                     <div class="small-title">{{item.smallTitle}}</div>
@@ -108,8 +110,8 @@
 
 
       <!--END Body content-->
-<div class="next-button" id="{{nextButton.identification}}">
-  <a data-ng-click="Filter.type = nextButton.filter" href="{{nextButton.href}}">{{nextButton.text}} &rsaquo;</a>
+<div class="next-button">
+  <a data-ng-click="Filter.type = nextButton.filter" href="{{nextButton.href}}" id="{{nextButton.identification}}">{{nextButton.text}} &rsaquo;</a>
 </div>
 
 </div>

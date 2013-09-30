@@ -30,7 +30,7 @@
         "id" : "our-websites",
         "header" : "The Evolution of Our Websites",
         "width" : "90%",
-        "content": "<img style='width:100%;' src='img/items/webEvolution.png'><div class='container'><div class='col-md-6'><p>Web technology, with its global reach and connective power, is a tool with tremendous potential to change how development work is done. The KDMD project leveraged rapidly evolving web technology on behalf of its USAID partners to build a series of websites and online knowledge sharing portals to jointly create, share, refine, and apply practical approaches to development challenges. As a key element of KDMD’s streamlined web strategy, the project leveraged the work done on previous sites to iteratively develop new functionality, creating flexible web templates on the Drupal platform that were adapted to meet identified user needs.</p><br><p>The earliest sites created by KDMD—including the African Diaspora Marketplace (May 2009), the Economic Growth Learning Center (Jun 2009), and Social Transitions (May 2010)—laid the foundation for the more robust sites that followed. KDMD’s flagship sites that the project continues to manage include the Knowledge-Driven International Development Portal (Jul 2010), Microlinks (Sep 2010), Agrilinks (Nov 2012), WLSME (Nov 2012), and USAID Learning Lab (Jan 2013). In addition, KDMD developed the Caribbean Partners for Educational Progress Community of Practice (formerly Jamaica, Dec 2010) and FeedtheFuture.gov (Nov 2011) websites.</p></div><div class='col-md-6'><p>Agrilinks and Learning Lab are perfect examples of how KDMD built upon its web experience to streamline the development process. When the USAID Bureau for Food Security approached KDMD about its web needs, KDMD provided a temporary solution on KDID (Aug 2010) while a robust needs assessment process was conducted. The second iteration of Agrilinks (Apr 2011) was then constructed from the Microlinks Drupal web template and was rigorously tested through user focus groups and member surveys. Finally, the stand-alone Agrilinks (Nov 2012) site was built on the most current version of Drupal (7.0) and incorporated a cleaner design, significantly enhanced functionality, and many more web 2.0 tools. As the project’s most advanced website, Agrilinks then became the template upon which WLSME and Learning Lab—both of which also began as placeholder pages on KDID—were built. This iterative process allowed KDMD to take advantage of lessons learned to advise clients on best practices, ensure the best user experience, and minimize development time/cost.</p></div></div>"
+        "content": "<img style='width:100%;' src='img/items/webEvolution.png'><div class='container'><div class='col-md-6 exec-summary'><p><em>W</em>eb technology, with its global reach and connective power, is a tool with tremendous potential to change how development work is done. The KDMD project leveraged rapidly evolving web technology on behalf of its USAID partners to build a series of websites and online knowledge sharing portals to jointly create, share, refine, and apply practical approaches to development challenges. As a key element of KDMD’s streamlined web strategy, the project leveraged the work done on previous sites to iteratively develop new functionality, creating flexible web templates on the Drupal platform that were adapted to meet identified user needs.</p><br><p>The earliest sites created by KDMD—including the African Diaspora Marketplace (May 2009), the Economic Growth Learning Center (Jun 2009), and Social Transitions (May 2010)—laid the foundation for the more robust sites that followed. KDMD’s flagship sites that the project continues to manage include the Knowledge-Driven International Development Portal (Jul 2010), Microlinks (Sep 2010), Agrilinks (Nov 2012), WLSME (Nov 2012), and USAID Learning Lab (Jan 2013). In addition, KDMD developed the Caribbean Partners for Educational Progress Community of Practice (formerly Jamaica, Dec 2010) and FeedtheFuture.gov (Nov 2011) websites.</p></div><div class='col-md-6'><p>Agrilinks and Learning Lab are perfect examples of how KDMD built upon its web experience to streamline the development process. When the USAID Bureau for Food Security approached KDMD about its web needs, KDMD provided a temporary solution on KDID (Aug 2010) while a robust needs assessment process was conducted. The second iteration of Agrilinks (Apr 2011) was then constructed from the Microlinks Drupal web template and was rigorously tested through user focus groups and member surveys. Finally, the stand-alone Agrilinks (Nov 2012) site was built on the most current version of Drupal (7.0) and incorporated a cleaner design, significantly enhanced functionality, and many more web 2.0 tools. As the project’s most advanced website, Agrilinks then became the template upon which WLSME and Learning Lab—both of which also began as placeholder pages on KDID—were built. This iterative process allowed KDMD to take advantage of lessons learned to advise clients on best practices, ensure the best user experience, and minimize development time/cost.</p></div></div>"
     },
     {
         "order": 40,
@@ -64,7 +64,7 @@
         "id" : "timechart",
         "header" : "Our Funding Over Time",
         "width" : "70%",
-        "content": "<img style='width:100%;' src='img/items/timechart.png'><br><br><p>As the KDMD project progressed, our funding sources diversified. One of the key benefits of KDMD's buy-in mechanism was that it provided USAID operating units to take advantage of KDMD's services without the burden of creating an entirely new contract. As a result, KDMD was able to act as a knowledge sharing point for more than 13 major USAID operating units that bought into the project.</p>"
+        "content": "<img style='width:100%;' src='img/items/timechart.png'><br><br><p>As the KDMD project progressed, our funding sources diversified. One of the key benefits of KDMD's buy-in mechanism was that it provided USAID Bureaus, Offices, teams, and missions with the opportunity to take advantage of KDMD's services without the burden of creating an entirely new contract. As a result, KDMD was able to act as a knowledge sharing point for 13 USAID buy-ins that signed onto the project.</p>"
     },
     {
         "order": 61,
@@ -83,17 +83,17 @@
         "order": 63,
         "id" : "EE",
         "header" : "Europe & Eurasia",
-        "content": "<p>KDMD has provided support to USAID’s Europe & Eurasia Bureau’s Social Transition team, Democracy and Governance team, and Health team since 2008. The project developed knowledge sharing activities and products that increased awareness of the teams’ work in key sub-sectors, such as education, labor markets, social services, social insurance, and social assistance, as well as issues relating to gender and trafficking in persons. KDMD created the Social Transitions online community, organized knowledge sharing events, and produced digital media products to strengthen relationships and increase learning among staff in Missions and Washington, DC operating units; the State Department; other donors; NGOs; implementing partners; researchers; the State Department, other donors, NGOs, implementing partners, researchers, and other stakeholders in the region.</p>"
+        "content": "<p>KDMD has provided support to USAID’s Europe & Eurasia Bureau’s Social Transition team, Democracy and Governance team, and Health team since 2008. The project developed knowledge sharing activities and products that increased awareness of the teams’ work in key sub-sectors, such as education, labor markets, social services, social insurance, and social assistance, as well as issues relating to gender and trafficking in persons. KDMD created the Social Transitions online community, organized knowledge sharing events, and produced digital media products to strengthen relationships and increase learning among staff in Missions and Washington, DC operating units; the State Department; other donors; NGOs; implementing partners; researchers, and other stakeholders in the region.</p>"
     },
     {
         "order": 64,
         "id" : "EP",
         "header" : "Economic Policy",
-        "content": "<p>Since 2009, KDMD has been working with USAID’s Economic Policy Office (formerly known as the Economic Growth Office) to expand their training program to meet an increase in the Office’s workforce. KDMD promoted a blended learning approach, which combines in-person and online interaction to drive the highest learning impact. By applying blended approaches, KDMD could better provide USAID staff with a continuous learning experience, extending learning before, during, and after a workshop or training.</p>"
+        "content": "<p>Since 2009, KDMD has been working with USAID’s Economic Policy Office (formerly known as the Economic Growth Office) to expand their training program to meet an increase in the Agency's workforce. KDMD promoted a blended learning approach, which combines in-person and online interaction to drive the highest learning impact. By applying blended approaches, KDMD could better provide USAID staff with a continuous learning experience, extending learning before, during, and after a workshop or training.</p>"
     },
     {
         "order": 65,
-        "id" : "Gender Development",
+        "id" : "GenDev",
         "width" : "70%",
         "header" : "GenDev",
         "content": "<p>KDMD began working with USAID's Gender Development (GenDev) team in April 2012 to develop online learning courses after the Agency instituted a new policy on gender. USAID’s Gender Equality and Female Empowerment Policy mandates that basic training on gender equality and female empowerment is required for all Agency staff (and their supervisors) who design, evaluate, or manage strategies or projects; Contracting and Assistance Officers; and Program Officers. In addition, the policy requires Missions to appoint Gender Advisors and/or Gender Points of Contact and for the Agency to provide advanced training for these individuals. To support the GenDev team with these training requirements, KDMD has led the development of two online learning courses to be included on USAID University: 101—Gender Equality at USAID and 103—The Roles and Responsibilities of Gender Advisors.</p>"
@@ -102,7 +102,7 @@
         "order": 66,
         "id" : "GP",
         "header" : "Global Partnerships",
-        "content": "<p>In early 2011, KDMD developed and implemented the first-ever, in-person training under the former USAID Office of Developing Partners (now the Global Partnerships team within the Office of Innovation and Development Alliances). In May 2012, KDMD continued its support through the development of an online course, planned as a prerequisite to the team’s in-person trainings, to serve as an introduction to developing partnerships at USAID for all staff.</p>"
+        "content": "<p>In early 2011, KDMD developed and implemented the first-ever, in-person training under the former USAID Office of Development Partners (now the Global Partnerships team within the Office of Innovation and Development Alliances). In May 2012, KDMD continued its support through the development of an online course, planned as a prerequisite to the team’s in-person trainings, to serve as an introduction to developing partnerships at USAID for all staff.</p>"
     },
     {
         "order": 67,
@@ -115,20 +115,20 @@
         "id" : "Jamaica",
         "width" : "70%",
         "header" : "USAID | Jamaica",
-        "content": "<p>Since 2009, KDMD assisted USAID/Jamaica in designing, managing, and implementing the Jamaica Partners for Educational Progress Community of Practice (CoP), a country-level community focused on improving basic education and early grade literacy in the country. The CoP originally started as a network of education professionals and stakeholders who collaborated virtually and in person to share knowledge, discuss critical issues, and provide peer support. In addition to building a website to serve as the CoP hub, KDMD rolled out a series of core CoP products and activities, including EduExchange online discussions, EduFocus publications, and a community newsletter. In June 2013, KDMD facilitated the successful transition of the management of the CoP from USAID/Jamaica to the University of the West Indies, a local academic institution in the Caribbean that was well-prepared to assume ownership of the newly expanded Caribbean Partners for Educational Progress Community of Practice.  </p>"
+        "content": "<p>Since 2009, KDMD assisted USAID/Jamaica in designing, managing, and implementing the Jamaica Partners for Educational Progress Community of Practice (CoP), a country-level community focused on improving basic education and early grade literacy in the country. The CoP originally started as a network of education professionals and stakeholders who collaborated virtually and in-person to share knowledge, discuss critical issues, and provide peer support. In addition to building a website to serve as the CoP hub, KDMD rolled out a series of core CoP products and activities, including EduExchange online discussions, EduFocus publications, and a community newsletter. In June 2013, KDMD facilitated the successful transition of the management of the CoP from USAID/Jamaica to the University of the West Indies, a local academic institution in the Caribbean that was well-prepared to assume ownership of the newly expanded Caribbean Partners for Educational Progress Community of Practice.  </p>"
     },
     {
         "order": 69,
         "id" : "MPEP",
         "width" : "70%",
         "header" : "Microenterprise and Private Enterprise Promotion Office",
-        "content": "<p>As the contract holder of KDMD and the project’s flagship program, the Microenterprise Development Office (now part of the Microenterprise and Private Enterprise Promotion Office, or MPEP) pioneered many activities that KDMD now supports across USAID. Building on previous work under USAID's Accelerated Microenterprise Advancement Project (AMAP)fun, KDMD was designed to provide a knowledge-driven approach to microenterprise development by extending and multiplying the impact of the learning and innovation. On behalf of MPEP, KDMD managed Microlinks, an online community of microenterprise development practitioners as well as a number of products and activities such as the Connections newsletter, Notes From the Field, specialized seminar series, online events and exchanges, learning network facilitation, online courses and tools like the Value Chain Development Wiki, among many others. Over the life of the project, KDMD has revolutionized the way development practitioners connect with each other, significantly influencing how knowledge management is understood across the Agency.</p>"
+        "content": "<p>As the contract holder of KDMD and the project’s flagship program, the Microenterprise Development Office (now part of the Microenterprise and Private Enterprise Promotion Office, or MPEP) pioneered many activities that KDMD now supports across USAID. Building on previous work under USAID's Accelerated Microenterprise Advancement Project (AMAP), KDMD was designed to provide a knowledge-driven approach to microenterprise development by extending and multiplying the impact of the learning and innovation. On behalf of MPEP, KDMD managed Microlinks, an online community of microenterprise development practitioners as well as a number of products and activities such as the Connections newsletter, Notes From the Field, specialized seminar series, online events and exchanges, learning network facilitation, online courses and tools like the Value Chain Development Wiki, among many others. Over the life of the project, KDMD has revolutionized the way development practitioners connect with each other, significantly influencing how knowledge management is understood across the Agency.</p>"
     },
     {
         "order": 70,
         "id" : "MS",
         "header" : "Mobile Solutions",
-        "content": "<p>In December 2011, the KDMD team proposed a knowledge management and facilitation strategy for USAID’s Office of Innovation and Development Alliance’s Mobile Solutions team based on a needs-assessment exercise conducted with members of the team and staff from four pilot Missions: Haiti, Afghanistan, Indonesia, and the Philippines. The goal of the knowledge management activities was to facilitate behavior change at the Mission level to improve and scale up mobile programming while making the Mobile Solutions team's model of support to Missions sustainable and scalable. To achieve this, the KDMD helped to identify and share lessons learned, resources, and technical gaps through peer-to-peer knowledge exchange.</p>"
+        "content": "<p>In December 2011, the KDMD team proposed a knowledge management and facilitation strategy for USAID’s Office of Innovation and Development Alliance’s Mobile Solutions team based on a needs-assessment exercise conducted with members of the team and staff from four pilot Missions: Haiti, Afghanistan, Indonesia, and the Philippines. The goal of the knowledge management activities was to facilitate behavior change at the Mission level to improve and scale up mobile programming while making the Mobile Solutions team's model of support to Missions sustainable and scalable. To achieve this, KDMD helped to identify and share lessons learned, resources, and technical gaps through peer-to-peer knowledge exchange.</p>"
     },
     {
         "order": 71,
@@ -173,13 +173,13 @@
         "order": 100,
         "id" : "hss-video",
         "header" : "Health Systems Strengthening Digital Story",
-        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/hRHHO6zoPnk' frameborder='0' allowfullscreen></iframe><br><br><p>KDMD helped USAID's Bureau for Europe and Eurasia to capture the legacy of its health-sytems strengthening programs through a uniqe digital story. Digital stories are an engaging way to capture lessons learned and best practices so that future project designers and implementing partners can quickly learn the basics of a relevant program.</p>"
+        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/hRHHO6zoPnk' frameborder='0' allowfullscreen></iframe><br><br><p>KDMD helped USAID's Bureau for Europe and Eurasia to capture the legacy of its health systems strengthening programs through a unique digital story. Digital stories are an engaging way to capture lessons learned and best practices so that future project designers and implementing partners can quickly learn the basics of a relevant program.</p>"
     },
     {
         "order": 105,
         "id" : "mch-video",
         "header" : "Maternal and Child Health Digital Story",
-        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/3uIzSDg8_Zw' frameborder='0' allowfullscreen></iframe><br><br><p>KDMD helped USAID's Bureau for Europe and Eurasia to capture the legacy of its maternal and child health programs by creating a digital story comprised of photos and narrations from team members involved in the missions programs.</p>"
+        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/3uIzSDg8_Zw' frameborder='0' allowfullscreen></iframe><br><br><p>KDMD helped USAID's Bureau for Europe and Eurasia to capture the legacy of its maternal and child health programs by creating a digital story comprised of photos and narrations from team members involved in the missions' programs.</p>"
     },
     {
         "order": 110,
@@ -197,7 +197,7 @@
         "order": 120,
         "id" : "diaspora-video",
         "header" : "Diaspora Engagement Video",
-        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/kq9mp3eWAgs' frameborder='0' allowfullscreen></iframe><br><br><p>The Diaspora Engagement Mini-Series of seminars worked to raise awareness among USAID staff of the possibilities for collaboration with diaspora when implementing projects. Creating post-event video reflections such as this one played an important role in KDMD's pragmatic KM approach, which ephasized supporting multiple learning styles with clear and concise content.</p>"
+        "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/kq9mp3eWAgs' frameborder='0' allowfullscreen></iframe><br><br><p>The Diaspora Engagement Mini-Series of seminars worked to raise awareness among USAID staff of the possibilities for collaboration with diaspora when implementing projects. Creating post-event video reflections such as this one played an important role in KDMD's pragmatic KM approach, which emphasized supporting multiple learning styles with clear and concise content.</p>"
     },
     {
         "order": 130,
@@ -335,6 +335,13 @@
         "id" : "qed-facebook",
         "header" : "QED Facebook Feed",
         "content" : "<div id='fb-root'></div><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = '//connect.facebook.net/en_US/all.js#xfbml=1&appId=370261533087575';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>"
+    },
+    {
+        "order": 950,
+        "width" : "<p></p>",
+        "id" : "qed-email",
+        "header" : "QED Email",
+        "content" : "<h1>inquiry@qedgroupllc.com</h1>"
     }
 
 ]
