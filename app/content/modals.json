@@ -54,30 +54,36 @@
         "content": "<img style='width:100%;' src='img/items/seminar.png'><br><br><div class='exec-summary'><p>Over the years, KDMD has managed nine popular seminar series on topics ranging from microfinance to agricultural development. The earliest seminars were small in-person events, but with additional experience, KDMD enhanced the seminar experience in many ways.</p><br><p><em>Webinars:</em> Using the Adobe Connect platform, KDMD expanded the opportunities for remote participation to reach a truly global audience. The chat feature was particularly effective in fostering robust discussions, especially when staff from presenting organizations were encouraged to participate, answering audience questions and providing their own perspective. KDMD has also used webinars to open up the opportunities for hearing directly from people working on the ground by bringing in remote presenters. To learn more about KDMD’s experience with webinars, check out this <a href='http://usaidlearninglab.org/library/webinars-guidance' target='_blank'>guidance brief</a>.</p><br><p><em>Interactivity:</em> KDMD used audience response technology both through Adobe Connect and Poll Everywhere to poll online and in-person seminar participants in real time. Polling frequently helped to guide audience discussion and spark debate on complex issues.</p><br><p><em>Social Media:</em> KDMD promoted its seminars through Facebook, Twitter, and LinkedIn. Staff tweeted using popular hashtags to maximize visibility and crafted post-event blogs that provided detailed recaps of the seminar presentations.</p><br><p><em>Participant Feedback:</em> KDMD’s Assessing & Learning team solicited feedback with surveys distributed at the end of every seminar. Attendees were given the opportunity to suggest future event topics and share how they felt they could use the knowledge and resources from the seminar to improve their work.</p><br><p><em>Post-Event Products:</em> KDMD strove to make all event material easily accessible so learning could continue after the event. Beyond the presentations and other resources shared, events were captured either as screencasts or webinar recordings. Staff created blog posts, archived social media posts, and filmed greenroom interviews with presenters to compile a rich collection of media.</p><br><p><em>Enhanced Follow-Up:</em> Finally, KDMD followed up with seminar attendees and other stakeholders through post-event emails with links to relevant resources. KDMD also worked with presenters to collect responses to unanswered questions and post them to the relevant online comment board.</p><br></div>"
     },
     {
-        "order": 60,
+        "order": 55,
         "id" : "kristin-video",
         "header" : "The Importance of KM",
         "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/QQNnQTd_d44' frameborder='0' allowfullscreen></iframe><br><br><p>USAID/MPEP's Kristin O'Planick  began as KDMD's Contracting Officer's Representative in October 2012 and has worked intensively with the project to improve USAID's knowledge management practices.</p>"
     },
     {
-        "order": 50,
+        "order": 58,
         "id" : "timechart",
         "header" : "Our Funding Over Time",
         "width" : "70%",
         "content": "<img style='width:100%;' src='img/items/timechart.png'><br><br><p>As the KDMD project progressed, our funding sources diversified. One of the key benefits of KDMD's buy-in mechanism was that it provided USAID Bureaus, Offices, teams, and missions with the opportunity to take advantage of KDMD's services without the burden of creating an entirely new contract. As a result, KDMD was able to act as a knowledge sharing point for 13 USAID buy-ins that signed onto the project.</p>"
     },
     {
-        "order": 61,
+        "order": 60,
         "id" : "BFS",
         "width" : "70%",
         "header" : "Bureau for Food Security",
         "content": "<p>Through its work with USAID’s Bureau for Food Security, KDMD helped develop and grow the knowledge base of agriculture and agriculture‐led food security approaches by capturing lessons learned from the field using cutting-edge techniques. Since 2009, the project has been improving knowledge flows within the Bureau, between the Bureau and others across the Agency, and with partners. KDMD was the architect of Agrilinks, a vibrant and robust source of knowledge and activities related to agriculture and agriculture‐led food security. The project created innovative learning and engagement opportunities for this community, such as reinventing the Ag Sector Council Seminar Series, the eUpdate newsletter, #AskAg Twitter Chats, AgExchanges, Video Notes, and a number of training-related activities. In 2010, KDMD and the Bureau worked with the U.S. Government’s Feed the Future (FTF) program by holding in-person stakeholder meetings, sharing knowledge, and designing the FTF award-winning website.  </p>"
     },
     {
-        "order": 62,
+        "order": 61,
         "id" : "DCA",
         "header" : "Office of Development Credit",
         "content": "<p>KDMD’s support to USAID’s Development Credit Authority began in February 2010, serving to backstop the Office’s partial credit guarantee programs and promote a learning-oriented environment aimed at maximizing USAID’s efforts to stimulate local growth in over 70 countries around the world. KDMD managed monitoring and reporting on guarantee performance, risk assessments to identify the potential for loan defaults to the U.S. Government, and state-of-the-art communications and knowledge management approaches.  </p>"
+    },
+    {
+        "order": 62,
+        "id" : "learning-impact",
+        "header" : "Learning & Impact Reports",
+        "content": "<div class='container'><a href='img/documents/LI1.pdf'>Download the 1st Learning and Impact Report</a><a href='img/documents/LI2.pdf'>Download the 2nd Learning and Impact Report</a></div>"
     },
     {
         "order": 63,
@@ -271,7 +277,7 @@
         "order": 350,
         "width" : "85%",
         "id" : "web-awards",
-        "header" : "Our Partners in the International Development Community",
+        "header" : "Our Website Awards",
         "content": "<div class='container'><div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div></div>"
     },
     {

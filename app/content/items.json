@@ -752,17 +752,6 @@
         "href" : "#mission-map"
     },
     {
-        "order": 340,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>219</h1><h2 class='col-md-12'>Hours of seminars organized by KDMD staff</h2>"
-    },
-    {
         "order": 345,
         "covervisible" : "not-visible",
         "heading": "team-letter", 
@@ -774,17 +763,6 @@
         "html"  : "<h1 class='col-md-12 fig'>8,517</h1><h2 class='col-md-12'>Combined number of social media followers on Twitter, Facebook, and YouTube</h2>"
     },
     {
-        "order": 360,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "reach impact team contact",
-        "width" : "col-md-8",
-        "height" : "height1",
-        "modal": "modal",
-        "html" : "<div class='jumbotron'><div class='container'><h2>Most re-tweeted KDMD post on Twitter:</h2><blockquote class='twitter-tweet'><p>How Africa Can Transform <a href='https://twitter.com/search?q=%23LandTenure&amp;src=hash'>#LandTenure</a>, Revolutionize <a href='https://twitter.com/search?q=%23Agriculture&amp;src=hash'>#Agriculture</a>, and End <a href='https://twitter.com/search?q=%23Poverty&amp;src=hash'>#Poverty</a> <a href='http://t.co/W8NLibPufN'>http://t.co/W8NLibPufN</a> via <a href='https://twitter.com/allafrica'>@allafrica</a> <a href='https://twitter.com/WorldBank'>@WorldBank</a></p>&mdash; Agrilinks (@Agrilinks) <a href='https://twitter.com/Agrilinks/statuses/359738383590883330'>July 23, 2013</a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script><p><a data-toggle='modal' href='#twitter-embed' class='btn btn-primary btn-lg'>See more tweets from KDMD &rsaquo;</a></p></div></div>"
-    },
-    {
         "order": 347,
         "covervisible" : "not-visible",
         "heading": "team-letter", 
@@ -792,6 +770,7 @@
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
+        "height": "height1",
         "html"  : "<h1 class='col-md-12 fig'>1,056,746</h1><h2 class='col-md-12'>Total page views for all KDMD websites (since 2010). Lesson learned: begin tracking website traffic as early as possible.</h2>"
     },
     {
@@ -802,7 +781,19 @@
         "type" : "reach impact team contact",
         "width" : "col-md-4",
         "modal": "modal",
+        "height" : "height1",
         "html"  : "<h1 class='col-md-12 fig'>496,754</h1><h2 class='col-md-12'>Total unique visitors who interacted with our sites</h2>"
+    },
+    {
+        "order": 360,
+        "covervisible" : "not-visible",
+        "heading": "team-letter", 
+        "bigTitle": "Letter from the Team", 
+        "type" : "reach impact team contact",
+        "width" : "col-md-8",
+        "height" : "height1",
+        "modal": "modal",
+        "html" : "<div class='jumbotron'><div class='container'><h2>Most re-tweeted KDMD post on Twitter:</h2><blockquote class='twitter-tweet'><p>How Africa Can Transform <a href='https://twitter.com/search?q=%23LandTenure&amp;src=hash'>#LandTenure</a>, Revolutionize <a href='https://twitter.com/search?q=%23Agriculture&amp;src=hash'>#Agriculture</a>, and End <a href='https://twitter.com/search?q=%23Poverty&amp;src=hash'>#Poverty</a> <a href='http://t.co/W8NLibPufN'>http://t.co/W8NLibPufN</a> via <a href='https://twitter.com/allafrica'>@allafrica</a> <a href='https://twitter.com/WorldBank'>@WorldBank</a></p>&mdash; Agrilinks (@Agrilinks) <a href='https://twitter.com/Agrilinks/statuses/359738383590883330'>July 23, 2013</a></blockquote><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script><p><a data-toggle='modal' href='#twitter-embed' class='btn btn-primary btn-lg'>See more tweets from KDMD &rsaquo;</a></p></div></div>"
     },
     {
         "order": 350,
@@ -817,17 +808,6 @@
         "height" : "height1",
         "modal": "modal",
         "href" : "#popular-tchats"
-    },
-    {
-        "order": 370,
-        "covervisible" : "not-visible",
-        "heading": "team-letter", 
-        "bigTitle": "Letter from the Team", 
-        "type" : "reach impact team contact",
-        "width" : "col-md-4",
-        "height" : "height1",
-        "modal": "modal",
-        "html"  : "<h1 class='col-md-12 fig'>60%</h1><h2 class='col-md-12'>Increase in unique visiors after upgrading to Agrilinks 2.0</h2>"
     },
     {
         "order": 400,
@@ -969,6 +949,20 @@
         "height" : "height1",
         "modal": "modal",
         "html"  : "<h1 class='col-md-12 fig'>109</h1><h2 class='col-md-12'>Average daily visitors to the Microlinks Value Chain Wiki alone.</h2>"
+    },
+    {
+        "order": 485,
+        "covervisible" : "visible",
+        "clickable" : "clickable",
+        "heading": "Read out in-depth reports on", 
+        "imageUrl": "img/items/sars.png", 
+        "bigTitle": "Learning & Impact",
+        "smallTitle" : "Download the reports >",
+        "type" : "impact team contact",
+        "width" : "col-md-4",
+        "height" : "height1",
+        "href" : "#learning-impact",
+        "modal": "modal"
     },
     {
         "order": 500,
