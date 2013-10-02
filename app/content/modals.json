@@ -83,7 +83,7 @@
         "order": 62,
         "id" : "learning-impact",
         "header" : "Learning & Impact Reports",
-        "content": "<div class='container'><a href='img/documents/LI1.pdf'>Download the 1st Learning and Impact Report</a><a href='img/documents/LI2.pdf'>Download the 2nd Learning and Impact Report</a></div>"
+        "content": "<div class='container'><p>Learning and Impact Reports present the activities of the different programs of the KDMD Project, focusing on 1) the lessons learned in the process of planning and implementing activities, 2) how the KDMD team applied such insights, and 3) the impacts that resulted from these changes over time. Download a PDF of our Learning & Impact reports below:</p><div class='col-md-2'></div><div class='col-md-4'><a href='img/documents/LI1.pdf' target='_blank'><img class='clickable' src='img/items/LI1.png'></a></div><div class='col-md-4'><a href='img/documents/LI2.pdf' target='_blank'><img class='clickable' src='img/items/LI2.png'></a></div><div class='col-md-2'></div></div>"
     },
     {
         "order": 63,
@@ -196,7 +196,7 @@
     {
         "order": 115,
         "id" : "jamaica-video",
-        "header" : "Jamaica Handover Video",
+        "header" : "Jamaica Digital Story",
         "content": "<iframe width='100%' height='380' src='//www.youtube.com/embed/eB9zNrhLDjQ' frameborder='0' allowfullscreen></iframe><br><br><p>As part of PPL’s Learning Improvement Projects, KDMD documented the story of the Jamaica Partners for Educational Progress as a tool that can be used to share this successful approach to local facilitation, impact, and sustainability.</p>"
     },
     {
@@ -305,8 +305,8 @@
         "order": 400,
         "width" : "85%",
         "id" : "l2",
-        "header" : "KDMD's Website Awards",
-        "content": "<div class='container'><p>KDMD was known for creating award winning website that were simultaneously easy-to-use, extremely useful, and visually stunning.</p><div class='col-md-6'><li>2012 AIGA Justified Competition, Feed the Future Website, Design Award and Unanimous Juror Selection</li> <li>2012 Web Marketing Association WebAward Competition, Microlinks Website, Outstanding Achievements in Web Development and Outstanding Website</li><li>2012 Web Marketing Association WebAward Competition, Feed the Future Website, Outstanding Achievements in Web Development and Outstanding Website</li></div><div class='col-md-6'><li>2012 Graphic Design USA American Inhouse Design Competition, Microlinks Website Promotional Posters, Design Award</li><li>2012 Graphic Design USA American Web Design Competition, Feed the Future Website, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID Agrilinks Homepage Design, Design Award</li><li>2013 Graphic Design USA American Inhouse Design Competition, USAID KDMD Brochure Design, Design Award</li></div></div>"
+        "header" : "The KDMD Learning About Learning Initiative",
+        "content" : "<iframe style='width:100%; height:600px;'src='http://usaidlearninglab.org/l-squared'></iframe>"
     },
     {
         "order": 500,
@@ -325,7 +325,7 @@
     {
         "order": 520,
         "id" : "kdmd-commute",
-        "header" : "About KSLAMs",
+        "header" : "How We Get to Work",
         "content" : "<img src='img/items/kdmdcommute.png'>"
     },
     {
@@ -340,11 +340,11 @@
         "width" : "<p></p>",
         "id" : "qed-facebook",
         "header" : "QED Facebook Feed",
-        "content" : "<div id='fb-root'></div><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = '//connect.facebook.net/en_US/all.js#xfbml=1&appId=370261533087575';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>"
+        "content" : "<div class='fb-like-box' data-href='https://www.facebook.com/qedgroup' data-width='500' data-show-faces='true' data-header='true' data-stream='true' data-show-border='true'></div>"
     },
     {
         "order": 950,
-        "width" : "<p></p>",
+        "width" : "",
         "id" : "qed-email",
         "header" : "QED Email",
         "content" : "<h1>inquiry@qedgroupllc.com</h1>"
