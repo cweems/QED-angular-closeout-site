@@ -16,8 +16,8 @@ function mainCtrl($scope, $http) {
   });
 
   $('ul.nav li').click(function(){ //Changes class of clicked link to 'active'; white bar next to nav moves
-		$('ul.nav li.active').removeClass('active');
-		$(this).addClass('active');
+    $('ul.nav li.active').removeClass('active');
+    $(this).addClass('active');
   });
 
   $('#stacey-video').on('hidden.bs.modal', function () {

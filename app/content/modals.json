@@ -101,7 +101,7 @@
         "order": 65,
         "id" : "GenDev",
         "width" : "70%",
-        "header" : "GenDev",
+        "header" : "Gender Development",
         "content": "<p>KDMD began working with USAID's Gender Development (GenDev) team in April 2012 to develop online learning courses after the Agency instituted a new policy on gender. USAID’s Gender Equality and Female Empowerment Policy mandates that basic training on gender equality and female empowerment is required for all Agency staff (and their supervisors) who design, evaluate, or manage strategies or projects; Contracting and Assistance Officers; and Program Officers. In addition, the policy requires Missions to appoint Gender Advisors and/or Gender Points of Contact and for the Agency to provide advanced training for these individuals. To support the GenDev team with these training requirements, KDMD has led the development of two online learning courses to be included on USAID University: 101—Gender Equality at USAID and 103—The Roles and Responsibilities of Gender Advisors.</p>"
     },
     {
@@ -264,7 +264,7 @@
         "id" : "user-growth",
         "header" : "User Growth",
         "width" : "65%",
-        "content": "<img src='img/items/userChart.png'>"
+        "content": "<img style='width:100%;' src='img/items/userChart.png'>"
     },
     {
         "order": 150,
